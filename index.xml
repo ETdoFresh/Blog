@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Stop/Delete All Docker Containers/Images</title>
+      <link>/stop-delete-all-docker-containers-images/</link>
+      <pubDate>Sun, 05 Jul 2020 22:16:28 +0000</pubDate>
+      
+      <guid>/stop-delete-all-docker-containers-images/</guid>
+      <description>Sometimes it&amp;rsquo;s useful to start with a clean slate and remove all Docker containers and even images. Here are some handy shortcuts.
+List all containers (only IDs) docker ps -aq  Stop all running containers docker stop $(docker ps -aq)  Remove all containers docker rm $(docker ps -aq)  Remove all images docker rmi $(docker images -q)  Copied from:
+https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images</description>
+    </item>
+    
+    <item>
       <title>It&#39;s been a while, world!</title>
       <link>/it-s-been-a-while-world/</link>
       <pubDate>Sun, 05 Jul 2020 21:50:16 +0000</pubDate>
