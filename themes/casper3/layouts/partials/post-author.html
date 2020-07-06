@@ -1,7 +1,16 @@
++++
+
++++
 <ul class="author-list">
     <li class="author-list-item">
         <div class="author-card">
-            <div class="author-profile-image">{{- partial "icons/avatar.html" -}}</div>
+            {{ if .Param "author_image" }}
+              <div class="author-profile-image">
+                <img src="{{ .Param "author_image" }}" alt="{{ .Param "author" }}" />
+              </div>
+            {{ else }}
+              <div class="author-profile-image">{{- partial "icons/avatar.html" -}}</div>
+            {{ end }}
             <div class="author-info">
                 <div class="author-info">
                     <h2>{{ .Param "author" }}</h2>
