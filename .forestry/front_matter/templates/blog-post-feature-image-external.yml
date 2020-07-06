@@ -26,3 +26,4 @@ fields:
   label: Tags
 pages:
 - content/post/it-s-been-a-while-world.md
+- content/post/stop-delete-all-docker-containers-images.md
