@@ -13,7 +13,7 @@ Create a "Docker" Linode. Give it a few minutes to spin up.
 
 Before I got started, I went ahead and made sure my domain was setup correctly in Linode.
 
-![image-20200705164204526](https://etdofresh.com/content/images/2020/07/image-20200705164204526.png)
+![](https://etdofresh.com/content/images/2020/07/image-20200705164204526.png)
 
 And make sure your SOA Record and A/AAAA Record are accurate (and pointed to your Linode's IP Address)
 
