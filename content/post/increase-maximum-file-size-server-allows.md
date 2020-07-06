@@ -1,9 +1,10 @@
 +++
 author = "ETdoFresh"
+author-image = ""
 date = 2020-07-05T05:00:00Z
 description = ""
-draft = true
 feature_image = "/uploads/2020/07/untitled.png"
+tags = []
 title = "Increase Maximum File Size Server Allows"
 
 +++
@@ -23,3 +24,7 @@ docker exec -it $DOCKER_POD_ID service nginx restart
 ```
 
 ### References
+
+[https://etdofresh.com/install-ghost-on-linode-docker/](https://etdofresh.com/install-ghost-on-linode-docker/ "https://etdofresh.com/install-ghost-on-linode-docker/")
+
+[https://www.tecmint.com/limit-file-upload-size-in-nginx/](https://www.tecmint.com/limit-file-upload-size-in-nginx/ "https://www.tecmint.com/limit-file-upload-size-in-nginx/")
