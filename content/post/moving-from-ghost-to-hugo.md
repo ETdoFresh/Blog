@@ -67,6 +67,8 @@ First, let's add secrets to our GitHub repo for GH_USERNAME and GH_TOKEN. You ca
 
 Next, create .github/workflows/main.yml
 
+**Don't use this action... I realized I need to check into github/user/user.github.io**
+
 ``` yaml
 name: Hugo Build to gh-pages
 on:
@@ -88,7 +90,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
 ```
 
-*Note: Replace ETdoFresh/Blog with your repository*
+_Note: Replace ETdoFresh/Blog with your repository_
 
 Commit and Push Changes
 
