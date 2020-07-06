@@ -1,11 +1,11 @@
 +++
-title = "Moving from Ghost to Hugo"
-description = "Moving from Ghost to Hugo"
-date = 2020-07-06T10:13:50Z
 author = "ETdoFresh"
-feature_image = "/images/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg"
-+++
+date = 2020-07-06T10:13:50Z
+description = "Moving from Ghost to Hugo"
+feature_image = "/uploads/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg"
+title = "Moving from Ghost to Hugo"
 
++++
 ## Introduction
 
 After 1 or 2 days, I realized slimming down from WordPress to Ghost was just the beginning. I was somewhat satisfied. However, after setting up comments and looking at other integrations for Ghost, I feel like I'm just using a mini/less functional WordPress. The markdown editing was the reason I made the switch, but then I realized, I might as well just scrap the database backend and keep all the files in a repo. I feel this way it is more manageable, and coder friendly.
@@ -99,4 +99,3 @@ git push
 ```
 
 If all went well, you now have a gh-pages branch. However, there's a chance we forgot to tell github to use this branch as a page. So in GitHub.com > Your Hugo Repo > Settings > Options > GitHub Pages
-
