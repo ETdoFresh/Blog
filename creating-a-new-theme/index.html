@@ -959,23 +959,26 @@ This document is a brief primer on using go templates.</p>
  ">
 
         
-            <a class="post-card-image-link" href="/moving-from-ghost-to-hugo/">
-                <img class="post-card-image"src="/uploads/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg" alt="Moving from Ghost to Hugo"/>
+            <a class="post-card-image-link" href="/increase-maximum-file-size-server-allows/">
+                <img class="post-card-image"src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/moving-from-ghost-to-hugo/">
+            <a class="post-card-content-link" href="/increase-maximum-file-size-server-allows/">
     
                 <header class="post-card-header">
                     
 
-                    <h2 class="post-card-title">Moving from Ghost to Hugo</h2>
+                    <h2 class="post-card-title">Increase Maximum File Size Server Allows</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>Introduction After 1 or 2 days, I realized slimming down from WordPress to Ghost was just the beginning. I was somewhat satisfied. However, after setting up comments and looking at other integrations for Ghost, I feel like I&rsquo;m just using a mini/less functional WordPress. The markdown editing was the reason I made the switch, but then I realized, I might as well just scrap the database backend and keep all the files in a repo.</p>
+                    <p>When setting up a blog server, as we did in Install Ghost on Linode Docker, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf
+server { ... client_max_body_size 500M; } Then restart your, in this site&rsquo;s case
+docker exec -it $DOCKER_POD_ID service nginx restart References https://etdofresh.com/install-ghost-on-linode-docker/
+https://www.tecmint.com/limit-file-upload-size-in-nginx/</p>
                 </section>
     
             </a>
@@ -989,8 +992,8 @@ This document is a brief primer on using go templates.</p>
                     </ul>
                     <div class="post-card-byline-content">
                         <span>ETdoFresh</span>
-                        <span class="post-card-byline-date"><time datetime="2020-107-07">6 July 2020</time>
-                            <span class="bull">&bull;</span> 3 min read</span>
+                        <span class="post-card-byline-date"><time datetime="2020-57-07">5 July 2020</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
                     </div>
                 </footer>
     
