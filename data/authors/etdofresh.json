@@ -1,0 +1,14 @@
+{
+    "name": "ETdoFresh",
+    "bio": "A man on a journey.",
+    "image": "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg",
+    "weight": 1,
+    "social": 
+    {
+        "email": "etdofresh@gmail.com",
+        "twitter": "https://twitter.com/etdofresh",
+        "github": "https://github.com/etdofresh",
+        "facebook": "https://facebook.com/etdofresh",
+        "website": "https://www.etdofresh.com"
+    }
+}
