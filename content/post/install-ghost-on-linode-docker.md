@@ -27,7 +27,6 @@ Log into your Linode and create these folders where settings and persistent data
     mkdir ~/mysql
     mkdir ~/nginx-conf
     mkdir ~/letsencrypt
-    
 
 Create \~/nginx-conf/default.conf \[Certbot will modify this for https\]
 
@@ -44,7 +43,6 @@ Create \~/nginx-conf/default.conf \[Certbot will modify this for https\]
         proxy_pass http://ghost:2368;
       }
     }
-    
 
 Create \~/docker-compose.yaml \[change etdofresh.com to your-domain.com\]
 
@@ -86,25 +84,21 @@ Create \~/docker-compose.yaml \[change etdofresh.com to your-domain.com\]
            - ~/letsencrypt:/etc/letsencrypt
            - ~/nginx-html:/usr/share/nginx/html
            - ~/nginx-conf:/etc/nginx/conf.d
-    
 
 Launch Docker-Compose
 
     docker-compose up -d
-    
 
 Open a bash into your nginx container
 
     docker ps ## Find NGINX_CONTAINER_ID [ie 6363edee96f6]
     docker exec -it NGINX_CONTAINER_ID /bin/bash
-    
 
 Now you should be inside your nginx container. Run Let's Encrypt certbot
 
     apt-get update
     apt-get install -y certbot python-certbot-nginx
     certbot --nginx
-    
 
 Here how I answered the prompts...
 
@@ -189,12 +183,10 @@ Here how I answered the prompts...
     
        Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
        Donating to EFF:                    https://eff.org/donate-le
-    
 
 If all went smoothly, you should be able to go to your website's ghost config
 
     https://your-domain.com/ghost
-    
 
 **Just my idea.... I haven't tested this yet**
 
@@ -203,17 +195,14 @@ Create a bash script /etc/letsencrpy/renew-docker.sh. \[Don't forget to chmod +x
     apt-get update
     apt-get install -y certbot python-certbot-nginx
     certbot certonly -n --webroot -w /usr/share/nginx/html -d etdofresh.com --deploy-hook='service nginx restart'
-    
 
 Then we could schedule to run this on a scheduled time period
 
     sudo crontab -e
-    
 
 And adding line to run every day at 11PM (or whatever you like)
 
     0 23 * * *   /etc/letsencrpy/renew-docker.sh
-    
 
 ## References
 
