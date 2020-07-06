@@ -1,10 +1,10 @@
 +++
-title = "Increase Maximum File Size Server Allows"
-date = 2020-07-05T05:00:00Z
 author = "ETdoFresh"
+date = 2020-07-05T05:00:00Z
 excerpt = ""
 featured_image = "/uploads/2020/07/untitled.png"
-tags = []
+tags = ["Ghost", "nginx"]
+title = "Increase Maximum File Size Server Allows"
 
 +++
 When setting up a blog server, as we did in [Install Ghost on Linode Docker](https://etdofresh.com/install-ghost-on-linode-docker/), you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your \~/nginx-conf/default.conf
