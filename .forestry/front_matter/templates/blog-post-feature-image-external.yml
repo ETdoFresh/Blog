@@ -21,8 +21,9 @@ fields:
   config:
     required: false
   label: Featured Image
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
 pages:
 - content/post/it-s-been-a-while-world.md
