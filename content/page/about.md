@@ -4,7 +4,7 @@ date = 2015-04-03T02:13:50Z
 description = "Things about me."
 title = "About"
 [menu.main]
-weight = 2
+weight = 1
 
 +++
 ## About

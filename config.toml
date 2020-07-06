@@ -17,7 +17,3 @@ shareTwitter = true
 twitter = "https://twitter.com/etdofresh"
 [Permalinks]
 post = "/:filename/"
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
