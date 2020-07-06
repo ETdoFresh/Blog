@@ -1,5 +1,5 @@
 +++
-author = "My Name"
+author = "ETdoFresh"
 date = 2015-04-03T02:13:50Z
 description = "How to contact me."
 title = "Contact"
