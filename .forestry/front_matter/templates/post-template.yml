@@ -31,6 +31,4 @@ fields:
   default: "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg"
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
-- content/post/increase-maximum-file-size-server-allows.md
-- content/post/moving-from-ghost-to-hugo.md
 - content/post/moving-from-ghost-to-hugo.md
