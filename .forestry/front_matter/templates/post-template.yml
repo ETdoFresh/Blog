@@ -13,8 +13,14 @@ fields:
   name: author
   label: Author
   default: ETdoFresh
-- type: text
-  name: excerpt
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Excerpt
 - type: file
   name: featured_image
