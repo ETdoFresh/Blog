@@ -29,6 +29,11 @@ fields:
     maxSize: 64
   label: Author Image
   default: "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg"
+- name: author1
+  type: include
+  config: {}
+  template: author
+  label: Author
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
 - content/post/moving-from-ghost-to-hugo.md
