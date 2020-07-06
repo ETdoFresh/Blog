@@ -32,3 +32,4 @@ fields:
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
 - content/post/moving-from-ghost-to-hugo.md
+- content/post/stop-delete-all-docker-containers-images.md
