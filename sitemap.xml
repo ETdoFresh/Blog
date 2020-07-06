@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2020-07-05T22:16:28+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/stop-delete-all-docker-containers-images/</loc>
     <lastmod>2020-07-05T22:16:28+00:00</lastmod>
   </url>
