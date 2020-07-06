@@ -23,7 +23,7 @@ sections:
   path: ''
   label: Root
   create: all
-  match: "*"
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
