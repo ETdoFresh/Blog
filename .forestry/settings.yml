@@ -21,7 +21,7 @@ sections:
   match: "**/*"
 - type: directory
   path: ''
-  label: Root
+  label: Files
   create: all
   match: "**/*"
 upload_dir: static/uploads
