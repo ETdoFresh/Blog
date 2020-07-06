@@ -12,6 +12,13 @@ fields:
   name: date
   label: date
   default: now
+- type: file
+  name: feature_image
+  label: feature_image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 - type: text
   name: author
   label: author
@@ -21,13 +28,7 @@ fields:
   config:
     maxSize: 64
   label: author-image
-- type: file
-  name: feature_image
-  label: feature_image
-- name: tags
-  type: tag_list
-  default: []
-  label: tags
+  default: "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg"
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
 - content/post/increase-maximum-file-size-server-allows.md
