@@ -1,21 +1,23 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "ETdoFresh"
 theme = "casper3"
-
+title = "ETdoFresh"
 [Params]
-    mainSections = ["post"]
-    intro = true
-    headline = "My headline"
-    description = "Laissez les bons programmations rouler!"
-    github = "https://github.com/etdofresh"
-    twitter = "https://twitter.com/etdofresh"
-	facebook = "https://facebook.com/etdofresh"
-    email = "etdofresh@gmail.com"
-    opengraph = true
-    shareTwitter = true
-    dateFormat = "Mon, Jan 2, 2006"
-	logo = "/images/2020/07/ETdoFresh-1.png"
-
+dateFormat = "Mon, Jan 2, 2006"
+description = "Laissez les bons programmations rouler!"
+email = "etdofresh@gmail.com"
+facebook = "https://facebook.com/etdofresh"
+github = "https://github.com/etdofresh"
+headline = "My headline"
+intro = true
+logo = "/images/2020/07/ETdoFresh-1.png"
+mainSections = ["post"]
+opengraph = true
+shareTwitter = true
+twitter = "https://twitter.com/etdofresh"
 [Permalinks]
-    post = "/:filename/"
+post = "/:filename/"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
