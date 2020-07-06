@@ -1,6 +1,6 @@
 +++
 author = "ETdoFresh"
-author-image = ""
+author-image = "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg"
 date = 2020-07-05T05:00:00Z
 description = ""
 feature_image = "/uploads/2020/07/untitled.png"
