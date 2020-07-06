@@ -4,24 +4,24 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: description
-  label: description
+  label: Description
 - type: datetime
   name: date
-  label: date
+  label: Date
   default: now
 - type: file
   name: feature_image
-  label: feature_image
+  label: Feature Image
 - name: tags
   type: tag_list
   default: []
-  label: tags
+  label: Tags
 - type: text
   name: author
-  label: author
+  label: Author
   default: ETdoFresh
 - name: author_image
   type: file
