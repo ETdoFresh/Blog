@@ -125,6 +125,7 @@ git push --set-upstream origin master
 <p>Every time we commit to the master branch, it&rsquo;d be nice to have it automatically build and commit our website files to our github page. In order to do this, I&rsquo;ve created a github action that should be able to do just this&hellip;</p>
 <p>First, let&rsquo;s add secrets to our GitHub repo for GH_USERNAME and GH_TOKEN. You can add secrets in GitHub.com &gt; Your Hugo Repo &gt; Settings &gt; Secrets</p>
 <p>Next, create .github/workflows/main.yml</p>
+<p><strong>Don&rsquo;t use this action&hellip; I realized I need to check into github/user/user.github.io</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">name</span>: Hugo Build to gh-pages
 <span style="color:#66d9ef">on</span>:
   <span style="color:#66d9ef">push</span>:
