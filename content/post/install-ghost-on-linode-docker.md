@@ -17,9 +17,9 @@ Before I got started, I went ahead and made sure my domain was setup correctly i
 
 And make sure your SOA Record and A/AAAA Record are accurate (and pointed to your Linode's IP Address)
 
-![image-20200705164339060](https://etdofresh.com/content/images/2020/07/image-20200705164339060.png)
+![](/uploads/2020/07/image-20200705164339060.png)
 
-![image-20200705164432022](https://etdofresh.com/content/images/2020/07/image-20200705164432022.png)
+![](/uploads/2020/07/image-20200705164432022.png)
 
 Log into your Linode and create these folders where settings and persistent data should be stored.
 
