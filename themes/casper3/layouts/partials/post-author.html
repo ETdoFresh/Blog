@@ -17,6 +17,10 @@
                 </div>
             </div>
         </div>
-        <a href="#" class="author-avatar author-profile-image">{{- partial "icons/avatar.html" -}}</a>
+        {{ if .Param "author_image" }}
+          <a href="#" class="author-avatar author-profile-image"><img src="{{ .Param "author_image" }}" alt="{{ .Param "author" }}" /></a>
+        {{ else }}
+          <a href="#" class="author-avatar author-profile-image">{{- partial "icons/avatar.html" -}}</a>
+        {{ end }}
     </li>
 </ul>
