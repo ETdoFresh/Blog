@@ -44,7 +44,17 @@
   
   <url>
     <loc>/tags/docker/</loc>
-    <lastmod>2020-07-05T22:16:28+00:00</lastmod>
+    <lastmod>2020-07-05T22:23:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/install-ghost-on-linode-docker/</loc>
+    <lastmod>2020-07-05T22:23:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linode/</loc>
+    <lastmod>2020-07-05T22:23:24+00:00</lastmod>
   </url>
   
   <url>

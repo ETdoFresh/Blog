@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on ETdoFresh</title>
-    <link>/tags/docker/</link>
-    <description>Recent content in Docker on ETdoFresh</description>
+    <title>Linode on ETdoFresh</title>
+    <link>/tags/linode/</link>
+    <description>Recent content in Linode on ETdoFresh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jul 2020 22:23:24 +0000</lastBuildDate>
     
-	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/linode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,17 +22,6 @@ Create a &amp;ldquo;Docker&amp;rdquo; Linode. Give it a few minutes to spin up.
 Before I got started, I went ahead and made sure my domain was setup correctly in Linode.
 And make sure your SOA Record and A/AAAA Record are accurate (and pointed to your Linode&amp;rsquo;s IP Address)
 Log into your Linode and create these folders where settings and persistent data should be stored.</description>
-    </item>
-    
-    <item>
-      <title>Stop/Delete All Docker Containers/Images</title>
-      <link>/stop-delete-all-docker-containers-images/</link>
-      <pubDate>Sun, 05 Jul 2020 22:16:28 +0000</pubDate>
-      
-      <guid>/stop-delete-all-docker-containers-images/</guid>
-      <description>Sometimes it&amp;rsquo;s useful to start with a clean slate and remove all Docker containers and even images. Here are some handy shortcuts.
-List all containers (only IDs) docker ps -aq  Stop all running containers docker stop $(docker ps -aq)  Remove all containers docker rm $(docker ps -aq)  Remove all images docker rmi $(docker images -q)  Copied from:
-https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images</description>
     </item>
     
   </channel>
