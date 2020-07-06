@@ -22,3 +22,5 @@ fields:
 - type: list
   name: tags
   label: Tags
+pages:
+- content/post/it-s-been-a-while-world.md
