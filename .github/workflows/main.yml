@@ -1,0 +1,18 @@
+name: Hugo Build to gh-pages
+on:
+  push:
+    branches:
+    - master
+jobs:
+  windows:
+    name: Hugo Build
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ETdoFresh/Actions/HugoBuild@latest
+    - uses: ETdoFresh/Actions/UploadToGithubPages@latest
+      with:
+          DIRECTORY_TO_UPLOAD: './public/'
+          GITHUB_REPOSITORY: ETdoFresh/Blog
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
