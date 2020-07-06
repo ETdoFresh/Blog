@@ -2,7 +2,7 @@
 author = "ETdoFresh"
 date = 2020-07-05T21:50:16Z
 draft = true
-excerpt = ""
+excerpt = "Hi! I have realized I have not been writing in my blog. At all! So, I decided to go crazy..."
 featured_image = ""
 tags = ["Personal"]
 title = "It's been a while, world!"
