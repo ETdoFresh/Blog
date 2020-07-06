@@ -5,7 +5,7 @@ author_image = "/uploads/2020/07/23130511_10102476107592788_8763549408590366509_
 date = 2020-07-06T10:13:50Z
 description = "Moving from Ghost to Hugo"
 feature_image = "/uploads/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg"
-tags = []
+tags = ["Hugo", " GitHub", "Ghost", "Blog Setup"]
 title = "Moving from Ghost to Hugo"
 
 +++
