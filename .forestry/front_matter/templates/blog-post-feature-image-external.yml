@@ -4,19 +4,21 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: author
-  label: author
+  label: Author
 - type: text
   name: excerpt
-  label: excerpt
-- type: file
-  name: featured_image
-  label: featured_image
+  label: Excerpt
+- name: featured_image
+  type: text
+  config:
+    required: false
+  label: Featured Image
 - type: list
   name: tags
-  label: tags
+  label: Tags
