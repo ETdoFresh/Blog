@@ -14,9 +14,21 @@ fields:
 - type: text
   name: author
   label: author
+  default: ETdoFresh
+- name: author-image
+  type: file
+  config:
+    maxSize: 64
+  label: author-image
 - type: file
   name: feature_image
   label: feature_image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
+- content/post/increase-maximum-file-size-server-allows.md
+- content/post/moving-from-ghost-to-hugo.md
 - content/post/moving-from-ghost-to-hugo.md
