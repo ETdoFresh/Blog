@@ -1,0 +1,22 @@
+---
+label: Blog Post (Feature Image External)
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: excerpt
+  label: excerpt
+- type: file
+  name: featured_image
+  label: featured_image
+- type: list
+  name: tags
+  label: tags
