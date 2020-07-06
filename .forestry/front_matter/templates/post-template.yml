@@ -25,4 +25,5 @@ fields:
   label: Tags
 pages:
 - content/post/increase-maximum-file-size-server-allows.md
+- content/post/it-s-been-a-while-world.md
 - content/post/moving-from-ghost-to-hugo.md
