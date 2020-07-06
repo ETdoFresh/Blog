@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog-setup/</loc>
+    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ghost/</loc>
+    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
     <lastmod>2020-07-06T10:13:50+00:00</lastmod>
   </url>
   
@@ -14,6 +34,11 @@
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-07-06T10:13:50+00:00</lastmod>
   </url>
   
@@ -68,11 +93,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/templates/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
@@ -99,11 +119,6 @@
   
   <url>
     <loc>/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   

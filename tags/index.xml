@@ -6,10 +6,46 @@
     <description>Recent content in Tags on ETdoFresh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 10:13:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title> GitHub</title>
+      <link>/tags/github/</link>
+      <pubDate>Mon, 06 Jul 2020 10:13:50 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog Setup</title>
+      <link>/tags/blog-setup/</link>
+      <pubDate>Mon, 06 Jul 2020 10:13:50 +0000</pubDate>
+      
+      <guid>/tags/blog-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ghost</title>
+      <link>/tags/ghost/</link>
+      <pubDate>Mon, 06 Jul 2020 10:13:50 +0000</pubDate>
+      
+      <guid>/tags/ghost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Mon, 06 Jul 2020 10:13:50 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>development</title>
@@ -53,15 +89,6 @@
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
       
       <guid>/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     

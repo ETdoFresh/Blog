@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Setup on ETdoFresh</title>
+    <link>/tags/blog-setup/</link>
+    <description>Recent content in Blog Setup on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 10:13:50 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blog-setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving from Ghost to Hugo</title>
+      <link>/moving-from-ghost-to-hugo/</link>
+      <pubDate>Mon, 06 Jul 2020 10:13:50 +0000</pubDate>
+      
+      <guid>/moving-from-ghost-to-hugo/</guid>
+      <description>Introduction After 1 or 2 days, I realized slimming down from WordPress to Ghost was just the beginning. I was somewhat satisfied. However, after setting up comments and looking at other integrations for Ghost, I feel like I&amp;rsquo;m just using a mini/less functional WordPress. The markdown editing was the reason I made the switch, but then I realized, I might as well just scrap the database backend and keep all the files in a repo.</description>
+    </item>
+    
+  </channel>
+</rss>
