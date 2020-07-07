@@ -23,7 +23,7 @@
     <div class="inner posts">
         <div class="post-feed">
             {{ range $index, $element := .Pages }}
-                {{- partial "post-card.html" (dict "context" . "index" $index "home" $.IsHome) -}}
+                {{- partial "post-card.html" (dict "context" $element "index" $index "home" $.IsHome) -}}
             {{ end }}
         </div>
     </div>
