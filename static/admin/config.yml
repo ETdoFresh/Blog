@@ -3,15 +3,12 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "static/uploads"
+media_folder: "/static/uploads"
 public_folder: "/uploads"
 
-media_library:
-    name: uploadcare
-
 collections:
-    - name: "blog"
-      label: "Blog"
+    - name: "post"
+      label: "Post"
       folder: "content/post"
       create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
