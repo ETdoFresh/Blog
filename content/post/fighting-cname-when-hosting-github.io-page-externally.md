@@ -2,7 +2,7 @@
 author = "ETdoFresh"
 date = 2020-07-07T16:42:36Z
 excerpt = ""
-featured_image = "/uploads/2020/07/capture.PNG"
+featured_image = "/uploads/2020/07/untitled2.png"
 tags = ["GitHub", "Hugo"]
 title = "Fighting CNAME when Hosting GitHub.io Page Externally"
 
