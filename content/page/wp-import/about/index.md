@@ -1,10 +1,12 @@
 ---
 title: About Me
 author: ETdoFresh
-type: page
-date: 2014-11-30T04:46:32+00:00
+date: 2014-11-30T04:46:32.000+00:00
 classic-editor-remember:
-  - block-editor
+- block-editor
+menu:
+  main:
+    weight: 3
 
 ---
 # Edward Thomas Garcia _MBA_
