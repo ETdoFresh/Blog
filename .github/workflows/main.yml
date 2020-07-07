@@ -12,6 +12,6 @@ jobs:
     - uses: ETdoFresh/Actions/HugoBuild@latest
     - uses: ETdoFresh/Actions/UploadToGithubIO@latest
       with:
-          GITHUB_REPOSITORY: ETdoFresh/etdofresh.github.io
+          GITHUB_IO_REPOSITORY: ETdoFresh/etdofresh.github.io
           GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
