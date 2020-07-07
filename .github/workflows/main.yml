@@ -10,9 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: ETdoFresh/Actions/HugoBuild@latest
-    - uses: ETdoFresh/Actions/UploadToGithubPages@latest
+    - uses: ETdoFresh/Actions/UploadToGithubIO@latest
       with:
-          DIRECTORY_TO_UPLOAD: './public/'
-          GITHUB_REPOSITORY: ETdoFresh/Blog
+          GITHUB_REPOSITORY: ETdoFresh/etdofresh.github.io
           GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
