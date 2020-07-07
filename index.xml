@@ -6,10 +6,23 @@
     <description>Recent content on ETdoFresh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2020 10:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 06:25:15 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Copy WordPress Manually</title>
+      <link>/copy-wordpress-manually/</link>
+      <pubDate>Tue, 07 Jul 2020 06:25:15 +0000</pubDate>
+      
+      <guid>/copy-wordpress-manually/</guid>
+      <description>Let&amp;rsquo;s copy wordpress manually to localhost.
+Copy over files from your server&amp;hellip; you probably just need the wp-contents folder
+Dump your wordpress database to wordpress.sql and download. To dump your SQL&amp;hellip;
+mysqldump --databases wordpress &amp;gt; wordpress.sql  Setup a local instance of wordpress with docker-compose. Create a new folder called wordpress. Create wordpress/www folder and add wordpress/docker-compose.yml
+version: &amp;quot;3&amp;quot;services: db: image: mysql:5.7 restart: always volumes: - db_data:/var/www/mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: wordpress MYSQL_USER: wordpress MYSQL_PASSWORD: wordpress networks: - wp​ wordpress: depends_on: - db image: wordpress restart: always volumes: [&amp;quot;.</description>
+    </item>
     
     <item>
       <title>Moving from Ghost to Hugo</title>

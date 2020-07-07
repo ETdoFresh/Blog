@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Copy WordPress Manually · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">Copy WordPress Manually</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2020-67-07">7 July 2020</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 2 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+            <figure class="post-full-image">
+                <img src="https://unsplash.com/photos/hzdgFPz1V24/download" alt="Copy WordPress Manually" />
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Let&rsquo;s copy wordpress manually to localhost.</p>
+<p>Copy over files from your server&hellip; you probably just need the <strong>wp-contents</strong> folder</p>
+<p>Dump your wordpress database to <strong>wordpress.sql</strong> and download. To dump your SQL&hellip;</p>
+<pre><code>mysqldump --databases wordpress &gt; wordpress.sql
+</code></pre>
+<p>Setup a local instance of wordpress with docker-compose. Create a new folder called <em>wordpress</em>. Create <em>wordpress/www</em> folder and add <em>wordpress/docker-compose.yml</em></p>
+<pre><code>version: &quot;3&quot;services:  db:    image: mysql:5.7    restart: always    volumes:      - db_data:/var/www/mysql    environment:      MYSQL_ROOT_PASSWORD: password      MYSQL_DATABASE: wordpress      MYSQL_USER: wordpress      MYSQL_PASSWORD: wordpress    networks:      - wp​  wordpress:    depends_on:      - db    image: wordpress    restart: always    volumes: [&quot;./www/:/var/www/html&quot;]    environment:      WORDPRESS_DB_HOST: db:3306      WORDPRESS_DB_USER: wordpress      WORDPRESS_DB_PASSWORD: wordpress    ports:      - 80:80      - 443:443    networks:      - wp​  phpmyadmin:    depends_on:      - db    image: phpmyadmin/phpmyadmin    restart: always    ports:      - 8080:80    environment:      PMA_HOST: db      MYSQL_ROOT_PASSWORD: password    networks:      - wp​networks:  wp:  volumes:  db_data:
+</code></pre>
+<p>Copy your <em>wordpress.sql</em> into <em>wordpress/</em>. Get the mysql containter id and copy wordpress.sql into container.</p>
+<pre><code>docker psdocker cp wordpress.sql CONTAINER_ID:/wordpress.sql
+</code></pre>
+<p>Go into container and copy data into database</p>
+<pre><code>docker exec -it CONTAINER_ID /bin/bashmysql -u DB_USERNAME -p &lt; wordpress.sql
+</code></pre>
+<p>I&rsquo;ll be honest. I&rsquo;ve been through this process a few times. Here is tweak you&rsquo;ll probably have to make&hellip;</p>
+<ul>
+<li>Navigate to <a href="http://localhost:8080">http://localhost:8080</a> <em>phpmyadmin</em></li>
+<li>Change <em>wordpress.wp_options.home</em> from <a href="http://SOME-ADDRESS">http://SOME-ADDRESS</a> to <a href="http://localhost">http://localhost</a></li>
+<li>Change <em>wordpress.wp_options.siteurl</em> from <a href="http://SOME-ADDRESS">http://SOME-ADDRESS</a> to <a href="http://localhost">http://localhost</a></li>
+</ul>
+<p>A tweak I had to go through that you probably shouldn&rsquo;t&hellip; I had a custom named 10-year old database (wordpress_etdofresh). The way I did this was create a vanilla wordpress with wordpress as the database. I went through the setup and populated the wordpress data with all new data. I then logged into WordPress and went to an admin page (like the posts page). I then went to phpmyadmin, renamed db wordpress to wordpress_2 and renamed wordpress_etdofresh to wordpress.</p>
+<p>Then copy your site&rsquo;s wp-content into <em>wordpress/www</em>. If you go to localhost, your site should be there. Now modify, backup, or do whatever you need to do! Good luck! - ET</p>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+
+
+ ">
+
+        
+            <a class="post-card-image-link" href="/moving-from-ghost-to-hugo/">
+                <img class="post-card-image"src="/uploads/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg" alt="Moving from Ghost to Hugo"/>
+            </a>
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/moving-from-ghost-to-hugo/">
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Hugo</div>
+                    
+
+                    <h2 class="post-card-title">Moving from Ghost to Hugo</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Introduction After 1 or 2 days, I realized slimming down from WordPress to Ghost was just the beginning. I was somewhat satisfied. However, after setting up comments and looking at other integrations for Ghost, I feel like I&rsquo;m just using a mini/less functional WordPress. The markdown editing was the reason I made the switch, but then I realized, I might as well just scrap the database backend and keep all the files in a repo.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2020-107-07">6 July 2020</time>
+                            <span class="bull">&bull;</span> 3 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2020</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
