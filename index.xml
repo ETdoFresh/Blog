@@ -102,6 +102,18 @@ kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558
     </item>
     
     <item>
+      <title>Kubernetes open port to local machine</title>
+      <link>/kubernetes-open-port-to-local-machine/</link>
+      <pubDate>Sun, 05 Jul 2020 06:17:00 +0000</pubDate>
+      
+      <guid>/kubernetes-open-port-to-local-machine/</guid>
+      <description>So, i found out something cool today&amp;hellip; when installing minio
+helm install minio bitnami/minio I found out via these instructions I can forward a port directly to my local pc.
+kubectl port-forward --namespace default svc/minio 9000:9000 Forwarding from 127.0.0.1:9000 -&amp;gt; 9000 Forwarding from [::1]:9000 -&amp;gt; 9000 In browser&amp;hellip;
+http://localhost:9000/minio This is my local machine that i am administering from&amp;hellip; I think this may open lots of cool opportunities for accessing the volumes inside&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Increase Maximum File Size Server Allows</title>
       <link>/increase-maximum-file-size-server-allows/</link>
       <pubDate>Sun, 05 Jul 2020 05:00:00 +0000</pubDate>

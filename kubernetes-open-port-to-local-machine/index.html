@@ -6,7 +6,7 @@
 
     
     
-    <title>Increase Maximum File Size Server Allows · ETdoFresh</title>
+    <title>Kubernetes open port to local machine · ETdoFresh</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,11 +52,11 @@
                 
                     
                     <section class="post-full-tags">
-                        <a href="/tags/ghost">Ghost</a>
+                        <a href="/tags/kubernetes">Kubernetes</a>
                     </section>
                 
 
-                <h1 class="post-full-title">Increase Maximum File Size Server Allows</h1>
+                <h1 class="post-full-title">Kubernetes open port to local machine</h1>
 
                 
 
@@ -95,7 +95,7 @@
                                 <h4 class="author-name">ETdoFresh</h4>
                             
                             <div class="byline-meta-content">
-                                <time class="byline-meta-date" datetime="2020-57-07">5 July 2020</time>
+                                <time class="byline-meta-date" datetime="2020-67-07">5 July 2020</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
                             </div>
                         </section>
@@ -108,22 +108,22 @@
 
             
             <figure class="post-full-image">
-                <img src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows" />
+                <img src="https://unsplash.com/photos/cKrpgejIZpU/download" alt="Kubernetes open port to local machine" />
             </figure>
             
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>When setting up a blog server, as we did in <a href="https://etdofresh.com/install-ghost-on-linode-docker/">Install Ghost on Linode Docker</a>, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
-    ...
-    client_max_body_size 500M;
-<span style="color:#f92672">}</span>
-</code></pre></div><p>Then restart your, in this site&rsquo;s case</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker exec -it $DOCKER_POD_ID service nginx restart
-</code></pre></div><h3 id="references">References</h3>
-<p><a href="https://etdofresh.com/install-ghost-on-linode-docker/" title="https://etdofresh.com/install-ghost-on-linode-docker/">https://etdofresh.com/install-ghost-on-linode-docker/</a></p>
-<p><a href="https://www.tecmint.com/limit-file-upload-size-in-nginx/" title="https://www.tecmint.com/limit-file-upload-size-in-nginx/">https://www.tecmint.com/limit-file-upload-size-in-nginx/</a></p>
+                    <p>So, i found out something cool today&hellip; when installing minio</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">helm install minio bitnami/minio
+</code></pre></div><p>I found out via these instructions I can forward a port directly to my local pc.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl port-forward --namespace default svc/minio 9000:9000
+Forwarding from 127.0.0.1:9000 -&gt; <span style="color:#ae81ff">9000</span>
+Forwarding from <span style="color:#f92672">[</span>::1<span style="color:#f92672">]</span>:9000 -&gt; <span style="color:#ae81ff">9000</span>
+</code></pre></div><p>In browser&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-http" data-lang="http"><span style="color:#960050;background-color:#1e0010">http://localhost:9000/minio
+</span></code></pre></div><p><img src="/uploads/2020/07/image-20200705011348639.png" alt=""></p>
+<p>This is my local machine that i am administering from&hellip; I think this may open lots of cool opportunities for accessing the volumes inside&hellip;</p>
 
                 </div>
             </section>
@@ -138,7 +138,7 @@
     
     <article class="read-next-card">
         <header class="read-next-card-header">
-            <h3><span>More in</span> <a href="/tags/ghost">Ghost</a></h3>
+            <h3><span>More in</span> <a href="/tags/kubernetes">Kubernetes</a></h3>
         </header>
         <div class="read-next-card-content">
             <ul>
@@ -152,25 +152,28 @@
  ">
 
         
-            <a class="post-card-image-link" href="/asteroids-local-and-network/">
-                <img class="post-card-image"src="/wp-content/uploads/2019/09/vlcsnap-2019-09-14-01h21m18s933.png" alt="Asteroids (Local and Network)"/>
+            <a class="post-card-image-link" href="/increase-maximum-file-size-server-allows/">
+                <img class="post-card-image"src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/asteroids-local-and-network/">
+            <a class="post-card-content-link" href="/increase-maximum-file-size-server-allows/">
                 <header class="post-card-header">
                     
                         
-                        <div class="post-card-primary-tag">Game</div>
+                        <div class="post-card-primary-tag">Ghost</div>
                     
 
-                    <h2 class="post-card-title">Asteroids (Local and Network)</h2>
+                    <h2 class="post-card-title">Increase Maximum File Size Server Allows</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>&lt;div class=&quot;fullscreen&quot; onclick=&quot;gameInstance.SetFullscreen(1)&quot;&gt; &lt;/div&gt; &lt;div class=&quot;title&quot;&gt; Asteroids &lt;/div&gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</p>
+                    <p>When setting up a blog server, as we did in Install Ghost on Linode Docker, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf
+server { ... client_max_body_size 500M; } Then restart your, in this site&rsquo;s case
+docker exec -it $DOCKER_POD_ID service nginx restart References https://etdofresh.com/install-ghost-on-linode-docker/
+https://www.tecmint.com/limit-file-upload-size-in-nginx/</p>
                 </section>
             </a>
 
@@ -185,7 +188,7 @@
                     </ul>
                     <div class="post-card-byline-content">
                         <span>ETdoFresh</span>
-                        <span class="post-card-byline-date"><time datetime="2019-79-09">14 September 2019</time>
+                        <span class="post-card-byline-date"><time datetime="2020-57-07">5 July 2020</time>
                             <span class="bull">&bull;</span> 1 min read</span>
                     </div>
                 </footer>
@@ -199,28 +202,27 @@
  ">
 
         
-            <a class="post-card-image-link" href="/kubernetes-open-port-to-local-machine/">
-                <img class="post-card-image"src="https://unsplash.com/photos/cKrpgejIZpU/download" alt="Kubernetes open port to local machine"/>
+            <a class="post-card-image-link" href="/monitoring-kubernetes-pods-services-etc/">
+                <img class="post-card-image"src="https://unsplash.com/photos/dBI_My696Rk/download" alt="Monitoring Kubernetes Pods/Services/etc"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/kubernetes-open-port-to-local-machine/">
+            <a class="post-card-content-link" href="/monitoring-kubernetes-pods-services-etc/">
                 <header class="post-card-header">
                     
                         
                         <div class="post-card-primary-tag">Kubernetes</div>
                     
 
-                    <h2 class="post-card-title">Kubernetes open port to local machine</h2>
+                    <h2 class="post-card-title">Monitoring Kubernetes Pods/Services/etc</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>So, i found out something cool today&hellip; when installing minio
-helm install minio bitnami/minio I found out via these instructions I can forward a port directly to my local pc.
-kubectl port-forward --namespace default svc/minio 9000:9000 Forwarding from 127.0.0.1:9000 -&gt; 9000 Forwarding from [::1]:9000 -&gt; 9000 In browser&hellip;
-http://localhost:9000/minio This is my local machine that i am administering from&hellip; I think this may open lots of cool opportunities for accessing the volumes inside&hellip;</p>
+                    <p>I forgot this, and then found it out again. Figured I&rsquo;d just write a small memory fragment here&hellip;
+To monitor/watch a Kubernetes object&hellip;
+kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558-zfbfl 1/1 Running 0 10h etdofresh-wordpress-mariadb-0 1/1 Running 0 12h ghost-test2-669b4b469-gxw66 1/1 Running 0 5h43m ghost-test2-mariadb-0 1/1 Running 0 5h46m minio-688b86c7c4-qzglp 1/1 Running 0 4m38s And basically it just writes a new line if something happens.</p>
                 </section>
             </a>
 

@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>/kubernetes-open-port-to-local-machine/</loc>
+    <lastmod>2020-07-05T06:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/increase-maximum-file-size-server-allows/</loc>
     <lastmod>2020-07-05T05:00:00+00:00</lastmod>
   </url>
