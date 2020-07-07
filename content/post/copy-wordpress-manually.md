@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-07T06:25:15Z
-excerpt = ""
+excerpt = "Let's copy our wordpress site to localhost!\nCopy over files from your server... you probably just need the wp-contents folder.\nDump your wordpress database to worpress.sql and download. To dump your SQL..."
 featured_image = "https://unsplash.com/photos/hzdgFPz1V24/download"
 tags = []
 title = "Copy WordPress Manually"
