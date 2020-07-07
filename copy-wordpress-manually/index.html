@@ -107,9 +107,9 @@
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>First, I think it&rsquo;d be best to copy our wordpress site over to our local computer&hellip;</p>
-<p>Copy over files from your server&hellip; you probably just need the wp-contents folder</p>
-<p>Dump your wordpress database and download. To dump your SQL&hellip;</p>
+                    <p>Let&rsquo;s copy our wordpress site to localhost!</p>
+<p>Copy over files from your server&hellip; you probably just need the <strong>wp-contents</strong> folder.</p>
+<p>Dump your wordpress database to <strong>worpress.sql</strong> and download. To dump your SQL&hellip;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mysqldump --databases wordpress &gt; wordpress.sql
 </code></pre></div><p>Setup a local instance of wordpress with docker-compose. Create a new folder called <em>wordpress</em>. Create <em>wordpress/www</em> folder and add <em>wordpress/docker-compose.yml</em></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">version</span>: <span style="color:#e6db74">&#34;3&#34;</span>
