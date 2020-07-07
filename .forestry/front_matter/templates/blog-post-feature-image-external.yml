@@ -35,4 +35,5 @@ pages:
 - content/post/copy-wordpress-manually.md
 - content/post/install-ghost-on-linode-docker.md
 - content/post/it-s-been-a-while-world.md
+- content/post/moving-to-hugo.md
 - content/post/stop-delete-all-docker-containers-images.md
