@@ -79,6 +79,18 @@ So, what have I been up to? Well, I really want to start putting myself out ther
     </item>
     
     <item>
+      <title>Connecting to Kubernetes Dashboard</title>
+      <link>/connecting-to-kubernetes-dashboard/</link>
+      <pubDate>Sun, 05 Jul 2020 06:59:00 +0000</pubDate>
+      
+      <guid>/connecting-to-kubernetes-dashboard/</guid>
+      <description>First install updated dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml Then start the dashboard
+kubectl proxy And finally, use a browser to open up the dashboard
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</description>
+    </item>
+    
+    <item>
       <title>Increase Maximum File Size Server Allows</title>
       <link>/increase-maximum-file-size-server-allows/</link>
       <pubDate>Sun, 05 Jul 2020 05:00:00 +0000</pubDate>

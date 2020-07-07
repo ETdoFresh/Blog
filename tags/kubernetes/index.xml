@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on ETdoFresh</title>
+    <link>/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 06:59:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connecting to Kubernetes Dashboard</title>
+      <link>/connecting-to-kubernetes-dashboard/</link>
+      <pubDate>Sun, 05 Jul 2020 06:59:00 +0000</pubDate>
+      
+      <guid>/connecting-to-kubernetes-dashboard/</guid>
+      <description>First install updated dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml Then start the dashboard
+kubectl proxy And finally, use a browser to open up the dashboard
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</description>
+    </item>
+    
+  </channel>
+</rss>

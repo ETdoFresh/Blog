@@ -6,7 +6,7 @@
 
     
     
-    <title>Increase Maximum File Size Server Allows · ETdoFresh</title>
+    <title>Connecting to Kubernetes Dashboard · ETdoFresh</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,11 +52,11 @@
                 
                     
                     <section class="post-full-tags">
-                        <a href="/tags/ghost">Ghost</a>
+                        <a href="/tags/kubernetes">Kubernetes</a>
                     </section>
                 
 
-                <h1 class="post-full-title">Increase Maximum File Size Server Allows</h1>
+                <h1 class="post-full-title">Connecting to Kubernetes Dashboard</h1>
 
                 
 
@@ -95,7 +95,7 @@
                                 <h4 class="author-name">ETdoFresh</h4>
                             
                             <div class="byline-meta-content">
-                                <time class="byline-meta-date" datetime="2020-57-07">5 July 2020</time>
+                                <time class="byline-meta-date" datetime="2020-67-07">5 July 2020</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
                             </div>
                         </section>
@@ -108,22 +108,19 @@
 
             
             <figure class="post-full-image">
-                <img src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows" />
+                <img src="https://unsplash.com/photos/uJmaoWQ64YY/download" alt="Connecting to Kubernetes Dashboard" />
             </figure>
             
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>When setting up a blog server, as we did in <a href="https://etdofresh.com/install-ghost-on-linode-docker/">Install Ghost on Linode Docker</a>, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
-    ...
-    client_max_body_size 500M;
-<span style="color:#f92672">}</span>
-</code></pre></div><p>Then restart your, in this site&rsquo;s case</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker exec -it $DOCKER_POD_ID service nginx restart
-</code></pre></div><h3 id="references">References</h3>
-<p><a href="https://etdofresh.com/install-ghost-on-linode-docker/" title="https://etdofresh.com/install-ghost-on-linode-docker/">https://etdofresh.com/install-ghost-on-linode-docker/</a></p>
-<p><a href="https://www.tecmint.com/limit-file-upload-size-in-nginx/" title="https://www.tecmint.com/limit-file-upload-size-in-nginx/">https://www.tecmint.com/limit-file-upload-size-in-nginx/</a></p>
+                    <p>First install updated dashboard</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+</code></pre></div><p>Then start the dashboard</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl proxy
+</code></pre></div><p>And finally, use a browser to open up the dashboard</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-http" data-lang="http"><span style="color:#960050;background-color:#1e0010">http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+</span></code></pre></div><p>I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</p>
 
                 </div>
             </section>
@@ -138,7 +135,7 @@
     
     <article class="read-next-card">
         <header class="read-next-card-header">
-            <h3><span>More in</span> <a href="/tags/ghost">Ghost</a></h3>
+            <h3><span>More in</span> <a href="/tags/kubernetes">Kubernetes</a></h3>
         </header>
         <div class="read-next-card-content">
             <ul>
@@ -152,25 +149,28 @@
  ">
 
         
-            <a class="post-card-image-link" href="/asteroids-local-and-network/">
-                <img class="post-card-image"src="/wp-content/uploads/2019/09/vlcsnap-2019-09-14-01h21m18s933.png" alt="Asteroids (Local and Network)"/>
+            <a class="post-card-image-link" href="/increase-maximum-file-size-server-allows/">
+                <img class="post-card-image"src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/asteroids-local-and-network/">
+            <a class="post-card-content-link" href="/increase-maximum-file-size-server-allows/">
                 <header class="post-card-header">
                     
                         
-                        <div class="post-card-primary-tag">Game</div>
+                        <div class="post-card-primary-tag">Ghost</div>
                     
 
-                    <h2 class="post-card-title">Asteroids (Local and Network)</h2>
+                    <h2 class="post-card-title">Increase Maximum File Size Server Allows</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>&lt;div class=&quot;fullscreen&quot; onclick=&quot;gameInstance.SetFullscreen(1)&quot;&gt; &lt;/div&gt; &lt;div class=&quot;title&quot;&gt; Asteroids &lt;/div&gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</p>
+                    <p>When setting up a blog server, as we did in Install Ghost on Linode Docker, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf
+server { ... client_max_body_size 500M; } Then restart your, in this site&rsquo;s case
+docker exec -it $DOCKER_POD_ID service nginx restart References https://etdofresh.com/install-ghost-on-linode-docker/
+https://www.tecmint.com/limit-file-upload-size-in-nginx/</p>
                 </section>
             </a>
 
@@ -185,7 +185,7 @@
                     </ul>
                     <div class="post-card-byline-content">
                         <span>ETdoFresh</span>
-                        <span class="post-card-byline-date"><time datetime="2019-79-09">14 September 2019</time>
+                        <span class="post-card-byline-date"><time datetime="2020-57-07">5 July 2020</time>
                             <span class="bull">&bull;</span> 1 min read</span>
                     </div>
                 </footer>
@@ -199,28 +199,27 @@
  ">
 
         
-            <a class="post-card-image-link" href="/connecting-to-kubernetes-dashboard/">
-                <img class="post-card-image"src="https://unsplash.com/photos/uJmaoWQ64YY/download" alt="Connecting to Kubernetes Dashboard"/>
+            <a class="post-card-image-link" href="/it-s-been-a-while-world/">
+                <img class="post-card-image"src="https://unsplash.com/photos/Q1p7bh3SHj8/download" alt="It&#39;s been a while, world!"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/connecting-to-kubernetes-dashboard/">
+            <a class="post-card-content-link" href="/it-s-been-a-while-world/">
                 <header class="post-card-header">
                     
                         
-                        <div class="post-card-primary-tag">Kubernetes</div>
+                        <div class="post-card-primary-tag">Personal</div>
                     
 
-                    <h2 class="post-card-title">Connecting to Kubernetes Dashboard</h2>
+                    <h2 class="post-card-title">It&#39;s been a while, world!</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>First install updated dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml Then start the dashboard
-kubectl proxy And finally, use a browser to open up the dashboard
-http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</p>
+                    <p>Hi! I have realized I have not been writing in my blog. At all!
+So, I decided to go crazy and switch from Wordpress to Ghost as my blogging platform! Hope it pays off! I&rsquo;ll be working slowly but surely porting my old blog posts over here.
+So, what have I been up to? Well, I really want to start putting myself out there digitally. So, I&rsquo;m preparing steps to get out there.</p>
                 </section>
             </a>
 
@@ -235,7 +234,7 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
                     </ul>
                     <div class="post-card-byline-content">
                         <span>ETdoFresh</span>
-                        <span class="post-card-byline-date"><time datetime="2020-67-07">5 July 2020</time>
+                        <span class="post-card-byline-date"><time datetime="2020-97-07">5 July 2020</time>
                             <span class="bull">&bull;</span> 1 min read</span>
                     </div>
                 </footer>

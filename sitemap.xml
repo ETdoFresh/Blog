@@ -88,6 +88,16 @@
   </url>
   
   <url>
+    <loc>/connecting-to-kubernetes-dashboard/</loc>
+    <lastmod>2020-07-05T06:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kubernetes/</loc>
+    <lastmod>2020-07-05T06:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/increase-maximum-file-size-server-allows/</loc>
     <lastmod>2020-07-05T05:00:00+00:00</lastmod>
   </url>
