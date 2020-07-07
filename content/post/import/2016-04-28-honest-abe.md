@@ -23,7 +23,7 @@ categories:
   - Project
 tags:
   - 3dsmax
-  - 'C#'
+  - 'CSharp'
   - Game
   - Unity
   - UNO

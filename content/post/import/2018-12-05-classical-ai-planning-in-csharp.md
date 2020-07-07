@@ -22,7 +22,7 @@ classic-editor-remember:
 categories:
   - Project
 tags:
-  - 'C#'
+  - 'CSharp'
   - Planning
 
 ---

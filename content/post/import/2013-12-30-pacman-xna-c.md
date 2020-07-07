@@ -22,7 +22,7 @@ categories:
   - Project
 tags:
   - 3dsmax
-  - 'C#'
+  - 'CSharp'
   - Games
   - Photoshop
   - XNA
