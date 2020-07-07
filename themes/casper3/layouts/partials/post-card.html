@@ -23,7 +23,11 @@
                 </header>
     
                 <section class="post-card-excerpt">
+                    {{ if .context.Param "excerpt" }}
+                    <p>{{ .context.Param "excerpt" }}</p>
+                    {{ else }}
                     <p>{{ .context.Summary }}</p>
+                    {{ end }}
                 </section>
             </a>
 
