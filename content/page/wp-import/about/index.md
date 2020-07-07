@@ -11,7 +11,7 @@ menu:
 ---
 # Edward Thomas Garcia _MBA MS_
 
-![](/uploads/uploads/2014/11/Garcia-Wedding-1121.jpg)
+![](/wp-content/uploads/2014/11/Garcia-Wedding-1121.jpg)
 
 I currently work at the [University of New Orleans](http://www.uno.edu) (UNO) as a Programmer Analyst. At work, I program in PeopleSoft’s PeopleCode and SQR, Oracle SQL, and sometimes some ASP.NET (C#). I love to program and create graphics for video games. I am also enrolled at UNO as a [Graduate Computer Science Student](http://cs.uno.edu/academics/academics.php#master) where I am currently pursuing my interests in advanced topics in video games. Courses taken:
 
