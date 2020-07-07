@@ -30,5 +30,6 @@ fields:
   default: []
   label: Tags
 pages:
+- content/post/fighting-cname-when-hosting-github.io-page-externally.md
 - content/post/increase-maximum-file-size-server-allows.md
 - content/post/moving-from-ghost-to-hugo.md
