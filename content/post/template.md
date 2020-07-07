@@ -1,11 +1,11 @@
 +++
+draft = true
+title = ""
 author = "ETdoFresh"
 date = 2020-07-07T20:58:22Z
-draft = true
 excerpt = ""
-featured_image = "/uploads/capture.png"
+featured_image = ""
 tags = ["Personal"]
-title = "Test Post 2"
-
 +++
-Draft!!
+
+Your content goes here! :)
