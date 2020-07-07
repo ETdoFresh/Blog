@@ -46,5 +46,15 @@ kubectl port-forward --namespace default svc/minio 9000:9000 Forwarding from 127
 http://localhost:9000/minio This is my local machine that i am administering from&amp;hellip; I think this may open lots of cool opportunities for accessing the volumes inside&amp;hellip;</description>
     </item>
     
+    <item>
+      <title>Move Wordpress Site from Linode to LKE</title>
+      <link>/move-wordpress-site-from-linode-to-lke/</link>
+      <pubDate>Sat, 04 Jul 2020 22:57:00 +0000</pubDate>
+      
+      <guid>/move-wordpress-site-from-linode-to-lke/</guid>
+      <description>Right now, I have a wordpress site being hosted on a single Linode server. However, I&amp;rsquo;m making the jump to kubernete services/Linode Kubernetes Engine (LKE). Here is my devops journey to getting this done.
+My Current Setup  Linode Server running Debian 8 with 1 CPU, 30GB Storage, and 2GB RAM [$10/mo]  Nginx installed Php installed Wordpress downloaded Nginx, Php configuration files updated to work with wordpress Hosting Port 80/443 for wordpress site Hosting Port 22 for ssh All maintenance to server done via ssh terminal like ssh.</description>
+    </item>
+    
   </channel>
 </rss>

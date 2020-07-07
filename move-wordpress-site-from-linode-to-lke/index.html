@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Move Wordpress Site from Linode to LKE · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/wp-import/about/">About Me</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+
+                
+                    
+                    <section class="post-full-tags">
+                        <a href="/tags/linode">Linode</a>
+                    </section>
+                
+
+                <h1 class="post-full-title">Move Wordpress Site from Linode to LKE</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2020-107-07">4 July 2020</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 6 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+            <figure class="post-full-image">
+                <img src="https://unsplash.com/photos/lRoX0shwjUQ/download" alt="Move Wordpress Site from Linode to LKE" />
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Right now, I have a wordpress site being hosted on a single Linode server. However, I&rsquo;m making the jump to kubernete services/Linode Kubernetes Engine (LKE). Here is my devops journey to getting this done.</p>
+<h2 id="my-current-setup">My Current Setup</h2>
+<p><img src="image-20200704164142351.png" alt="image-20200704164142351"></p>
+<ul>
+<li>Linode Server running Debian 8 with 1 CPU, 30GB Storage, and 2GB RAM [$10/mo]
+<ul>
+<li>Nginx installed</li>
+<li>Php installed</li>
+<li>Wordpress downloaded</li>
+<li>Nginx, Php configuration files updated to work with wordpress</li>
+<li>Hosting Port 80/443 for wordpress site</li>
+<li>Hosting Port 22 for ssh</li>
+<li>All maintenance to server done via ssh terminal like ssh.exe or putty.exe</li>
+</ul>
+</li>
+</ul>
+<h2 id="goal-of-new-setup">Goal of new setup</h2>
+<p>My personal motivation for doing this is to have a cluster setup that can serve whatever services I want. Let&rsquo;s say I want to serve my wordpress site, game server 1, and game server 2, and another website. This may be able to run on 1 server&hellip; or maybe 2 servers. However many servers it takes can be abstracted away with kubernetes. I say &ldquo;run service&rdquo;, and kubernetes just places these services onto available servers. If we notice there is too much CPU usage on our cluster, we can add more servers at a click of a button.</p>
+<h2 id="start-a-cluster">Start a Cluster</h2>
+<p><img src="/uploads/2020/07/image-20200704165438984.png" alt=""></p>
+<p>In Kubernetes first we add a cluster server which will maintain all nodes (worker servers) [$10/mo]</p>
+<p><img src="/uploads/2020/07/image-20200704165851970.png" alt=""></p>
+<p>Then we add nodes into node pools. Here we have just 1 node in our node pool [$10]. Now we are done purchasing our servers! Now we can start adding services&hellip; but first, let&rsquo;s get setup to do some command line administration&hellip;</p>
+<h2 id="what-are-docker-kubernetes-helm-etc">What are Docker, Kubernetes, Helm, etc</h2>
+<p>So, I&rsquo;m not an expert, just a user&hellip; and in my head, this is what each is:</p>
+<ul>
+<li>Docker - A container that holds all software and dependencies. Hence a docker container on my computer runs exactly the same as a docker container on your computer. It is meant to be reset and rebuilt, hence within the container itself, it should never hold any persistent data.</li>
+<li>Kubernetes - A docker orchestration platform. Kubernetes is a cluster of servers that is managed my a master node. Administrators like you and me tell the node to &ldquo;add or remove&rdquo; service [which is a set of steps of how to deploy docker containers], and it manages how the docker containers are deployed among your cluster.</li>
+<li>Helm - Kubernetes has many parts. Pods, Deployments, Services, Persistent Volumes, etc. Each of these can have one or more files needed to get a single service up and running. Helm charts is a way to gather all these files into one place and specify your particular needs without having to dive into many files.</li>
+</ul>
+<h2 id="installing-software">Installing software</h2>
+<p>I&rsquo;m on Windows 10, but I assume these steps are quite similar on other machines. So I&rsquo;m not going to go in deep detail, but here is the order in which i did this.</p>
+<ol>
+<li>Install <a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a>
+<ul>
+<li>This should enable docker.exe to be run in your command prompt</li>
+</ul>
+</li>
+<li>Install <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Kubernetes command-line tool</a>
+<ul>
+<li>I think now docker now comes with kubectl.exe</li>
+<li>Make sure it&rsquo;s in your PATH environment variables</li>
+</ul>
+</li>
+<li>Install <a href="https://helm.sh/docs/intro/install/">Helm</a></li>
+</ol>
+<p>Once you have these 3 pieces of software, you should be ready to start administering your Kubernetes cluster.</p>
+<h2 id="configuring-kubectl-to-communicate-to-lke-cluster">Configuring kubectl to communicate to LKE Cluster</h2>
+<p>If you try running kubectl after installation it will probably try to hit localhost. So we need to redirect it to LKE cluster. There are probably other ways to do this, but I simply replaced my default config file with my linode config file.</p>
+<ul>
+<li>Download {YourClusterName}-kubeconfig.yaml as shown in the Start a Cluster section of this site</li>
+<li>Locate your .kube\config. Mine was located in c:\users\etgarcia\.kube\config</li>
+<li>Rename .kube\config to .kube\config.bak [to relive the old days]</li>
+<li>Move {YourClusterName}-kubeconfig.yaml to .kube/config</li>
+</ul>
+<p>Test it out by typing</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl get nodes
+</code></pre></div><p>You should see the servers you reserved</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl get nodes
+NAME                        STATUS   ROLES    AGE   VERSION
+lke3699-4883-5eff748a56fe   Ready    &lt;none&gt;   28h   v1.17.3
+</code></pre></div><h2 id="setup-persistent-volumes">Setup Persistent Volumes</h2>
+<p>As I probably mentioned above, Docker containers are mortal. They should not hold data that needs to live. So, in order to keep any kind of data that needs to survive an outage, we need to add it to a persistent volume. So, I did this via Kubernetes. Here&rsquo;s some background as I understand it&hellip;</p>
+<ul>
+<li>Persistent Volumes - The actual storage volume of data. It can be NFS. Some local path on server. Or, in our case, a Linode Block Storage [10GB $1/mo]</li>
+<li>Persistent Volume Claim - an abstraction of Persistent Volume. We don&rsquo;t care how we have space at this point, as long as we have X space to do something</li>
+</ul>
+<p>So, assuming kubectl is properly setup as we did in the section before, I first wrote up this simple yaml to claim some space on Linode&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">kind</span>: PersistentVolumeClaim
+<span style="color:#66d9ef">apiVersion</span>: v1
+<span style="color:#66d9ef">metadata</span>:
+  <span style="color:#66d9ef">name</span>: etdofresh-wordpress-db-pvc
+<span style="color:#66d9ef">spec</span>:
+  <span style="color:#66d9ef">accessModes</span>:
+    - ReadWriteOnce
+  <span style="color:#66d9ef">resources</span>:
+    <span style="color:#66d9ef">requests</span>:
+      <span style="color:#66d9ef">storage</span>: 10Gi
+---
+<span style="color:#66d9ef">kind</span>: PersistentVolumeClaim
+<span style="color:#66d9ef">apiVersion</span>: v1
+<span style="color:#66d9ef">metadata</span>:
+  <span style="color:#66d9ef">name</span>: etdofresh-wordpress-pvc
+<span style="color:#66d9ef">spec</span>:
+  <span style="color:#66d9ef">accessModes</span>:
+    - ReadWriteOnce
+  <span style="color:#66d9ef">resources</span>:
+    <span style="color:#66d9ef">requests</span>:
+      <span style="color:#66d9ef">storage</span>: 10Gi
+</code></pre></div><p>Then we go ahead and claim some space!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl apply -f create_new_pvc.yaml
+persistentvolumeclaim/etdofresh-wordpress-db-pvc created
+persistentvolumeclaim/etdofresh-wordpress-pvc created
+</code></pre></div><p>We now have claimed 2 volumes on Linode Volumes that should be automatically generated for us. So if we checkout Linode&hellip;</p>
+<p><img src="/uploads/2020/07/image-20200704174207357.png" alt=""></p>
+<p>I don&rsquo;t know how to reclaim the links to persistent volumes if you accidentally delete them using kubectl delete. So, if you want to be extra protective of your persistent volume, save the following text somewhere safe:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl get pv -o yaml
+</code></pre></div><h2 id="going-straight-to-the-helm">Going straight to the Helm</h2>
+<p>Well, there is so much to learn between docker and kubernetes, it&rsquo;s crazy. But, you know what!? Let&rsquo;s jump straight to the helm chart and get this wordpress site working!</p>
+<p>For this install, we are going to use bitnami/wordpress installation. It&rsquo;s pretty straight forward (if you don&rsquo;t peek behind the curtains :p) To do, we first add the repo so we can easily install wordpress with one command&hellip;
+[Instructions also found <a href="https://github.com/bitnami/charts/tree/master/bitnami/wordpress">here</a>]</p>
+<pre><code>helm repo add bitnami https://charts.bitnami.com/bitnami
+</code></pre>
+<p>But hold on, let&rsquo;s get our custom values correct&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">wordpressUsername</span>: etdofresh
+<span style="color:#66d9ef">wordpressPassword</span>: my_password
+<span style="color:#66d9ef">wordpressEmail</span>: etdofresh@gmail.com
+<span style="color:#66d9ef">wordpressFirstName</span>: ET
+<span style="color:#66d9ef">wordpressLastName</span>: Garcia
+<span style="color:#66d9ef">wordpressBlogName</span>: ETdoFresh
+<span style="color:#66d9ef">wordpressTablePrefix</span>: wp_
+
+<span style="color:#66d9ef">resources</span>:
+  <span style="color:#66d9ef">limits</span>: {}
+  <span style="color:#66d9ef">requests</span>:
+    <span style="color:#66d9ef">memory</span>: 512Mi
+    <span style="color:#66d9ef">cpu</span>: 300m
+
+<span style="color:#66d9ef">service</span>:
+  <span style="color:#66d9ef">type</span>: LoadBalancer
+  <span style="color:#66d9ef">port</span>: <span style="color:#ae81ff">80</span>
+  <span style="color:#66d9ef">httpsPort</span>: <span style="color:#ae81ff">443</span>
+  <span style="color:#66d9ef">httpsTargetPort</span>: https
+  <span style="color:#66d9ef">metricsPort</span>: <span style="color:#ae81ff">9117</span>
+  <span style="color:#66d9ef">nodePorts</span>:
+    <span style="color:#66d9ef">http</span>: <span style="color:#e6db74">&#34;&#34;</span>
+    <span style="color:#66d9ef">https</span>: <span style="color:#e6db74">&#34;&#34;</span>
+    <span style="color:#66d9ef">metrics</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#66d9ef">externalTrafficPolicy</span>: Cluster
+  <span style="color:#66d9ef">annotations</span>: {}
+  <span style="color:#66d9ef">loadBalancerSourceRanges</span>: []
+
+<span style="color:#66d9ef">persistence</span>:
+  <span style="color:#66d9ef">enabled</span>: <span style="color:#66d9ef">true</span>
+  <span style="color:#66d9ef">existingClaim</span>: etdofresh-wordpress-pvc
+  <span style="color:#66d9ef">accessMode</span>: ReadWriteOnce
+  <span style="color:#66d9ef">size</span>: 10Gi
+
+<span style="color:#66d9ef">mariadb</span>:
+  <span style="color:#66d9ef">enabled</span>: <span style="color:#66d9ef">true</span>
+  <span style="color:#66d9ef">replication</span>:
+    <span style="color:#66d9ef">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#66d9ef">db</span>:
+    <span style="color:#66d9ef">name</span>: etdofresh_wordpress
+    <span style="color:#66d9ef">user</span>: etdofresh
+    <span style="color:#66d9ef">password</span>: my_wordpress_db_password
+
+  <span style="color:#66d9ef">rootUser</span>:
+    <span style="color:#66d9ef">password</span>: my_wordpress_db_root_password
+
+  <span style="color:#66d9ef">master</span>:
+    <span style="color:#66d9ef">persistence</span>:
+      <span style="color:#66d9ef">enabled</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#66d9ef">existingClaim</span>: etdofresh-wordpress-db-pvc
+      <span style="color:#66d9ef">accessModes</span>:
+        - ReadWriteOnce
+      <span style="color:#66d9ef">size</span>: 10Gi
+
+<span style="color:#66d9ef">externalDatabase</span>:
+  <span style="color:#66d9ef">host</span>: localhost
+  <span style="color:#66d9ef">user</span>: etdofresh
+  <span style="color:#66d9ef">password</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#66d9ef">database</span>: etdofresh_wordpress
+  <span style="color:#66d9ef">port</span>: <span style="color:#ae81ff">3306</span>
+</code></pre></div><p>So, there are a lot of settings here. The thing to note is that these are the values we want to override (or at least potentially override) from default installation. So here are the highlights from above:</p>
+<ul>
+<li>WordPress site information is stored here</li>
+<li>We could leave password blank and bitnami generate one for us, but if we ever rebuild this helm, the password is then stored on the persistent volume and potentially lost forever, so figured a hard coded [insecurely placed in this file] would work</li>
+<li>Persistent volume claims use &ldquo;existingClaim&quot;s that we made earlier</li>
+</ul>
+<p>With our settings in place, now we can install this helm!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">helm install --values<span style="color:#f92672">=</span>values.yaml etdofresh-wordpress bitnami/wordpress
+</code></pre></div><p>This creates a new helm instance called etdofresh-wordpress.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">helm ls
+NAME                    NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                   APP VERSION
+etdofresh-wordpress     default         <span style="color:#ae81ff">1</span>               2020-07-04 12:38:37.871794 -0500 CDT    deployed        wordpress-9.3.17        5.4.2
+</code></pre></div><h2 id="done-for-now">Done&hellip; for now&hellip;.</h2>
+<p>Well, that&rsquo;s it. We now have a WordPress running in kubernetes using persistent volume.</p>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+    
+    <article class="read-next-card">
+        <header class="read-next-card-header">
+            <h3><span>More in</span> <a href="/tags/linode">Linode</a></h3>
+        </header>
+        <div class="read-next-card-content">
+            <ul>
+                
+            </ul>
+        </div>
+    </article>
+<article class="post-card post
+
+
+ ">
+
+        
+            <a class="post-card-image-link" href="/asteroids-local-and-network/">
+                <img class="post-card-image"src="/wp-content/uploads/2019/09/vlcsnap-2019-09-14-01h21m18s933.png" alt="Asteroids (Local and Network)"/>
+            </a>
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/asteroids-local-and-network/">
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Game</div>
+                    
+
+                    <h2 class="post-card-title">Asteroids (Local and Network)</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>&lt;div class=&quot;fullscreen&quot; onclick=&quot;gameInstance.SetFullscreen(1)&quot;&gt; &lt;/div&gt; &lt;div class=&quot;title&quot;&gt; Asteroids &lt;/div&gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2019-79-09">14 September 2019</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+
+
+ ">
+
+        
+            <a class="post-card-image-link" href="/increase-maximum-file-size-server-allows/">
+                <img class="post-card-image"src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows"/>
+            </a>
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/increase-maximum-file-size-server-allows/">
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Ghost</div>
+                    
+
+                    <h2 class="post-card-title">Increase Maximum File Size Server Allows</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>When setting up a blog server, as we did in Install Ghost on Linode Docker, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf
+server { ... client_max_body_size 500M; } Then restart your, in this site&rsquo;s case
+docker exec -it $DOCKER_POD_ID service nginx restart References https://etdofresh.com/install-ghost-on-linode-docker/
+https://www.tecmint.com/limit-file-upload-size-in-nginx/</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2020-57-07">5 July 2020</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2020</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
