@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-05T06:59:00Z
-excerpt = ""
+excerpt = "How to connect from your local machine to Kubernetes Dashboard."
 featured_image = "https://unsplash.com/photos/uJmaoWQ64YY/download"
 tags = ["Kubernetes"]
 title = "Connecting to Kubernetes Dashboard"

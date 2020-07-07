@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-05T05:00:00Z
-excerpt = ""
+excerpt = "When setting up a blog server, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit..."
 featured_image = "/uploads/2020/07/untitled.png"
 tags = ["Ghost", "nginx"]
 title = "Increase Maximum File Size Server Allows"

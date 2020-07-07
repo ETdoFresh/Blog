@@ -2,7 +2,7 @@
 title = "Moving from Ghost to Hugo"
 date = 2020-07-06T10:13:50Z
 author = "ETdoFresh"
-excerpt = ""
+excerpt = "After 1 or 2 days, I realized slimming down from WordPress to Ghost was just the beginning."
 featured_image = "/uploads/2020/07/54194774_10102925179519048_4139436063376539648_n.jpg"
 tags = ["Hugo", " GitHub", "Ghost", "Blog Setup"]
 +++

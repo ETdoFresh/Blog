@@ -1,10 +1,9 @@
 ---
 title: 2019 April Progress Report
-author: ETdoFresh
-type: post
 date: 2019-04-08T01:13:30+00:00
-url: /2019-april-progress-report/
-categories:
+author: ETdoFresh
+excerpt: March has been a trip! Here’s my March...
+tags:
   - Personal
 
 ---

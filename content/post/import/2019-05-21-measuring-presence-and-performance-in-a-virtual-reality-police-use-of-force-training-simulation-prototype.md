@@ -1,9 +1,8 @@
 ---
 title: Measuring Presence and Performance in a Virtual Reality Police Use of Force Training Simulation Prototype
-author: ETdoFresh
-type: post
 date: 2019-05-21T19:30:41+00:00
-url: /measuring-presence-and-performance-in-a-virtual-reality-police-use-of-force-training-simulation-prototype/
+author: ETdoFresh
+excerpt: In this paper we describe a virtual reality training simulation designed to help police officers learn use of force policies. The simulation uses a planner-based experience manager to determine the actions of agents other than the participant.
 featured_image: /wp-content/uploads/2019/09/Capture-1.png
 categories:
   - Project

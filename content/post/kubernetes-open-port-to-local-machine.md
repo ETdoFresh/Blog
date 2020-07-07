@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-05T06:17:00Z
-excerpt = ""
+excerpt = "So, i found out something cool today... when installing minio. I found out via these instructions I can forward a port directly to my local pc."
 featured_image = "https://unsplash.com/photos/cKrpgejIZpU/download"
 tags = ["Kubernetes"]
 title = "Kubernetes open port to local machine"

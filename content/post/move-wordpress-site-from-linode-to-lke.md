@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-04T22:57:00Z
-excerpt = ""
+excerpt = "Right now, I have a wordpress site being hosted on a single Linode server. However, I'm making the jump to kubernete services/Linode Kubernetes Engine (LKE). Here is my devops journey to getting this done."
 featured_image = "https://unsplash.com/photos/lRoX0shwjUQ/download"
 tags = ["Linode", "Kubernetes"]
 title = "Move Wordpress Site from Linode to LKE"

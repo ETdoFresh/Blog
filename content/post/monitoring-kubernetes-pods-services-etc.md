@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-05T06:21:00Z
-excerpt = ""
+excerpt = "I forgot this, and then found it out again. Figured I'd just write a small memory fragment here... To monitor/watch a Kubernetes object..."
 featured_image = "https://unsplash.com/photos/dBI_My696Rk/download"
 tags = ["Kubernetes"]
 title = "Monitoring Kubernetes Pods/Services/etc"

@@ -1,7 +1,7 @@
 +++
 author = "ETdoFresh"
 date = 2020-07-07T16:42:36Z
-excerpt = ""
+excerpt = "One of the problems I found when auto-deploying my blog to my GitHub.io account is that after I commit, I see \"404 There isn't a GitHub Pages site here.\""
 featured_image = "/uploads/2020/07/untitled2.png"
 tags = ["GitHub", "Hugo", "CNAME"]
 title = "Fighting CNAME when Hosting GitHub.io Page Externally"
