@@ -19,4 +19,4 @@ It just finished! Nice! Well, all my blog posts are over I think? Now I just hav
 
 Well once it's done, they should at least be consistently markdown with little to no html I hope!
 
-Alright! It's 3AM now... I'm crazy... night!
+Alright! It's 3AM now... I'm crazy... good night!
