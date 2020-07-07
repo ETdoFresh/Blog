@@ -38,5 +38,6 @@ pages:
 - content/post/it-s-been-a-while-world.md
 - content/post/kubernetes-open-port-to-local-machine.md
 - content/post/monitoring-kubernetes-pods-services-etc.md
+- content/post/move-wordpress-site-from-linode-to-lke.md
 - content/post/moving-to-hugo.md
 - content/post/stop-delete-all-docker-containers-images.md
