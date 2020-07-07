@@ -21,7 +21,7 @@
 Copy over files from your server&amp;hellip; you probably just need the wp-contents folder
 Dump your wordpress database to wordpress.sql and download. To dump your SQL&amp;hellip;
 mysqldump --databases wordpress &amp;gt; wordpress.sql  Setup a local instance of wordpress with docker-compose. Create a new folder called wordpress. Create wordpress/www folder and add wordpress/docker-compose.yml
-version: &amp;quot;3&amp;quot;services: db: image: mysql:5.7 restart: always volumes: - db_data:/var/www/mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: wordpress MYSQL_USER: wordpress MYSQL_PASSWORD: wordpress networks: - wp​ wordpress: depends_on: - db image: wordpress restart: always volumes: [&amp;quot;.</description>
+version: &amp;quot;3&amp;quot; services: db: image: mysql:5.7 restart: always volumes: - db_data:/var/www/mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: wordpress MYSQL_USER: wordpress MYSQL_PASSWORD: wordpress networks: - wp wordpress: depends_on: - db image: wordpress restart: always volumes: [&amp;quot;.</description>
     </item>
     
     <item>
