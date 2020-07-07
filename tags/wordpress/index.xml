@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress on ETdoFresh</title>
+    <link>/tags/wordpress/</link>
+    <description>Recent content in WordPress on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2020 06:25:15 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Copy WordPress Manually</title>
+      <link>/copy-wordpress-manually/</link>
+      <pubDate>Tue, 07 Jul 2020 06:25:15 +0000</pubDate>
+      
+      <guid>/copy-wordpress-manually/</guid>
+      <description>Let&amp;rsquo;s copy our wordpress site to localhost!
+Copy over files from your server&amp;hellip; you probably just need the wp-contents folder.
+Dump your wordpress database to worpress.sql and download. To dump your SQL&amp;hellip;
+mysqldump --databases wordpress &amp;gt; wordpress.sql Setup a local instance of wordpress with docker-compose. Create a new folder called wordpress. Create wordpress/www folder and add wordpress/docker-compose.yml
+version: &amp;#34;3&amp;#34; services: db: image: mysql:5.7 restart: always volumes: - db_data:/var/www/mysql environment: MYSQL_ROOT_PASSWORD: password MYSQL_DATABASE: wordpress MYSQL_USER: wordpress MYSQL_PASSWORD: wordpress networks: - wp wordpress: depends_on: - db image: wordpress restart: always volumes: [&amp;#34;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -18,6 +18,16 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-07T06:25:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2020-07-07T06:25:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/github/</loc>
     <lastmod>2020-07-06T10:13:50+00:00</lastmod>
   </url>
@@ -39,11 +49,6 @@
   
   <url>
     <loc>/moving-from-ghost-to-hugo/</loc>
-    <lastmod>2020-07-06T10:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-07-06T10:13:50+00:00</lastmod>
   </url>
   
