@@ -6,10 +6,20 @@
     <description>Recent content in WordPress on ETdoFresh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2020 06:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 06:38:06 +0000</lastBuildDate>
     
 	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving to Hugo</title>
+      <link>/moving-to-hugo/</link>
+      <pubDate>Tue, 07 Jul 2020 06:38:06 +0000</pubDate>
+      
+      <guid>/moving-to-hugo/</guid>
+      <description>Oh man. I&amp;rsquo;ve been putting so many hours trying to figure out how to move my blog over to Hugo/GitHub. I&amp;rsquo;m getting very close. I found a tool, WordPress to Hugo Exporter, which will hopefully get me going. I copied my WordPress site locally (here&amp;rsquo;s how), and now I&amp;rsquo;m running&amp;hellip;
+/var/www/html/wp-content/plugins/wordpress-to-hugo-exporter# mkdir tmp php hugo-export-cli.php ./tmp It just finished! Nice! Well, all my blog posts are over I think? Now I just have to spend hours formatting them.</description>
+    </item>
     
     <item>
       <title>Copy WordPress Manually</title>
