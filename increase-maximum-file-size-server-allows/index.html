@@ -199,28 +199,27 @@
  ">
 
         
-            <a class="post-card-image-link" href="/connecting-to-kubernetes-dashboard/">
-                <img class="post-card-image"src="https://unsplash.com/photos/uJmaoWQ64YY/download" alt="Connecting to Kubernetes Dashboard"/>
+            <a class="post-card-image-link" href="/monitoring-kubernetes-pods-services-etc/">
+                <img class="post-card-image"src="https://unsplash.com/photos/dBI_My696Rk/download" alt="Monitoring Kubernetes Pods/Services/etc"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/connecting-to-kubernetes-dashboard/">
+            <a class="post-card-content-link" href="/monitoring-kubernetes-pods-services-etc/">
                 <header class="post-card-header">
                     
                         
                         <div class="post-card-primary-tag">Kubernetes</div>
                     
 
-                    <h2 class="post-card-title">Connecting to Kubernetes Dashboard</h2>
+                    <h2 class="post-card-title">Monitoring Kubernetes Pods/Services/etc</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>First install updated dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml Then start the dashboard
-kubectl proxy And finally, use a browser to open up the dashboard
-http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</p>
+                    <p>I forgot this, and then found it out again. Figured I&rsquo;d just write a small memory fragment here&hellip;
+To monitor/watch a Kubernetes object&hellip;
+kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558-zfbfl 1/1 Running 0 10h etdofresh-wordpress-mariadb-0 1/1 Running 0 12h ghost-test2-669b4b469-gxw66 1/1 Running 0 5h43m ghost-test2-mariadb-0 1/1 Running 0 5h46m minio-688b86c7c4-qzglp 1/1 Running 0 4m38s And basically it just writes a new line if something happens.</p>
                 </section>
             </a>
 

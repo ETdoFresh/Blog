@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>/monitoring-kubernetes-pods-services-etc/</loc>
+    <lastmod>2020-07-05T06:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/increase-maximum-file-size-server-allows/</loc>
     <lastmod>2020-07-05T05:00:00+00:00</lastmod>
   </url>

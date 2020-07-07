@@ -6,7 +6,7 @@
 
     
     
-    <title>Connecting to Kubernetes Dashboard · ETdoFresh</title>
+    <title>Monitoring Kubernetes Pods/Services/etc · ETdoFresh</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,7 +56,7 @@
                     </section>
                 
 
-                <h1 class="post-full-title">Connecting to Kubernetes Dashboard</h1>
+                <h1 class="post-full-title">Monitoring Kubernetes Pods/Services/etc</h1>
 
                 
 
@@ -108,19 +108,23 @@
 
             
             <figure class="post-full-image">
-                <img src="https://unsplash.com/photos/uJmaoWQ64YY/download" alt="Connecting to Kubernetes Dashboard" />
+                <img src="https://unsplash.com/photos/dBI_My696Rk/download" alt="Monitoring Kubernetes Pods/Services/etc" />
             </figure>
             
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>First install updated dashboard</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
-</code></pre></div><p>Then start the dashboard</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">kubectl proxy
-</code></pre></div><p>And finally, use a browser to open up the dashboard</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-http" data-lang="http"><span style="color:#960050;background-color:#1e0010">http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
-</span></code></pre></div><p>I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</p>
+                    <p>I forgot this, and then found it out again. Figured I&rsquo;d just write a small memory fragment here&hellip;</p>
+<p>To monitor/watch a Kubernetes object&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kubectl get pod -w
+
+NAME                                   READY   STATUS    RESTARTS   AGE
+etdofresh-wordpress-7d8ff94558-zfbfl   1/1     Running   <span style="color:#ae81ff">0</span>          10h
+etdofresh-wordpress-mariadb-0          1/1     Running   <span style="color:#ae81ff">0</span>          12h
+ghost-test2-669b4b469-gxw66            1/1     Running   <span style="color:#ae81ff">0</span>          5h43m
+ghost-test2-mariadb-0                  1/1     Running   <span style="color:#ae81ff">0</span>          5h46m
+minio-688b86c7c4-qzglp                 1/1     Running   <span style="color:#ae81ff">0</span>          4m38s
+</code></pre></div><p>And basically it just writes a new line if something happens.</p>
 
                 </div>
             </section>
@@ -149,27 +153,78 @@
  ">
 
         
-            <a class="post-card-image-link" href="/monitoring-kubernetes-pods-services-etc/">
-                <img class="post-card-image"src="https://unsplash.com/photos/dBI_My696Rk/download" alt="Monitoring Kubernetes Pods/Services/etc"/>
+            <a class="post-card-image-link" href="/increase-maximum-file-size-server-allows/">
+                <img class="post-card-image"src="/uploads/2020/07/untitled.png" alt="Increase Maximum File Size Server Allows"/>
             </a>
         
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="/monitoring-kubernetes-pods-services-etc/">
+            <a class="post-card-content-link" href="/increase-maximum-file-size-server-allows/">
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Ghost</div>
+                    
+
+                    <h2 class="post-card-title">Increase Maximum File Size Server Allows</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>When setting up a blog server, as we did in Install Ghost on Linode Docker, you may have realized that sometimes the server does not like huge files. In order to up the maximum file size allowed, edit your ~/nginx-conf/default.conf
+server { ... client_max_body_size 500M; } Then restart your, in this site&rsquo;s case
+docker exec -it $DOCKER_POD_ID service nginx restart References https://etdofresh.com/install-ghost-on-linode-docker/
+https://www.tecmint.com/limit-file-upload-size-in-nginx/</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2020-57-07">5 July 2020</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+
+
+ ">
+
+        
+            <a class="post-card-image-link" href="/connecting-to-kubernetes-dashboard/">
+                <img class="post-card-image"src="https://unsplash.com/photos/uJmaoWQ64YY/download" alt="Connecting to Kubernetes Dashboard"/>
+            </a>
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/connecting-to-kubernetes-dashboard/">
                 <header class="post-card-header">
                     
                         
                         <div class="post-card-primary-tag">Kubernetes</div>
                     
 
-                    <h2 class="post-card-title">Monitoring Kubernetes Pods/Services/etc</h2>
+                    <h2 class="post-card-title">Connecting to Kubernetes Dashboard</h2>
                 </header>
     
                 <section class="post-card-excerpt">
-                    <p>I forgot this, and then found it out again. Figured I&rsquo;d just write a small memory fragment here&hellip;
-To monitor/watch a Kubernetes object&hellip;
-kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558-zfbfl 1/1 Running 0 10h etdofresh-wordpress-mariadb-0 1/1 Running 0 12h ghost-test2-669b4b469-gxw66 1/1 Running 0 5h43m ghost-test2-mariadb-0 1/1 Running 0 5h46m minio-688b86c7c4-qzglp 1/1 Running 0 4m38s And basically it just writes a new line if something happens.</p>
+                    <p>First install updated dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml Then start the dashboard
+kubectl proxy And finally, use a browser to open up the dashboard
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</p>
                 </section>
             </a>
 
@@ -185,55 +240,6 @@ kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558
                     <div class="post-card-byline-content">
                         <span>ETdoFresh</span>
                         <span class="post-card-byline-date"><time datetime="2020-67-07">5 July 2020</time>
-                            <span class="bull">&bull;</span> 1 min read</span>
-                    </div>
-                </footer>
-            </div>
-</article>
-    
-
-            <article class="post-card post
-
-
- ">
-
-        
-            <a class="post-card-image-link" href="/it-s-been-a-while-world/">
-                <img class="post-card-image"src="https://unsplash.com/photos/Q1p7bh3SHj8/download" alt="It&#39;s been a while, world!"/>
-            </a>
-        
-    
-        <div class="post-card-content">
-    
-            <a class="post-card-content-link" href="/it-s-been-a-while-world/">
-                <header class="post-card-header">
-                    
-                        
-                        <div class="post-card-primary-tag">Personal</div>
-                    
-
-                    <h2 class="post-card-title">It&#39;s been a while, world!</h2>
-                </header>
-    
-                <section class="post-card-excerpt">
-                    <p>Hi! I have realized I have not been writing in my blog. At all!
-So, I decided to go crazy and switch from Wordpress to Ghost as my blogging platform! Hope it pays off! I&rsquo;ll be working slowly but surely porting my old blog posts over here.
-So, what have I been up to? Well, I really want to start putting myself out there digitally. So, I&rsquo;m preparing steps to get out there.</p>
-                </section>
-            </a>
-
-            <footer class="post-card-meta">
-                    <ul class="author-list">
-                        <li class="author-list-item">
-                            <div class="author-name-tooltip">ETdoFresh</div>
-                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
-</a>
-                        </li>
-                    </ul>
-                    <div class="post-card-byline-content">
-                        <span>ETdoFresh</span>
-                        <span class="post-card-byline-date"><time datetime="2020-97-07">5 July 2020</time>
                             <span class="bull">&bull;</span> 1 min read</span>
                     </div>
                 </footer>

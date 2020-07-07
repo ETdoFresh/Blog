@@ -23,5 +23,16 @@ kubectl proxy And finally, use a browser to open up the dashboard
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/ I just use the kubeconfig file in my ~/.kube/config directory (or c:\users\my_username\.kube\config)</description>
     </item>
     
+    <item>
+      <title>Monitoring Kubernetes Pods/Services/etc</title>
+      <link>/monitoring-kubernetes-pods-services-etc/</link>
+      <pubDate>Sun, 05 Jul 2020 06:21:00 +0000</pubDate>
+      
+      <guid>/monitoring-kubernetes-pods-services-etc/</guid>
+      <description>I forgot this, and then found it out again. Figured I&amp;rsquo;d just write a small memory fragment here&amp;hellip;
+To monitor/watch a Kubernetes object&amp;hellip;
+kubectl get pod -w NAME READY STATUS RESTARTS AGE etdofresh-wordpress-7d8ff94558-zfbfl 1/1 Running 0 10h etdofresh-wordpress-mariadb-0 1/1 Running 0 12h ghost-test2-669b4b469-gxw66 1/1 Running 0 5h43m ghost-test2-mariadb-0 1/1 Running 0 5h46m minio-688b86c7c4-qzglp 1/1 Running 0 4m38s And basically it just writes a new line if something happens.</description>
+    </item>
+    
   </channel>
 </rss>
