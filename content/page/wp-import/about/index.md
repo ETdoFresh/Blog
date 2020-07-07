@@ -11,9 +11,9 @@ menu:
 ---
 # Edward Thomas Garcia _MBA MS_
 
-<div class="wp-block-image"> <figure class="alignright is-resized"><a href="/wp-content/uploads/2014/11/Garcia-Wedding-1121.jpg"><img src="/wp-content/uploads/2014/11/Garcia-Wedding-1121.jpg" alt="" class="wp-image-105" width="166" height="240" /></a></figure> </div>
+![](/uploads/uploads/2014/11/Garcia-Wedding-1121.jpg)
 
-I currently work at the <a rel="noreferrer noopener" href="http://www.uno.edu/" target="_blank">University of New Orleans</a> (UNO) as a Programmer Analyst. At work, I program in PeopleSoft’s PeopleCode and SQR, Oracle SQL, and sometimes some ASP.NET (C#). I love to program and create graphics for video games. I am also enrolled at UNO as a <a rel="noreferrer noopener" href="http://cs.uno.edu/academics/academics.php#master" target="_blank">Graduate Computer Science Student </a> where I am currently pursuing my interests in advanced topics in video games. Courses taken:
+I currently work at the [University of New Orleans](http://www.uno.edu) (UNO) as a Programmer Analyst. At work, I program in PeopleSoft’s PeopleCode and SQR, Oracle SQL, and sometimes some ASP.NET (C#). I love to program and create graphics for video games. I am also enrolled at UNO as a [Graduate Computer Science Student](http://cs.uno.edu/academics/academics.php#master) where I am currently pursuing my interests in advanced topics in video games. Courses taken:
 
 * CSCI 6220 \[Spring 2019\] – Software Testing and Quality Assurance
 * CSCI 7050 \[Spring 2019\] – Dissertation Research
