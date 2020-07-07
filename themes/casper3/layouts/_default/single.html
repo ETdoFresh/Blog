@@ -9,10 +9,10 @@
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
-        <article class="post-full post {{ if not (.Param "featured_image") }} no-image {{ end }}">
+        {{ $show_featured_image := and (.Param "featured_image") (not (.Param "hide_featured_image")) }}
+        <article class="post-full post {{ if not $show_featured_image }} no-image {{ end }}">
 
             <header class="post-full-header">
-
                 {{ with .Params.tags }}
                     {{ $primaryTag := (index . 0) }}
                     <section class="post-full-tags">
@@ -48,7 +48,7 @@
                 </div>
             </header>
 
-            {{ if .Param "featured_image" }}
+            {{ if $show_featured_image }}
             <figure class="post-full-image">
                 <img src="{{ .Param "featured_image" }}" alt="{{ .Title }}" />
             </figure>
