@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spriter on ETdoFresh</title>
+    <link>/tags/spriter/</link>
+    <description>Recent content in Spriter on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2017 17:57:18 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/spriter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cargo Bay 5</title>
+      <link>/cargo-bay-5/</link>
+      <pubDate>Thu, 02 Feb 2017 17:57:18 +0000</pubDate>
+      
+      <guid>/cargo-bay-5/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Larry ‘Mac’ Craters just got assigned to work the Cargo Bay on the CS Valkyrie. Help Larry get the cargo to the intended destinations and enjoy all that lack of appreciation from your superiors!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

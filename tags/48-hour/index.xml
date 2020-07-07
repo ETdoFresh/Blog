@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>48 Hour on ETdoFresh</title>
+    <link>/tags/48-hour/</link>
+    <description>Recent content in 48 Hour on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:45:15 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/48-hour/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home Wrecker!</title>
+      <link>/home-wrecker/</link>
+      <pubDate>Mon, 28 Jan 2019 00:45:15 +0000</pubDate>
+      
+      <guid>/home-wrecker/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A Global Game Jam game where a house runs around and eats people and materials to keep structural integrity.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Prisoner’s Decree</title>
+      <link>/a-prisoners-decree/</link>
+      <pubDate>Mon, 03 Dec 2018 04:34:12 +0000</pubDate>
+      
+      <guid>/a-prisoners-decree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Balloon Boys</title>
+      <link>/water-balloon-boys/</link>
+      <pubDate>Tue, 28 Feb 2012 02:02:56 +0000</pubDate>
+      
+      <guid>/water-balloon-boys/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://youtu.be/gKKhb29j-Ow &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

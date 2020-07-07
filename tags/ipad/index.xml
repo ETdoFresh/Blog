@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iPad on ETdoFresh</title>
+    <link>/tags/ipad/</link>
+    <description>Recent content in iPad on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Mar 2018 14:19:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replacing Windows Laptop with iPad Pro 2 – Part 1</title>
+      <link>/replacing-windows-laptop-with-ipad-pro-2-part-1/</link>
+      <pubDate>Sat, 31 Mar 2018 14:19:16 +0000</pubDate>
+      
+      <guid>/replacing-windows-laptop-with-ipad-pro-2-part-1/</guid>
+      <description>The Current Situation I’m a computer programmer and a computer science master’s/PhD student. I’ve decided to try an experiment to replace my existing 13.3″ HP Spectre x360 Windows Laptop (awesome laptop by the way) with the 12.9″ iPad Pro 2 . I plan to write a few blog posts that summarize my experience.
+As far as Apple products go, I have an iPhone 7 Plus. It’s my only Apple product, and it has been a good purchase.</description>
+    </item>
+    
+  </channel>
+</rss>

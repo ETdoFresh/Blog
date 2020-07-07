@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Git on Windows (Cygwin and Git Extensions) · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">Git on Windows (Cygwin and Git Extensions)</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2011-12-02">21 February 2011</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 3 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Dear Blog,</p>
+<!-- raw HTML omitted -->
+<p>Setting up git (Version Control System) really did suck on Windows. It wasn’t a simple install this package, and all your problems are solved. I had major issues trying to use PuTTy, plink, and copSSH, which I believe most people use if they are using git on windows. I’m doing the cygwin approach. It’s soo much easier (to me at least). Setting up the server kind of sucks, but the client is easy. I’ll show how to setup the client today, and put up another post very shortly on how to setup a git server on windows using these exact same files.</p>
+<h1 id="step-1-8211-download-and-install-cygwin">Step 1 – Download and install Cygwin</h1>
+<!-- raw HTML omitted -->
+<p>Download cygwin from <a href="http://www.cygwin.com/">http://www.cygwin.com/</a> (<a href="http://www.cygwin.com/setup.exe">Even Quicker Link</a>)</p>
+<ul>
+<li>Run <strong>setup.exe</strong></li>
+<li>Click <strong>Next &gt;</strong></li>
+<li>Select <strong>Install from Internet</strong>. Click <strong>Next &gt;</strong></li>
+<li>Keep Root Directory <strong>C:cygwin</strong>, and <strong>Select All Users (RECOMMENDED)</strong>. Click <strong>Next &gt;</strong></li>
+<li>Personally, I change Local Package Directory to <strong>C:cygwinpackages</strong>. But wherever is fine.</li>
+<li>Select <strong>Direct Connection</strong>, Click <strong>Next &gt;</strong></li>
+<li>Select a mirror (I use <a href="http://mirror.cs.vt.edu">http://mirror.cs.vt.edu</a>), Click <strong>Next &gt;</strong></li>
+<li>Should get a Setup Alert, Click <strong>OK</strong></li>
+<li>Select <strong>All &gt; Devel &gt; git</strong>. Select <strong>All &gt; Net &gt; openssh</strong>. Click <strong>Next &gt;</strong></li>
+<li>Make sure Select required packages is checked, Click <strong>Next &gt;</strong></li>
+<li>Let it download and install</li>
+<li>Click <strong>Finish</strong></li>
+<li>Run it once. You should get a unix command prompt. Type in git<!-- raw HTML omitted -->, and you should see a list of options. Type in ssh<!-- raw HTML omitted -->, and you should also get a list of options.</li>
+<li>If all looks alright, you are done with Cygwin (if you are just using this as a client)</li>
+</ul>
+<h1 id="step-2-8211-download-and-install-git-extensions">Step 2 – Download and install Git Extensions</h1>
+<!-- raw HTML omitted -->
+<p>Download gitextensions MSI file from <a href="http://code.google.com/p/gitextensions/">http://code.google.com/p/gitextensions/</a> (<a href="http://code.google.com/p/gitextensions/downloads/list">Even Quicker Link</a>)</p>
+<ul>
+<li>Run msi <strong>installer</strong></li>
+<li>Click <strong>Next</strong></li>
+<li>Verify path is OK for you. Click <strong>Next</strong></li>
+<li>Leave default options if you want, Click <strong>Next</strong></li>
+<li>Select <strong>OpenSSH</strong>, Click <strong>Next</strong></li>
+<li>Click <strong>Install</strong></li>
+<li>Let it install</li>
+<li>Click <strong>Finish</strong></li>
+<li>Note: If you are prompted to install msysgit and kdiff3, just install kdiff3… otherwise download and install <a href="http://kdiff3.sourceforge.net/">kdiff3</a> (or whatever diff software you like)</li>
+</ul>
+<h1 id="step-3-8211-setup-git-extensions">Step 3 – Setup Git Extensions</h1>
+<!-- raw HTML omitted -->
+<ul>
+<li>Run Git Extensions</li>
+<li>Select English (if you perfer) – The UK flag!</li>
+<li>In settings (which should pop up right away) Select the Git tab
+<ul>
+<li>Set command used to run git as <strong>C:cygwinbingit.exe</strong></li>
+<li>Set Path to linux tools as <strong>C:cygwinbin</strong></li>
+</ul>
+</li>
+<li>Select Global settings
+<ul>
+<li>Set perferred username and user email</li>
+</ul>
+</li>
+<li>Select Ssh
+<ul>
+<li>Ensure <strong>OpenSSH</strong> is selected</li>
+</ul>
+</li>
+</ul>
+<h1 id="step-4-8211-use-git">Step 4 – Use Git</h1>
+<!-- raw HTML omitted -->
+<ul>
+<li>Click <strong>Clone repository</strong></li>
+<li>For Repository to clone, type in your <strong>server</strong> or directory (ie ssh://username@my.server.com/git/test.git)</li>
+<li>Set Destination and subdirectory appropriately. Click <strong>Clone</strong>.</li>
+<li>Log into your SSH server.</li>
+<li>Click <strong>OK</strong> on success (I hope!)</li>
+<li>Click <strong>Yes</strong> to view your repository.</li>
+<li>You will only have to log into your SSH on every push (not for every commit)</li>
+<li>Now get to work!</li>
+</ul>
+<p>So, I know the issues I ran into using the putty, plink, msysgit may not be normal. But it definitely was a problem for me. So, here is my how-to on Cygwin and Git Extension, and I love this setup. I’ll get to that server how-to in the next couple of days. Later!</p>
+<p>– ETdoFresh</p>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/corona-simulator-shortcut/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Corona Simulator shortcut</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Dear Blog,
+I decided that I am going to use Ansca Corona to develop a game I’m working on vs. Airplay SDK. This LUA language is soo much easier than C++. I still would love to have my games programmed in C++, but for just me, it’ll take too long to get to my final destination. So, LUA it is! Anyway, here is a quick batch file that I like to keep in my projects directory so all I have to do is drag the folder to this batch file, or type in the name of the porject I’m working on.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2011-51-01">28 January 2011</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/old-me-vs-new-me/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Old-Me vs New-Me</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Dear Blog,
+At work, doing my thing, and I decided to look at myself a year ago and today. Well, I’m on my way to having long hair again (but probably chop it off way before I get close). I still get scruffly faced (beard-wise). I seem to be more outgoing last year vs today, but that’s OK. I’m being a programmer this year anyway. I am planting a new batch of vegetables and herbs, like last year.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2011-73-03">11 March 2011</time>
+                            <span class="bull">&bull;</span> 3 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2011</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

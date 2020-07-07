@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GameMaker on ETdoFresh</title>
+    <link>/tags/gamemaker/</link>
+    <description>Recent content in GameMaker on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2014 07:19:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gamemaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guerra</title>
+      <link>/intro-to-guerra/</link>
+      <pubDate>Mon, 29 Sep 2014 07:19:44 +0000</pubDate>
+      
+      <guid>/intro-to-guerra/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Guerra is Spanish for War! This was the title of a childhood game that I used to play with my friends. It was a mixture between action and the game of Memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman HD Clone</title>
+      <link>/intro-to-pacman-hd-clone/</link>
+      <pubDate>Tue, 25 Feb 2014 23:24:46 +0000</pubDate>
+      
+      <guid>/intro-to-pacman-hd-clone/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I used GameMaker many years ago on a much earlier version (and less featured), but this is my first attempt to jump in using GML language.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

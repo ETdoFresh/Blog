@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on ETdoFresh</title>
+    <link>/tags/game/</link>
+    <description>Recent content in Game on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2019 07:00:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asteroids (Local and Network)</title>
+      <link>/asteroids-local-and-network/</link>
+      <pubDate>Sat, 14 Sep 2019 07:00:04 +0000</pubDate>
+      
+      <guid>/asteroids-local-and-network/</guid>
+      <description>&amp;lt;div class=&amp;quot;fullscreen&amp;quot; onclick=&amp;quot;gameInstance.SetFullscreen(1)&amp;quot;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;title&amp;quot;&amp;gt; Asteroids &amp;lt;/div&amp;gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</description>
+    </item>
+    
+    <item>
+      <title>Home Wrecker!</title>
+      <link>/home-wrecker/</link>
+      <pubDate>Mon, 28 Jan 2019 00:45:15 +0000</pubDate>
+      
+      <guid>/home-wrecker/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A Global Game Jam game where a house runs around and eats people and materials to keep structural integrity.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Camelot</title>
+      <link>/camelot/</link>
+      <pubDate>Sat, 24 Jun 2017 19:11:42 +0000</pubDate>
+      
+      <guid>/camelot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Use of Force Simulation</title>
+      <link>/police-use-of-force-simulation/</link>
+      <pubDate>Mon, 15 May 2017 19:14:06 +0000</pubDate>
+      
+      <guid>/police-use-of-force-simulation/</guid>
+      <description>I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I’ve worked on with the Narrative Intelligence Laboratoryat the University of New Orleans. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.</description>
+    </item>
+    
+    <item>
+      <title>Cargo Bay 5</title>
+      <link>/cargo-bay-5/</link>
+      <pubDate>Thu, 02 Feb 2017 17:57:18 +0000</pubDate>
+      
+      <guid>/cargo-bay-5/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Larry ‘Mac’ Craters just got assigned to work the Cargo Bay on the CS Valkyrie. Help Larry get the cargo to the intended destinations and enjoy all that lack of appreciation from your superiors!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sokoban</title>
+      <link>/sokoban/</link>
+      <pubDate>Thu, 03 Dec 2015 19:20:01 +0000</pubDate>
+      
+      <guid>/sokoban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City Attempt 2</title>
+      <link>/sand-city-attempt-2/</link>
+      <pubDate>Thu, 24 Sep 2015 19:16:43 +0000</pubDate>
+      
+      <guid>/sand-city-attempt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City</title>
+      <link>/sandcity/</link>
+      <pubDate>Sun, 19 Jul 2015 19:17:59 +0000</pubDate>
+      
+      <guid>/sandcity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ninja-Time Strategy!</title>
+      <link>/intro-to-ninja-time-strategy/</link>
+      <pubDate>Thu, 30 Oct 2014 07:58:49 +0000</pubDate>
+      
+      <guid>/intro-to-ninja-time-strategy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This game is quite different. It’s not one of those games I’ve been dying to make for many years. On the flip-side, I decided to try to make a game on a “whim”. I also was very interested in HTML5 before I started, so this was a perfect opportunity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cannon Fodder</title>
+      <link>/cannon-fodder/</link>
+      <pubDate>Thu, 14 Aug 2014 19:32:16 +0000</pubDate>
+      
+      <guid>/cannon-fodder/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://www.youtube.com/watch?v=Qs-dk3yM_jw &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  https://etdofresh.github.io/CannonFodderPlay Now!
+https://github.com/ETdoFresh/CannonFodderSource Code</description>
+    </item>
+    
+    <item>
+      <title>Pacman HD Clone</title>
+      <link>/intro-to-pacman-hd-clone/</link>
+      <pubDate>Tue, 25 Feb 2014 23:24:46 +0000</pubDate>
+      
+      <guid>/intro-to-pacman-hd-clone/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I used GameMaker many years ago on a much earlier version (and less featured), but this is my first attempt to jump in using GML language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Water Balloon Boys</title>
+      <link>/water-balloon-boys/</link>
+      <pubDate>Tue, 28 Feb 2012 02:02:56 +0000</pubDate>
+      
+      <guid>/water-balloon-boys/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://youtu.be/gKKhb29j-Ow &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

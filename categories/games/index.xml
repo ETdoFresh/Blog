@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on ETdoFresh</title>
+    <link>/categories/games/</link>
+    <description>Recent content in Games on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:45:15 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home Wrecker!</title>
+      <link>/home-wrecker/</link>
+      <pubDate>Mon, 28 Jan 2019 00:45:15 +0000</pubDate>
+      
+      <guid>/home-wrecker/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A Global Game Jam game where a house runs around and eats people and materials to keep structural integrity.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe Post-Mortem Game Dev Meetup</title>
+      <link>/honest-abe-post-mortem-game-dev-meetup/</link>
+      <pubDate>Thu, 19 May 2016 21:27:17 +0000</pubDate>
+      
+      <guid>/honest-abe-post-mortem-game-dev-meetup/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Prototype Started</title>
+      <link>/prototype-started/</link>
+      <pubDate>Mon, 09 May 2016 04:21:10 +0000</pubDate>
+      
+      <guid>/prototype-started/</guid>
+      <description>&lt;p&gt;Covered today: 2D Sprites and Sprite Sheets, Animations, Movement&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So today I decided to work on the prototype for Cargo Bay 5 just so our team can start to get the “feel” for what we are talking about. I got a 2D character animated and moving across the screen for my first official episode of my Season/Shelf 05 streams.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe – Week 1 – Humble Beginnings…</title>
+      <link>/honest-abe-week-1-humbling-beginnings/</link>
+      <pubDate>Sun, 24 Jan 2016 03:21:11 +0000</pubDate>
+      
+      <guid>/honest-abe-week-1-humbling-beginnings/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So it was decided! &lt;strong&gt;Honest Abe&lt;/strong&gt; is the game, &lt;!-- raw HTML omitted --&gt;Unity&lt;!-- raw HTML omitted --&gt; is going to be our platform, and &lt;!-- raw HTML omitted --&gt;git&lt;!-- raw HTML omitted --&gt; is going to be our version control! &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CSCI 5675 – Game Pitches</title>
+      <link>/csci-5675-game-pitches/</link>
+      <pubDate>Wed, 13 Jan 2016 03:14:18 +0000</pubDate>
+      
+      <guid>/csci-5675-game-pitches/</guid>
+      <description>So today was all about the Game Pitches and Assigning Roles. Here is my game pitch and the winning game pitch, Honest Abe!
+ H20 Wars Pitch Honest Abe Pitch (WINNER!)  My two roles: Artist and Developer!</description>
+    </item>
+    
+    <item>
+      <title>CSCI 5675 – Advanced Game Development Introduction</title>
+      <link>/csci-5675-advanced-game-development-introduction/</link>
+      <pubDate>Mon, 11 Jan 2016 03:09:37 +0000</pubDate>
+      
+      <guid>/csci-5675-advanced-game-development-introduction/</guid>
+      <description>I have decided to go back in time and write a series of Post-Mortem blog entries. I’ll try to cover interesting areas, discoveries, and problems we faced along the way.
+So here we are, a group of 10 Computer Science Students meeting in Mathematics Building 118 at 3:00 PM on Monday January 11, 2016 at the University of New Orleans. We go over the syllabus, and our teacher explains what this class (Syllabus Here) will simulate a Game Development Company.</description>
+    </item>
+    
+    <item>
+      <title>Ninja-Time Strategy!</title>
+      <link>/intro-to-ninja-time-strategy/</link>
+      <pubDate>Thu, 30 Oct 2014 07:58:49 +0000</pubDate>
+      
+      <guid>/intro-to-ninja-time-strategy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This game is quite different. It’s not one of those games I’ve been dying to make for many years. On the flip-side, I decided to try to make a game on a “whim”. I also was very interested in HTML5 before I started, so this was a perfect opportunity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guerra</title>
+      <link>/intro-to-guerra/</link>
+      <pubDate>Mon, 29 Sep 2014 07:19:44 +0000</pubDate>
+      
+      <guid>/intro-to-guerra/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Guerra is Spanish for War! This was the title of a childhood game that I used to play with my friends. It was a mixture between action and the game of Memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Cannon Fodder Clone</title>
+      <link>/intro-to-cannon-fodder-clone/</link>
+      <pubDate>Wed, 20 Aug 2014 06:51:07 +0000</pubDate>
+      
+      <guid>/intro-to-cannon-fodder-clone/</guid>
+      <description>&lt;p&gt;One of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman HD Clone</title>
+      <link>/intro-to-pacman-hd-clone/</link>
+      <pubDate>Tue, 25 Feb 2014 23:24:46 +0000</pubDate>
+      
+      <guid>/intro-to-pacman-hd-clone/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I used GameMaker many years ago on a much earlier version (and less featured), but this is my first attempt to jump in using GML language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman XNA C#</title>
+      <link>/pacman-xna-c/</link>
+      <pubDate>Tue, 31 Dec 2013 00:10:52 +0000</pubDate>
+      
+      <guid>/pacman-xna-c/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This was my first and last XNA project. It’s not because I didn’t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Water Balloon Boys</title>
+      <link>/intro-to-water-balloon-boys/</link>
+      <pubDate>Mon, 25 Feb 2013 06:49:38 +0000</pubDate>
+      
+      <guid>/intro-to-water-balloon-boys/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2014/11/WaterGunBoyzDemo.mp4&#34;&gt;http://www.etdofresh.com/wp-content/uploads/2014/11/WaterGunBoyzDemo.mp4&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Water Balloon Boys is an action adventure game that I have been wanting to create. It’s a game where Angry Bird meets an Action Game. The player takes control of a kid who can throw water balloons by winding his arm back, and letting the balloon fly!&lt;/p&gt;
+&lt;p&gt;Here’s a version of the game I tried to create in the past for a 48 hour video game competition.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

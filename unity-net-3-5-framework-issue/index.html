@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Unity .NET 3.5 Framework Issue · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+                    
+                    <section class="post-full-tags">
+                        <a href="/tags/unity">Unity</a>
+                    </section>
+                
+
+                <h1 class="post-full-title">Unity .NET 3.5 Framework Issue</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2017-42-02">4 February 2017</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <ul>
+<li>I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.</li>
+</ul>
+<h2 id="the-issue">The Issue</h2>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2017/02/62433-unity-capture.png"><!-- raw HTML omitted --></a></p>
+<p>When loading C# scripts from Unity into Visual Studio, we would get “The C# project “xxx” is targeting “.NETFramework, Version=v3.5,Profile=Unity Subset v3.5″, which is not installed on this machine”. So obviously, we just install .NET 3.5 right?</p>
+<h2 id="next-issue">Next Issue</h2>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2017/02/0x800f081f.png"><!-- raw HTML omitted --></a></p>
+<p>We would then try to install .NET 3.5 and get this issue! I tried the following right afterwards.</p>
+<ul>
+<li>Uninstall reinstall Visual Studio</li>
+<li>Uninstall reinstall Unity</li>
+</ul>
+<h2 id="the-solution">The Solution</h2>
+<p>So the only thing that seemed to work for me is to actually get .NET 3.5 to install… hence I found this on a <a href="https://answers.microsoft.com/en-us/windows/forum/windows_8-update/net-framework-35-fails-to-install-with-error-code/458928d0-57d4-42dc-8459-cfa61e107047">Microsoft forum</a>:</p>
+<ol>
+<li>Delete the key: HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate</li>
+<li>Open CMD as administrator</li>
+<li>net stop wuauserv</li>
+<li>net start wuauserv</li>
+<li>Download and install this: <a href="https://www.microsoft.com/en-gb/download/details.aspx?id=21">https://www.microsoft.com/en-gb/download/details.aspx?id=21</a></li>
+</ol>
+<p>And that ended up working! Yay!</p>
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+    
+    <article class="read-next-card">
+        <header class="read-next-card-header">
+            <h3><span>More in</span> <a href="/tags/unity">Unity</a></h3>
+        </header>
+        <div class="read-next-card-content">
+            <ul>
+                
+            </ul>
+        </div>
+    </article>
+<article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/star-wars-return-of-the-jedi-sketch/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Star Wars Return of the Jedi Sketch</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Still have proportion issues, but I figure the more I sketch the better I’ll get.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2017-52-02">3 February 2017</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/car-model/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Car Model</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Still having issues with proportions. I probably just need to measure more before putting “pencil to paper”.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2017-42-02">5 February 2017</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2017</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

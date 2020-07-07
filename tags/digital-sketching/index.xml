@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Sketching on ETdoFresh</title>
+    <link>/tags/digital-sketching/</link>
+    <description>Recent content in Digital Sketching on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Dec 2018 04:34:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/digital-sketching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Prisoner’s Decree</title>
+      <link>/a-prisoners-decree/</link>
+      <pubDate>Mon, 03 Dec 2018 04:34:12 +0000</pubDate>
+      
+      <guid>/a-prisoners-decree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turkey Wurkey</title>
+      <link>/turkey-wurkey/</link>
+      <pubDate>Sat, 28 Jan 2017 01:42:05 +0000</pubDate>
+      
+      <guid>/turkey-wurkey/</guid>
+      <description>Quick Sketching of random stuff</description>
+    </item>
+    
+    <item>
+      <title>First drawing… Squirrel!</title>
+      <link>/first-drawing-squirrel/</link>
+      <pubDate>Fri, 27 Jan 2017 03:42:25 +0000</pubDate>
+      
+      <guid>/first-drawing-squirrel/</guid>
+      <description>Using gimp and hp spectre x360</description>
+    </item>
+    
+  </channel>
+</rss>

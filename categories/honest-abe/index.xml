@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honest Abe on ETdoFresh</title>
+    <link>/categories/honest-abe/</link>
+    <description>Recent content in Honest Abe on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 May 2016 21:27:17 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/honest-abe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Honest Abe Post-Mortem Game Dev Meetup</title>
+      <link>/honest-abe-post-mortem-game-dev-meetup/</link>
+      <pubDate>Thu, 19 May 2016 21:27:17 +0000</pubDate>
+      
+      <guid>/honest-abe-post-mortem-game-dev-meetup/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe – Week 1 – Humble Beginnings…</title>
+      <link>/honest-abe-week-1-humbling-beginnings/</link>
+      <pubDate>Sun, 24 Jan 2016 03:21:11 +0000</pubDate>
+      
+      <guid>/honest-abe-week-1-humbling-beginnings/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So it was decided! &lt;strong&gt;Honest Abe&lt;/strong&gt; is the game, &lt;!-- raw HTML omitted --&gt;Unity&lt;!-- raw HTML omitted --&gt; is going to be our platform, and &lt;!-- raw HTML omitted --&gt;git&lt;!-- raw HTML omitted --&gt; is going to be our version control! &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

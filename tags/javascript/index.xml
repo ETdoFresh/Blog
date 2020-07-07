@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on ETdoFresh</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in JavaScript on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 22:59:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Media Center Canvas</title>
+      <link>/windows-media-center-canvas/</link>
+      <pubDate>Sun, 16 Dec 2018 22:59:00 +0000</pubDate>
+      
+      <guid>/windows-media-center-canvas/</guid>
+      <description>&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;  EDIT: Project has been shelved due to school starting.</description>
+    </item>
+    
+    <item>
+      <title>Ninja-Time Strategy!</title>
+      <link>/intro-to-ninja-time-strategy/</link>
+      <pubDate>Thu, 30 Oct 2014 07:58:49 +0000</pubDate>
+      
+      <guid>/intro-to-ninja-time-strategy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This game is quite different. It’s not one of those games I’ve been dying to make for many years. On the flip-side, I decided to try to make a game on a “whim”. I also was very interested in HTML5 before I started, so this was a perfect opportunity.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

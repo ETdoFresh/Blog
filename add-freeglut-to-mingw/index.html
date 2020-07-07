@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Add Freeglut to MinGW · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">Add Freeglut to MinGW</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2016-58-08">30 August 2016</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>More setup! Joy!</p>
+<p>After setting up MinGW from our <a href="http://www.etdofresh.com/setting-up-c-makefile-project-in-visual-studio/">previous post</a>, now we want to add a package called freeglut to our MinGW directory so we can some graphics to our programs.</p>
+<ul>
+<li>Download freeglut for MinGW from (<a href="http://www.transmissionzero.co.uk/computing/using-glut-with-mingw/">http://www.transmissionzero.co.uk/computing/using-glut-with-mingw/</a>)</li>
+<li>Copy the contents into C:\MinGW (or wherever you installed MinGW)</li>
+</ul>
+<p>OK! Done!</p>
+<p>Let’s try a sample program:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Then let’s compile it.</p>
+<!-- raw HTML omitted -->
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/setting-up-c-makefile-project-in-visual-studio/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Setting up C&#43;&#43; Makefile Project in Visual Studio</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p><p><!-- raw HTML omitted -->For my computer graphics course, I have to submit all my projects using C++, compiled using g++ and a Makefile.</p>
+<p>If you don’t know what a Makefile is, it’s basically a list of steps/depencies to get to the final product. For example, to end up with DogSimulator.exe, you will need to run g++ on DogSimulator.o and Dog.o (compiled objects). And the prerequisites to DogSimulator.o and Dog.o are DogSimulator.cpp and Dog.cpp respectively.</p>
+<p>It’s not too hard in the terminal, because once you have all your files in the terminal, you just type “make” and the magic ensues. But I’m a snob for my Visual Studio IDE, so I am going to set it up there. Haha.</p></p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-78-08">26 August 2016</time>
+                            <span class="bull">&bull;</span> 2 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/forget-cmake-mingw-makefiles-whats-up-cmake-visual-studio-solution/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Forget MinGW Makefiles… What’s up Visual Studio?</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p><p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/CSCI5631-SmallVictory.png"><!-- raw HTML omitted --></a>Hours…. literally a handful of hours trying to setup MinGW for my class projects. Yeah, MinGW was kicking my butt… I just threw my hands up, waved the white flag, and gave up. You may have saw in the <a href="http://www.etdofresh.com/add-freeglut-to-mingw/">last post</a> that we did get Freeglut working… but once it came to glew32, it all came unglued.</p></p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-129-09">1 September 2016</time>
+                            <span class="bull">&bull;</span> 2 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2016</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

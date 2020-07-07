@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Discord Notification of Unity Cloud Build via Webhooks · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+                    
+                    <section class="post-full-tags">
+                        <a href="/tags/unity">Unity</a>
+                    </section>
+                
+
+                <h1 class="post-full-title">Discord Notification of Unity Cloud Build via Webhooks</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2017-23-03">13 March 2017</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 2 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p><strong>EDIT</strong>: Looks like Unity Cloud Build now has this built in! Yay! Thanks for those that did donated! Hope it helped you out in the interim!<!-- raw HTML omitted --></p>
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2019/03/image.png"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2017/03/webhook01.png"><!-- raw HTML omitted --></a></p>
+<p>I wanted to write a small blog post about how to show notifications on your Discord channel when a cloud build is ready. Here are the steps:</p>
+<ol>
+<li>(Optional) Add a channel where build notifications will appear</li>
+<li>Setup webhook URL in Discord</li>
+<li>Setup translation webhook</li>
+<li>Connect webhook URL to Unity Cloud Build</li>
+<li>Done!</li>
+</ol>
+<h3 id="add-builds-channel-optional">Add #builds Channel (optional)</h3>
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2017/03/path4529-2-4.png"><!-- raw HTML omitted --></a></p>
+<p>If you like to keep the build information in a separate channel, create a new channel such as #builds in Discord</p>
+<h3 id="setup-webhook-in-discord">Setup Webhook in Discord</h3>
+<p>The goal here is to get Discord’s webhook URL. Follow these steps:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="setup-translation-webhook">Setup Translation Webhook</h3>
+<p>Until Unity Cloud Build or Discord comes up with a way to produce/consume each other’s webhook, I came up with a solution that translates Unity Cloud Build’s webhook into a Discord webhook. Here’s how to set it up:</p>
+<p>Create a new Translation Webhook: <a href="https://www.etdofresh.com/webhook/translate.php?from=unity&amp;to=discord">https://www.etdofresh.com/webhook/translate.php?from=unity&amp;to=discord</a></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Feel free to change Username and Avatar URL if you like.</p>
+<h3 id="connect-webhook-to-unity-cloud-build">Connect Webhook to Unity Cloud Build</h3>
+<p>Now we have to connect the webhook to Unity Cloud Build. Navigate to your project’s Cloud Build under <a href="https://developer.cloud.unity3d.com/projects/">https://developer.cloud.unity3d.com/projects/</a>. Then go to the Notifications Tab and click “Add New Webhook”</p>
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2017/03/path4612.png"><!-- raw HTML omitted --></a></p>
+<p>Then paste your Webhook URL, setup the webhook as you like, and Save!</p>
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2017/03/webhook03.png"><!-- raw HTML omitted --></a></p>
+<p>Give it a ping to make sure it works!</p>
+<p><a href="https://www.etdofresh.com/wp-content/uploads/2017/03/webhook04.png"><!-- raw HTML omitted --></a></p>
+<p> </p>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+    
+    <article class="read-next-card">
+        <header class="read-next-card-header">
+            <h3><span>More in</span> <a href="/tags/unity">Unity</a></h3>
+        </header>
+        <div class="read-next-card-content">
+            <ul>
+                
+            </ul>
+        </div>
+    </article>
+<article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/jar-sketch/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Jar Sketch</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>I need to start getting back to it!</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2017-63-03">6 March 2017</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/creating-a-managed-3d-physics-engine-in-c-part-i-introduction/">
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Physics</div>
+                    
+
+                    <h2 class="post-card-title">Creating a Managed 3D Physics Engine in C# – Part I – Introduction</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Before I knew the existence of Jitter Physics (which is what I’ll end up using), I decided to try to make my own Physics Engine following Game Physics Engine Developmnet by Ian Millington, and basically got stuck somewhere when making Contact Resolvers for Rigidbodies. However, I wanted to share my experience making Physics Engine, hopefully as briefly as I can while still making sense.
+Base Data Types Before we get started in creating the very best physics engine (right?</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2017-65-05">6 May 2017</time>
+                            <span class="bull">&bull;</span> 3 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2017</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

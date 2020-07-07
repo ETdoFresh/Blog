@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photoshop on ETdoFresh</title>
+    <link>/tags/photoshop/</link>
+    <description>Recent content in Photoshop on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2014 07:58:49 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ninja-Time Strategy!</title>
+      <link>/intro-to-ninja-time-strategy/</link>
+      <pubDate>Thu, 30 Oct 2014 07:58:49 +0000</pubDate>
+      
+      <guid>/intro-to-ninja-time-strategy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This game is quite different. It’s not one of those games I’ve been dying to make for many years. On the flip-side, I decided to try to make a game on a “whim”. I also was very interested in HTML5 before I started, so this was a perfect opportunity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guerra</title>
+      <link>/intro-to-guerra/</link>
+      <pubDate>Mon, 29 Sep 2014 07:19:44 +0000</pubDate>
+      
+      <guid>/intro-to-guerra/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Guerra is Spanish for War! This was the title of a childhood game that I used to play with my friends. It was a mixture between action and the game of Memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman HD Clone</title>
+      <link>/intro-to-pacman-hd-clone/</link>
+      <pubDate>Tue, 25 Feb 2014 23:24:46 +0000</pubDate>
+      
+      <guid>/intro-to-pacman-hd-clone/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I used GameMaker many years ago on a much earlier version (and less featured), but this is my first attempt to jump in using GML language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman XNA C#</title>
+      <link>/pacman-xna-c/</link>
+      <pubDate>Tue, 31 Dec 2013 00:10:52 +0000</pubDate>
+      
+      <guid>/pacman-xna-c/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This was my first and last XNA project. It’s not because I didn’t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Water Balloon Boys</title>
+      <link>/intro-to-water-balloon-boys/</link>
+      <pubDate>Mon, 25 Feb 2013 06:49:38 +0000</pubDate>
+      
+      <guid>/intro-to-water-balloon-boys/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2014/11/WaterGunBoyzDemo.mp4&#34;&gt;http://www.etdofresh.com/wp-content/uploads/2014/11/WaterGunBoyzDemo.mp4&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Water Balloon Boys is an action adventure game that I have been wanting to create. It’s a game where Angry Bird meets an Action Game. The player takes control of a kid who can throw water balloons by winding his arm back, and letting the balloon fly!&lt;/p&gt;
+&lt;p&gt;Here’s a version of the game I tried to create in the past for a 48 hour video game competition.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

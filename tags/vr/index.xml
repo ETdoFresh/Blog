@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VR on ETdoFresh</title>
+    <link>/tags/vr/</link>
+    <description>Recent content in VR on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2017 19:14:06 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Police Use of Force Simulation</title>
+      <link>/police-use-of-force-simulation/</link>
+      <pubDate>Mon, 15 May 2017 19:14:06 +0000</pubDate>
+      
+      <guid>/police-use-of-force-simulation/</guid>
+      <description>I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I’ve worked on with the Narrative Intelligence Laboratoryat the University of New Orleans. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.</description>
+    </item>
+    
+  </channel>
+</rss>

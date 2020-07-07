@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photogrammetry on ETdoFresh</title>
+    <link>/tags/photogrammetry/</link>
+    <description>Recent content in Photogrammetry on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jul 2014 00:55:28 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/photogrammetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to Photogrammetry</title>
+      <link>/intro-to-photogrammetry/</link>
+      <pubDate>Tue, 01 Jul 2014 00:55:28 +0000</pubDate>
+      
+      <guid>/intro-to-photogrammetry/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry00.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;Another awesome tool that is available for independent game developers is Photogrammetry. This takes real world objects and put them into formats such as OBJ, FBX, etc so that you can use on software such as 3dsmax and Mudbox which can then end up finally in Unity or other game engines!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Media Center on ETdoFresh</title>
+    <link>/tags/windows-media-center/</link>
+    <description>Recent content in Windows Media Center on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 22:59:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/windows-media-center/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Media Center Canvas</title>
+      <link>/windows-media-center-canvas/</link>
+      <pubDate>Sun, 16 Dec 2018 22:59:00 +0000</pubDate>
+      
+      <guid>/windows-media-center-canvas/</guid>
+      <description>&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;  EDIT: Project has been shelved due to school starting.</description>
+    </item>
+    
+  </channel>
+</rss>

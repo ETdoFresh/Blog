@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XNA on ETdoFresh</title>
+    <link>/tags/xna/</link>
+    <description>Recent content in XNA on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Dec 2013 00:10:52 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/xna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pacman XNA C#</title>
+      <link>/pacman-xna-c/</link>
+      <pubDate>Tue, 31 Dec 2013 00:10:52 +0000</pubDate>
+      
+      <guid>/pacman-xna-c/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This was my first and last XNA project. It’s not because I didn’t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

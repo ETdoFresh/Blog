@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>10 ten 10 – Saturday… · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">10 ten 10 – Saturday…</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2009-46-06">21 June 2009</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 4 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Dear Blog,</p>
+<p>It’s Saturday, and what a wonderful Saturday it is! Tomorrow my brother’s wife and kids come back! Very exciting for everyone here! Well, we split all the house work between us, and got the whole house done. It looks nice now, and ready for the family.</p>
+<!-- raw HTML omitted -->
+<p>Oh yeah, we were up soo freaking late last night just trying to get Mac OS X on my laptop. But, wow! After all those hours, and some hours today, We finally got it! At the end of this blog, I’ll kind of go into detail what I got, and what we did to get this working. It was tough work, but the solution is easy (once you know what you’re doing).</p>
+<p>So since I slept late yesterday, I woke up about 12PM today. Way too late! I had Yogurt and a leftover taco this morning.</p>
+<!-- raw HTML omitted -->
+<p>But dinner time was muuchhh better. My brother, my mom, and I went to La Madeline. I had a Caesar Salad with Chicken. Delicious. I also had lotsa of bread and jam. You got to love the free food, right? Anyway, it’s probably one of the last times of my trip that we will be able to go out and eat. So it was most definitely good times.</p>
+<p>Alright, alright, so for the details on this Mac OS X install on my laptop. My computer is an E1405 with a Dell Wireless Card (Thanks, Alex!), Sigmatel 9200 Sound, and 27A2 Intel 945 Graphics. So first, We got the aitkos 10.5.5 Mac OS X Install DVD, and here are the options I set during the install (that wasn’t set by default)</p>
+<p><em><strong>Very Important Note</strong>: Disable multi-core processor in BIOS before install. If you don’t, your computer will LAG big time! So watch it!</em></p>
+<p>-x86 AHCI (for my PS/2 keyboard and mouse)</p>
+<p>-950 GM A (not B)… good software renderer that let’s you use your full resolution</p>
+<p>-Intel SATA for my SATA</p>
+<p>This should install fine. But if you are having a problem that you get a black screen right after the MAC boots, then it is a problem with your video drivers. Boot with -s option (as your computer boots, you should be able to hit a key, see boot:, enter -s there)… run the command it recommends to change files, <strong>/sbin/mount -uw /</strong>, and then <strong>cd /System/Library/Extensions</strong>, then delete AppleIntelGMA* and AppleInterIntegrated* (be careful and run <strong>rm -rf [files]</strong>). Now it should boot no problem (I hope!).</p>
+<p>Alright, if you had a Dell Wireless card, then when you finally get into the Mac OS X with internet, I really recommend updating to the newest version of Mac OS X (10.5.7 here). Then download the <a href="http://www.insanelymac.com/forum/index.php?showtopic=97966&amp;pid=709351&amp;mode=threaded&amp;start=">Dell Laptop Post Installer</a> (v1.4.1 now). For my laptop, I installed the option, SD Card. If you want Dual Core Support, try installing a dual-support kernel under Others. For Sound, you need the <a href="http://www.insanelymac.com/forum/index.php?showtopic=32859">AppleHDAPatch</a> and the <a href="http://psykopat.free.fr/apple/AppleHDA/">right audio driver</a>, in my case the Sigmatel 9200.txt. Drag the txt file to the AppleHDAPatch (ver 1.2). For the video driver, get the <a href="http://www.insanelymac.com/forum/index.php?showtopic=135576&amp;start=10&amp;p=1111292&amp;#">kalyKexts</a> for the 950GM and install that. Install it by extracting it, navigating to that directory, **chown -R root:wheel *** and <strong>mv * /System/Library/Extensions</strong>.</p>
+<p><strong>Downloads that I need to mirror shortly</strong></p>
+<p>Dell Laptop Post Installer v1.4.1</p>
+<p>kalyKexts(IntelGMA950)</p>
+<p>Sound Patcher.zip</p>
+<p>That really should be it! I hope that works for you as well as it did for me! As seen way above, I have a MAC on a PC with full video support, audio support, and feels as close to a Mac that I’m going to get. Now I must proceed with my master plan (whatever that may be!).</p>
+<!-- raw HTML omitted -->
+<p>Alright, that’s enough of that! Have a good night, I need to get to bed! A new day awaits with new opportunities and new circumstances. See you then!</p>
+<p>– E.T.</p>
+<p>PS – Oh my god! Please disable IPv6 on Mac OS X 10.5.7!! Hours of headache just to upload pictures to this blog! Had to go back to Windows just to finish! But I think this is the solution! (Also may be the solution to fix your Window Network Browsing)</p>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/9-days-to-ausin/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">9 Days to Ausin</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Dear Blog
+Woke up at 10:30 AM, checked out my stocks, and still not in the positive (after fees that is). Commodities doing good, Apple went positive (I’m guessing due to the new phone).
+My bro picked up for lunch, and we went to the coolest place ever. Taco Bell! Alright, it wasn’t the coolest place ever, but we went with his co-workers Robbie and Kerry. We had some food, and then I came back home to work on the website.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2009-86-06">20 June 2009</time>
+                            <span class="bull">&bull;</span> 2 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/313v3n-eleven-sunday-sunday-sunday/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">313V3N (ELEVEN) – Sunday Sunday Sunday</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Dear Blog
+My brother’s family came in! I know he was really excited to have his family back from Korea (I know I was happy for him!). I believe I heard that the time difference is about 14 hours. So, if it’s 10:23 PM Sunday here, then it’s 12:23 PM Monday over there. Yeah, so that equals a lot of jet lag for Taehee and my nephews
+I did a typical family day, where we ate at McDonald’s, did a 3D puzzle, played with the kids, helped on a 2D puzzle, checked out the cool pictures from Korea, and had a nice homemade meal at night.</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2009-36-06">22 June 2009</time>
+                            <span class="bull">&bull;</span> 2 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2009</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on ETdoFresh</title>
+    <link>/tags/c#/</link>
+    <description>Recent content in C# on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2019 01:11:06 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Process Restarter</title>
+      <link>/process-restarter/</link>
+      <pubDate>Thu, 07 Mar 2019 01:11:06 +0000</pubDate>
+      
+      <guid>/process-restarter/</guid>
+      <description>A simple Windows utility that restarts programs gracefully or forcefully.</description>
+    </item>
+    
+    <item>
+      <title>Classical AI Planning in C#</title>
+      <link>/classical-ai-planning-in-csharp/</link>
+      <pubDate>Thu, 06 Dec 2018 04:31:05 +0000</pubDate>
+      
+      <guid>/classical-ai-planning-in-csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WTVRenamer</title>
+      <link>/wtvrenamer/</link>
+      <pubDate>Fri, 10 Nov 2017 19:06:17 +0000</pubDate>
+      
+      <guid>/wtvrenamer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Cannon Fodder Clone</title>
+      <link>/intro-to-cannon-fodder-clone/</link>
+      <pubDate>Wed, 20 Aug 2014 06:51:07 +0000</pubDate>
+      
+      <guid>/intro-to-cannon-fodder-clone/</guid>
+      <description>&lt;p&gt;One of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman XNA C#</title>
+      <link>/pacman-xna-c/</link>
+      <pubDate>Tue, 31 Dec 2013 00:10:52 +0000</pubDate>
+      
+      <guid>/pacman-xna-c/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This was my first and last XNA project. It’s not because I didn’t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

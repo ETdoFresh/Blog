@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Prototype Started · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">Prototype Started</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2016-45-05">9 May 2016</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 3 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Covered today: 2D Sprites and Sprite Sheets, Animations, Movement</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>So today I decided to work on the prototype for Cargo Bay 5 just so our team can start to get the “feel” for what we are talking about. I got a 2D character animated and moving across the screen for my first official episode of my Season/Shelf 05 streams.</p>
+<h2 id="2d-sprites-and-sprite-sheets">2D Sprites and Sprite Sheets</h2>
+<p><!-- raw HTML omitted --></p>
+<p>Here is what I did to get this Bomberman spritesheet in my prototype:</p>
+<ul>
+<li>Start off with a nice transparent spritesheet like shown above.</li>
+<li>In Inspector:
+<ul>
+<li>Texture Type: Sprite (2D and UI)</li>
+<li>Sprite Mode: Multiple</li>
+<li>Slice (Top Left of Sprite Editor) and Smart Slice</li>
+</ul>
+</li>
+</ul>
+<p>If done correctly, you’ll have a nicely cut out Sprites (light grey box around each sprite). Click inside a grey box if dimensions are a bit off to edit it. Done!</p>
+<p>I recommend whatever the size of your sprites are, you use the max width or height value as your Pixels Per Unit in the inspector so that your sprites fit in 1-by-1 Unity Units.</p>
+<p>Another recommendation is to name each of your sprites… yup, it will be a pain in the butt, but will be worth it down the line.</p>
+<h2 id="animations">Animations</h2>
+<p>Now that you have a bunch of Sprites, it’s time to animate them in a flipbook fashion.</p>
+<p><!-- raw HTML omitted --></p>
+<p>There are multiple ways to create the animation, but the way I think I like the best (as of right now) is to select the sprites you would like in your animation, right click on a selected item, Click Create, Click Animation.</p>
+<p><!-- raw HTML omitted --></p>
+<p>You should then have an Animation File (probably called New Animation). Assign this animation in an animator of a GameObject that already has a SpriteRenderer. Open up an Animation window, and you should be able to play around with the animation file some more. I believe you could also just drag New Animation onto a Sprite GameObject. Either way, now you can make multiple Animator States for the different states of your character.</p>
+<p><!-- raw HTML omitted --></p>
+<h2 id="movement">Movement</h2>
+<p>Since this is a top down game, we will not be using any gravity. In this prototype I used RigidBody 2D and Box Collider 2D with Gravity Scale set to 0.<!-- raw HTML omitted --></p>
+<p>Then I created a script called Movement.cs to Animate the character and move the character using the RigidBody 2D.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In the final product, I do not recommend calling animator.Play() or rigidbody.velocty in the Update() function. But for now, attach the script to your GameObject with the Animator with the Animations and that’s it! We got a 2D Sprite moving and animating around in a 2D World.</p>
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/the-beginning-of-summer-2016/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">The Beginning of Summer 2016</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Hey everyone, today is the first day I tell myself, I will spend at least 10 minutes to write a blog entry a few times a week. Some may be content packed, but some may be like this… bare!
+Summer 2016 is packed for me, here are the things I’ll be doing:
+ Work with SinkLab Games First Thesis class at University of New Orleans Full-time employee at University of New Orleans Write the other 14 weeks of Honest Abe Post-Mortem Perhaps even polish Honest Abe so that it can be released on Apple ios!</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-105-05">7 May 2016</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/honest-abe-post-mortem-game-dev-meetup/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Honest Abe Post-Mortem Game Dev Meetup</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p><p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted --></p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-95-05">19 May 2016</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2016</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

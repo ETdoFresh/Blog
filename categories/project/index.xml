@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on ETdoFresh</title>
+    <link>/categories/project/</link>
+    <description>Recent content in Project on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2019 07:00:04 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asteroids (Local and Network)</title>
+      <link>/asteroids-local-and-network/</link>
+      <pubDate>Sat, 14 Sep 2019 07:00:04 +0000</pubDate>
+      
+      <guid>/asteroids-local-and-network/</guid>
+      <description>&amp;lt;div class=&amp;quot;fullscreen&amp;quot; onclick=&amp;quot;gameInstance.SetFullscreen(1)&amp;quot;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;title&amp;quot;&amp;gt; Asteroids &amp;lt;/div&amp;gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</description>
+    </item>
+    
+    <item>
+      <title>Measuring Presence and Performance in a Virtual Reality Police Use of Force Training Simulation Prototype</title>
+      <link>/measuring-presence-and-performance-in-a-virtual-reality-police-use-of-force-training-simulation-prototype/</link>
+      <pubDate>Tue, 21 May 2019 19:30:41 +0000</pubDate>
+      
+      <guid>/measuring-presence-and-performance-in-a-virtual-reality-police-use-of-force-training-simulation-prototype/</guid>
+      <description>In this paper we describe a virtual reality training simulation designed to help police officers learn use of force policies. Our goal is to test a training simulation prototype by measuring improvements to presence and performance. If successful, this can lead to creating a full-scale virtual reality narrative training simulation. The simulation uses a planner-based experience manager to determine the actions of agents other than the participant. Participants’ actions were logged, physiological data was recorded, and the participants filled out questionnaires.</description>
+    </item>
+    
+    <item>
+      <title>ETdoFresh – The Beginner</title>
+      <link>/etdofresh-the-beginner/</link>
+      <pubDate>Sun, 14 Apr 2019 20:56:53 +0000</pubDate>
+      
+      <guid>/etdofresh-the-beginner/</guid>
+      <description>Took a couple hours today to learn how to make some music. This is my first recording session… hope to make more and more as I find a couple hours here and there.</description>
+    </item>
+    
+    <item>
+      <title>Chrono Cross – Kid (Fan Art)</title>
+      <link>/chrono-cross-kid-fan-art/</link>
+      <pubDate>Sun, 10 Mar 2019 01:48:00 +0000</pubDate>
+      
+      <guid>/chrono-cross-kid-fan-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process Restarter</title>
+      <link>/process-restarter/</link>
+      <pubDate>Thu, 07 Mar 2019 01:11:06 +0000</pubDate>
+      
+      <guid>/process-restarter/</guid>
+      <description>A simple Windows utility that restarts programs gracefully or forcefully.</description>
+    </item>
+    
+    <item>
+      <title>Chrono Cross – Serge (Fan Art)</title>
+      <link>/chrono-cross-serge-fan-art/</link>
+      <pubDate>Mon, 04 Mar 2019 06:18:39 +0000</pubDate>
+      
+      <guid>/chrono-cross-serge-fan-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home Wrecker!</title>
+      <link>/home-wrecker/</link>
+      <pubDate>Mon, 28 Jan 2019 00:45:15 +0000</pubDate>
+      
+      <guid>/home-wrecker/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A Global Game Jam game where a house runs around and eats people and materials to keep structural integrity.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows Media Center Canvas</title>
+      <link>/windows-media-center-canvas/</link>
+      <pubDate>Sun, 16 Dec 2018 22:59:00 +0000</pubDate>
+      
+      <guid>/windows-media-center-canvas/</guid>
+      <description>&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;  EDIT: Project has been shelved due to school starting.</description>
+    </item>
+    
+    <item>
+      <title>Classical AI Planning in C#</title>
+      <link>/classical-ai-planning-in-csharp/</link>
+      <pubDate>Thu, 06 Dec 2018 04:31:05 +0000</pubDate>
+      
+      <guid>/classical-ai-planning-in-csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Prisoner’s Decree</title>
+      <link>/a-prisoners-decree/</link>
+      <pubDate>Mon, 03 Dec 2018 04:34:12 +0000</pubDate>
+      
+      <guid>/a-prisoners-decree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command and Conquer Tiberian Dawn</title>
+      <link>/command-and-conquer-tiberian-dawn/</link>
+      <pubDate>Tue, 02 Oct 2018 19:01:31 +0000</pubDate>
+      
+      <guid>/command-and-conquer-tiberian-dawn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WTVRenamer</title>
+      <link>/wtvrenamer/</link>
+      <pubDate>Fri, 10 Nov 2017 19:06:17 +0000</pubDate>
+      
+      <guid>/wtvrenamer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camelot</title>
+      <link>/camelot/</link>
+      <pubDate>Sat, 24 Jun 2017 19:11:42 +0000</pubDate>
+      
+      <guid>/camelot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Use of Force Simulation</title>
+      <link>/police-use-of-force-simulation/</link>
+      <pubDate>Mon, 15 May 2017 19:14:06 +0000</pubDate>
+      
+      <guid>/police-use-of-force-simulation/</guid>
+      <description>I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I’ve worked on with the Narrative Intelligence Laboratoryat the University of New Orleans. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.</description>
+    </item>
+    
+    <item>
+      <title>Cargo Bay 5</title>
+      <link>/cargo-bay-5/</link>
+      <pubDate>Thu, 02 Feb 2017 17:57:18 +0000</pubDate>
+      
+      <guid>/cargo-bay-5/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Larry ‘Mac’ Craters just got assigned to work the Cargo Bay on the CS Valkyrie. Help Larry get the cargo to the intended destinations and enjoy all that lack of appreciation from your superiors!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sokoban</title>
+      <link>/sokoban/</link>
+      <pubDate>Thu, 03 Dec 2015 19:20:01 +0000</pubDate>
+      
+      <guid>/sokoban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City Attempt 2</title>
+      <link>/sand-city-attempt-2/</link>
+      <pubDate>Thu, 24 Sep 2015 19:16:43 +0000</pubDate>
+      
+      <guid>/sand-city-attempt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City</title>
+      <link>/sandcity/</link>
+      <pubDate>Sun, 19 Jul 2015 19:17:59 +0000</pubDate>
+      
+      <guid>/sandcity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ninja-Time Strategy!</title>
+      <link>/intro-to-ninja-time-strategy/</link>
+      <pubDate>Thu, 30 Oct 2014 07:58:49 +0000</pubDate>
+      
+      <guid>/intro-to-ninja-time-strategy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This game is quite different. It’s not one of those games I’ve been dying to make for many years. On the flip-side, I decided to try to make a game on a “whim”. I also was very interested in HTML5 before I started, so this was a perfect opportunity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guerra</title>
+      <link>/intro-to-guerra/</link>
+      <pubDate>Mon, 29 Sep 2014 07:19:44 +0000</pubDate>
+      
+      <guid>/intro-to-guerra/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Guerra is Spanish for War! This was the title of a childhood game that I used to play with my friends. It was a mixture between action and the game of Memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cannon Fodder</title>
+      <link>/cannon-fodder/</link>
+      <pubDate>Thu, 14 Aug 2014 19:32:16 +0000</pubDate>
+      
+      <guid>/cannon-fodder/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://www.youtube.com/watch?v=Qs-dk3yM_jw &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  https://etdofresh.github.io/CannonFodderPlay Now!
+https://github.com/ETdoFresh/CannonFodderSource Code</description>
+    </item>
+    
+    <item>
+      <title>Pacman HD Clone</title>
+      <link>/intro-to-pacman-hd-clone/</link>
+      <pubDate>Tue, 25 Feb 2014 23:24:46 +0000</pubDate>
+      
+      <guid>/intro-to-pacman-hd-clone/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I used GameMaker many years ago on a much earlier version (and less featured), but this is my first attempt to jump in using GML language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wolverine, Chrono, and Marle (3d Fan Art)</title>
+      <link>/3dsmax-2013/</link>
+      <pubDate>Fri, 10 Jan 2014 09:11:39 +0000</pubDate>
+      
+      <guid>/3dsmax-2013/</guid>
+      <description>&lt;p&gt;Turntables of a few characters (Wolverine, Chrono, Marle)&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pacman XNA C#</title>
+      <link>/pacman-xna-c/</link>
+      <pubDate>Tue, 31 Dec 2013 00:10:52 +0000</pubDate>
+      
+      <guid>/pacman-xna-c/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This was my first and last XNA project. It’s not because I didn’t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sonic the Hedgehog in 3D Studio Max</title>
+      <link>/sonic-the-hedgehog-in-3d-studio-max/</link>
+      <pubDate>Sun, 01 Jul 2012 08:12:54 +0000</pubDate>
+      
+      <guid>/sonic-the-hedgehog-in-3d-studio-max/</guid>
+      <description>Here is a Time Lapsed Video of me modeling, rigging, and rendering Sonic the Hedgehog in 3ds Max (1 second = 1 minute).</description>
+    </item>
+    
+    <item>
+      <title>Water Balloon Boys</title>
+      <link>/water-balloon-boys/</link>
+      <pubDate>Tue, 28 Feb 2012 02:02:56 +0000</pubDate>
+      
+      <guid>/water-balloon-boys/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://youtu.be/gKKhb29j-Ow &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

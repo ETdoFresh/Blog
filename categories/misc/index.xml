@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on ETdoFresh</title>
+    <link>/categories/misc/</link>
+    <description>Recent content in Misc on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Feb 2017 03:22:35 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>White Windows 10 Background</title>
+      <link>/white-windows-10-background/</link>
+      <pubDate>Tue, 14 Feb 2017 03:22:35 +0000</pubDate>
+      
+      <guid>/white-windows-10-background/</guid>
+      <description>For my last post I wanted a white background for my screenshot. To do it, I found the answer in this post.
+ Run “Run” 🙂 (or WIN + R) Enter command below… Select white background! control /name Microsoft.Personalization /page pageWallpaper  </description>
+    </item>
+    
+    <item>
+      <title>Unity .NET 3.5 Framework Issue</title>
+      <link>/unity-net-3-5-framework-issue/</link>
+      <pubDate>Sat, 04 Feb 2017 16:42:55 +0000</pubDate>
+      
+      <guid>/unity-net-3-5-framework-issue/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-issue&#34;&gt;The Issue&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2017/02/62433-unity-capture.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When loading C# scripts from Unity into Visual Studio, we would get “The C# project “xxx” is targeting “.NETFramework, Version=v3.5,Profile=Unity Subset v3.5″, which is not installed on this machine”. So obviously, we just install .NET 3.5 right?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows Picture and Fax Viewer Registry</title>
+      <link>/windows-picture-and-fax-viewer-registry/</link>
+      <pubDate>Mon, 12 Sep 2016 14:31:54 +0000</pubDate>
+      
+      <guid>/windows-picture-and-fax-viewer-registry/</guid>
+      <description>Hi! Just pasting this little .reg code to enable Windows Picture and Fax Viewer in the newer versions of Windows.
+WindowsPictureAndFaxViewer.zip</description>
+    </item>
+    
+    <item>
+      <title>Intro to Photogrammetry</title>
+      <link>/intro-to-photogrammetry/</link>
+      <pubDate>Tue, 01 Jul 2014 00:55:28 +0000</pubDate>
+      
+      <guid>/intro-to-photogrammetry/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry00.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;Another awesome tool that is available for independent game developers is Photogrammetry. This takes real world objects and put them into formats such as OBJ, FBX, etc so that you can use on software such as 3dsmax and Mudbox which can then end up finally in Unity or other game engines!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wolverine, Chrono, and Marle (3d Fan Art)</title>
+      <link>/3dsmax-2013/</link>
+      <pubDate>Fri, 10 Jan 2014 09:11:39 +0000</pubDate>
+      
+      <guid>/3dsmax-2013/</guid>
+      <description>&lt;p&gt;Turntables of a few characters (Wolverine, Chrono, Marle)&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>WordPress Site Started</title>
+      <link>/hello-world-2/</link>
+      <pubDate>Tue, 01 Jan 2013 17:29:44 +0000</pubDate>
+      
+      <guid>/hello-world-2/</guid>
+      <description>Thanks for stopping by! This is my WordPress site! I’ll do my best to maintain a presence on the internet! Hopefully the posts that follow do not only inspire, but also act as a tips and tricks guide to do certain things! Wish me luck, and I hope you find your way as well!</description>
+    </item>
+    
+    <item>
+      <title>Sonic the Hedgehog in 3D Studio Max</title>
+      <link>/sonic-the-hedgehog-in-3d-studio-max/</link>
+      <pubDate>Sun, 01 Jul 2012 08:12:54 +0000</pubDate>
+      
+      <guid>/sonic-the-hedgehog-in-3d-studio-max/</guid>
+      <description>Here is a Time Lapsed Video of me modeling, rigging, and rendering Sonic the Hedgehog in 3ds Max (1 second = 1 minute).</description>
+    </item>
+    
+  </channel>
+</rss>

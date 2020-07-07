@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="RasterVsVector.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Pixellize"
+       inkscape:menu="Pixel tools"
+       inkscape:menu-tooltip="Reduce or remove antialiasing around shapes"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4495">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "
+         id="feColorMatrix4493"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4497" />
+      <feColorMatrix
+         id="feColorMatrix4499"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="359.59223"
+     inkscape:cy="765.33483"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="55.830059"
+       x="42.921463"
+       id="image4531"
+       xlink:href="data:image/PNG;base64, 
+iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAA
+B6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABKVBMVEUAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAMAACLAAD6AAD/AACJAAAHAACqAAC7AAALAAAVAADvAADyAAAZAABAAA
+BGAADjAADhAAANAAAiAAAgAAAhAADgAADiAAA/AABCAAAWAAAUAADwAAAJAAAIAAC1AACyAACHAAD5
+AACKAACGAAC0AACxAAATAAA+AABBAADfAAAKAAAcAAAfAABEAADuAACIAAD///9UeA0XAAAAMXRSTl
+MALLCvKzDn5i5NXqKzHiKRjsrI5OPGjCCyrVpX5S0prCgvWFSuqh0ficXJ4seNiiEqtGKT9AAAAAFi
+S0dEYiu5HTwAAAAJcEhZcwAAD2AAAA9gAXp4RY0AAAAHdElNRQfhCR4MEid4/hyGAAABdElEQVRIx+
+3W11bCQBAG4AkI2AXBglKsqFgnMKIUURDsomBBie39X0IiQoBk2V0uvPK/Tb5zdrObmQEwRbFhK/YB
+4MbhRDUWp9/E91V0DfYEQ5g4oK4cJnGYLUZSabJI5miUAcYwS4wc47iVmMATYiaHbrPw5Kln1Mlu4T
+0lTgq+TjFV5AmioqdjH3m+qK9tuv1biQginGkRPBMj59gUsxdigujS3xBzV6KC6Hq+say0OLn5WZrj
+VlwQlfR77byTIfcBfV0yov6hAYKqHEmGwBaTI+UwYFyOVFB2K/pm/slfEPmjtD/IkccwKLLXcqGfyw
++uJxnxrP9iiyUZklD6KxewlBIn1eVGIVt5ERWvq60CWxMTRoGFiGgZXzNKv1sTEep6e4PZeOOLQrSz
+jfkKPPG+2d0so5y7ltwyt+RtzLFBDXesGn8EmefzgbusgaT6aQUyVdZAAoyxR+s19tQTDKD2VWm+Xi
+lr6FWAmz2/McKFQ+bn3y7HnPeV/PWXAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA5LTMwVDEyOjE4
+OjM5LTA1OjAwR+M9wAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wOS0zMFQxMjoxODozOS0wNTowMD
+a+hXwAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC
+"
+       preserveAspectRatio="none"
+       height="52.916668"
+       width="52.916668" />
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.0583334;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4485"
+       cx="86.920166"
+       cy="102.35662"
+       r="25.929167"
+       inkscape:export-xdpi="99.978897"
+       inkscape:export-ydpi="99.978897" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458349px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="118.70592"
+       y="105.54252"
+       id="text4536-7"><tspan
+         sodipodi:role="line"
+         id="tspan4534-8"
+         x="118.70592"
+         y="105.54252"
+         style="stroke-width:0.26458332">Vector</tspan></text>
+    <image
+       y="64.198418"
+       x="106.33227"
+       id="image4564"
+       xlink:href="data:image/PNG;base64, 
+iVBORw0KGgoAAAANSUhEUgAAADcAAAANCAQAAACnMz4GAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAA
+B6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
+D2AAAA9gAXp4RY0AAAAHdElNRQfhCR4MFBiYwpY9AAABbUlEQVQ4y5WTPUsDQRCGn0v8QrQQtLPRxh
+8g2NiLhYEg/oGYYGcpSEiVgIUgNsYijY1a2ggSsE4hHIIELfzASsUP7JRTMWNx5zp32STebDMzOzvP
+7ru7IGqcENfmeI1T3gXAKjDBAlMITixcD0Px9ieI1f+fzcddoRGLEbQ/XtSJ70x2A7hXVTkAEjwF8a
+XqtA88+CSNK4dwHxQo8KYqBKFOilKQq3KN4OLikgYSCEKKcZYRPLPqyGxKNXNaiJlXuKW2Ygrfxp9E
+WA+yDfqaRRM+I836maVITeG8DriVUPSoxLTgtGUsM77/TKklLjqsuOZHIwhr1pbT3Coloris5TIULq
+HSvaC0hzw2qzGGA3STtMzm6GD6TDMIZ5Fsknfjj5pKL8gNIwya7BdCxUQjlNuJCbCFsA2cIgg7HCM0
+QnJXyHCAcKFyu+yR4/dtX1FkE0E64/w4DZwHl51V93MT+uSY8/19c6iamkMGorgf2r3ipqxGVAcAAA
+AldEVYdGRhdGU6Y3JlYXRlADIwMTctMDktMzBUMTI6MjA6MjQtMDU6MDBgq3prAAAAJXRFWHRkYXRl
+Om1vZGlmeQAyMDE3LTA5LTMwVDEyOjIwOjI0LTA1OjAwEfbC1wAAABl0RVh0U29mdHdhcmUAd3d3Lm
+lua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=
+"
+       preserveAspectRatio="none"
+       height="7.8740001"
+       width="33.02" />
+  </g>
+</svg>

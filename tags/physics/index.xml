@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on ETdoFresh</title>
+    <link>/tags/physics/</link>
+    <description>Recent content in Physics on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 May 2017 18:03:51 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Managed 3D Physics Engine in C# – Part I – Introduction</title>
+      <link>/creating-a-managed-3d-physics-engine-in-c-part-i-introduction/</link>
+      <pubDate>Sat, 06 May 2017 18:03:51 +0000</pubDate>
+      
+      <guid>/creating-a-managed-3d-physics-engine-in-c-part-i-introduction/</guid>
+      <description>Before I knew the existence of Jitter Physics (which is what I’ll end up using), I decided to try to make my own Physics Engine following Game Physics Engine Developmnet by Ian Millington, and basically got stuck somewhere when making Contact Resolvers for Rigidbodies. However, I wanted to share my experience making Physics Engine, hopefully as briefly as I can while still making sense.
+Base Data Types Before we get started in creating the very best physics engine (right?</description>
+    </item>
+    
+  </channel>
+</rss>

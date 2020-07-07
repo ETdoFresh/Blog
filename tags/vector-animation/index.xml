@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vector Animation on ETdoFresh</title>
+    <link>/tags/vector-animation/</link>
+    <description>Recent content in Vector Animation on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Sep 2017 03:32:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vector-animation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitch Streams start October 02, 2017</title>
+      <link>/twitch-streams-start-october-02-2017/</link>
+      <pubDate>Thu, 28 Sep 2017 03:32:16 +0000</pubDate>
+      
+      <guid>/twitch-streams-start-october-02-2017/</guid>
+      <description>My Twitch stream is going to start October 2, 2017 6:00-7:00pm every Monday and Wednesday. I am going to be working on my Vector Animation program targeted mostly towards mobile platforms. Watch the exciting progress I make as I program live on twitch! Haha, ok, watching someone program can almost be considered crazy… almost as crazy recording it and streaming to the world wide web. :p
+Also track my progress on Trello to see what will be discussed next stream:</description>
+    </item>
+    
+  </channel>
+</rss>

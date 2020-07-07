@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ableton on ETdoFresh</title>
+    <link>/tags/ableton/</link>
+    <description>Recent content in Ableton on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 20:56:53 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ableton/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ETdoFresh – The Beginner</title>
+      <link>/etdofresh-the-beginner/</link>
+      <pubDate>Sun, 14 Apr 2019 20:56:53 +0000</pubDate>
+      
+      <guid>/etdofresh-the-beginner/</guid>
+      <description>Took a couple hours today to learn how to make some music. This is my first recording session… hope to make more and more as I find a couple hours here and there.</description>
+    </item>
+    
+  </channel>
+</rss>

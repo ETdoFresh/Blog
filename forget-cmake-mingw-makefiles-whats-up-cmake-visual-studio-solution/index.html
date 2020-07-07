@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Forget MinGW Makefiles… What’s up Visual Studio? · ETdoFresh</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        <a class="site-nav-logo" href="/"><img src="/images/2020/07/ETdoFresh-1.png" alt="ETdoFresh" /></a>
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/page/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/page/contact/">Contact</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+
+                <h1 class="post-full-title">Forget MinGW Makefiles… What’s up Visual Studio?</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>ETdoFresh</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/author/ETdoFresh" class="author-avatar author-profile-image">
+  
+  
+    
+      <img src="/uploads/2020/07/23130511_10102476107592788_8763549408590366509_n.jpg" alt="ETdoFresh" />
+    
+  
+</a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">ETdoFresh</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2016-129-09">1 September 2016</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 2 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/CSCI5631-SmallVictory.png"><!-- raw HTML omitted --></a>Hours…. literally a handful of hours trying to setup MinGW for my class projects. Yeah, MinGW was kicking my butt… I just threw my hands up, waved the white flag, and gave up. You may have saw in the <a href="http://www.etdofresh.com/add-freeglut-to-mingw/">last post</a> that we did get Freeglut working… but once it came to glew32, it all came unglued.</p>
+<p>So yeah, here we go again. Nice and fresh. I download the <a href="http://glew.sourceforge.net/">source for glew</a> and <a href="http://freeglut.sourceforge.net/">source for freeglut</a>. I used <a href="https://cmake.org/">Cmake</a> and Visual Studio 2015 to compile the libraries (dynamic and static/debug and release). I’ll include them here for convenience’s sake.</p>
+<ul>
+<li><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/freeglut-3.0.0-compiled-with-vs2015.zip">freeglut-3.0.0-compiled-with-vs2015</a></li>
+<li><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/glew-2.0.0-compiled-with-vs2015.zip">glew-2.0.0-compiled-with-vs2015</a></li>
+<li><em>These are not needed for tutorial below</em></li>
+</ul>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty01.png"><!-- raw HTML omitted --></a>Great! So how do we use this? Well, let’s start from scratch… Let’s make an empty Visual Studio Project.</p>
+<p>Let’s make a simple file main.cpp file to make sure we are up and running.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty02.png"><!-- raw HTML omitted --></a>Press F6 or from the menu Build &gt; Build Solution. You should see Build Succeeded. Now let’s add some libraries and get into the knitty gritty.</p>
+<p>First thing to understand is static vs dynamic libraries. Simply put, <strong>static</strong> libraries are compiled into the exe whereas <strong>dynamic</strong> libraries exist outside the exe as dll files. In this post, I’ll deal exclusively with dynamic libraries.</p>
+<p>Download and extract my <a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vs2015includeDynamicFreeglutGlew32.zip">Visual Studio 2015 Dynamic Freeglut and Glew32 zip file</a> into your Project directory (with main.cpp). Now we have to setup the dependencies and other settings on the project itself. So go to the Project’s Properties (Right click Project and click Properties).</p>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty03.png"><!-- raw HTML omitted --></a></p>
+<p>First, we want to make sure we are including headers in our include folder. Select <strong>ALL CONFIGURATIONS</strong>. Under C/C++ &gt; General &gt; Additional Include Directories, add <strong>include</strong>.</p>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty04.png"><!-- raw HTML omitted --></a></p>
+<p>The code that we will be dealing with, we need to set a preprocessor flag, so here we add at the beginning _CRT_SECURE_NO_WARNINGS;</p>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty05.png"><!-- raw HTML omitted --></a></p>
+<p>Let’s include our freeglut and glew32 libraries. We add both the release and debug version of the library in all configuration for ease.</p>
+<p><a href="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppempty06.png"><!-- raw HTML omitted --></a></p>
+<p>Finally, we do a little Post-Build scripting to copy over the DLLs and Shaders from our project directory to our output directory. xcopy /d /y silently copies over the file only if newer. Notice we have a different copy statement between Debug and Release since we want to copy over the different DLLs.</p>
+<p>OK. We’re done! Here’s an example using these libraries and settings. <a href="http://www.etdofresh.com/wp-content/uploads/2016/08/Project1.zip">Check out this visual studio solution (Project1.zip)</a>!</p>
+<p>PS – <em>I used a slightly different folder structure than the tutorial, but everything else is the same.</em></p>
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed"><article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/add-freeglut-to-mingw/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Add Freeglut to MinGW</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p><p>More setup! Joy!</p>
+<p>After setting up MinGW from our <a href="http://www.etdofresh.com/setting-up-c-makefile-project-in-visual-studio/">previous post</a>, now we want to add a package called freeglut to our MinGW directory so we can some graphics to our programs.</p>
+<ul>
+<li>Download freeglut for MinGW from (<a href="http://www.transmissionzero.co.uk/computing/using-glut-with-mingw/">http://www.transmissionzero.co.uk/computing/using-glut-with-mingw/</a>)</li>
+<li>Copy the contents into C:\MinGW (or wherever you installed MinGW)</li>
+</ul>
+<p>OK! Done!</p></p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-58-08">30 August 2016</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/windows-picture-and-fax-viewer-registry/">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Windows Picture and Fax Viewer Registry</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>Hi! Just pasting this little .reg code to enable Windows Picture and Fax Viewer in the newer versions of Windows.
+WindowsPictureAndFaxViewer.zip</p>
+                </section>
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">ETdoFresh</div>
+                            <a href="/author/ETdoFresh" class="static-avatar author-profile-image">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg>
+</a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>ETdoFresh</span>
+                        <span class="post-card-byline-date"><time datetime="2016-29-09">12 September 2016</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+            </div>
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">ETdoFresh</a> &copy; 2016</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/etdofresh" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/etdofresh" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/etdofresh" target="_blank" rel="noopener">Github</a>
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

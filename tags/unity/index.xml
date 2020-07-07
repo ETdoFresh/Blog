@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on ETdoFresh</title>
+    <link>/tags/unity/</link>
+    <description>Recent content in Unity on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2019 07:00:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asteroids (Local and Network)</title>
+      <link>/asteroids-local-and-network/</link>
+      <pubDate>Sat, 14 Sep 2019 07:00:04 +0000</pubDate>
+      
+      <guid>/asteroids-local-and-network/</guid>
+      <description>&amp;lt;div class=&amp;quot;fullscreen&amp;quot; onclick=&amp;quot;gameInstance.SetFullscreen(1)&amp;quot;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;title&amp;quot;&amp;gt; Asteroids &amp;lt;/div&amp;gt;  I spent most of my Summer and beginning of Fall working on Multiplayer in Unity. I’ve built my own network engine, I’ve tried Photon BOLT, and Photon PUN. This is my test game for testing various network engines and a project to keep my “muscle memory” of making a game from start to finish. [A skill I easily tend to lose if I don’t keep it up!</description>
+    </item>
+    
+    <item>
+      <title>Home Wrecker!</title>
+      <link>/home-wrecker/</link>
+      <pubDate>Mon, 28 Jan 2019 00:45:15 +0000</pubDate>
+      
+      <guid>/home-wrecker/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A Global Game Jam game where a house runs around and eats people and materials to keep structural integrity.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Prisoner’s Decree</title>
+      <link>/a-prisoners-decree/</link>
+      <pubDate>Mon, 03 Dec 2018 04:34:12 +0000</pubDate>
+      
+      <guid>/a-prisoners-decree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camelot</title>
+      <link>/camelot/</link>
+      <pubDate>Sat, 24 Jun 2017 19:11:42 +0000</pubDate>
+      
+      <guid>/camelot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Use of Force Simulation</title>
+      <link>/police-use-of-force-simulation/</link>
+      <pubDate>Mon, 15 May 2017 19:14:06 +0000</pubDate>
+      
+      <guid>/police-use-of-force-simulation/</guid>
+      <description>I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I’ve worked on with the Narrative Intelligence Laboratoryat the University of New Orleans. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.</description>
+    </item>
+    
+    <item>
+      <title>Discord Notification of Unity Cloud Build via Webhooks</title>
+      <link>/discord-notification-of-unity-cloud-build-via-webhooks/</link>
+      <pubDate>Mon, 13 Mar 2017 02:14:04 +0000</pubDate>
+      
+      <guid>/discord-notification-of-unity-cloud-build-via-webhooks/</guid>
+      <description>EDIT: Looks like Unity Cloud Build now has this built in! Yay! Thanks for those that did donated! Hope it helped you out in the interim!
+I wanted to write a small blog post about how to show notifications on your Discord channel when a cloud build is ready. Here are the steps:
+ (Optional) Add a channel where build notifications will appear Setup webhook URL in Discord Setup translation webhook Connect webhook URL to Unity Cloud Build Done!</description>
+    </item>
+    
+    <item>
+      <title>Open with Unity Windows Context Menu</title>
+      <link>/open-with-unity-windows-context-menu/</link>
+      <pubDate>Tue, 14 Feb 2017 03:19:42 +0000</pubDate>
+      
+      <guid>/open-with-unity-windows-context-menu/</guid>
+      <description>I found this on Unity Forums (https://forum.unity3d.com/threads/openwithunity-inf.325221/). Thanks rakkarage!
+ Copy text into OpenWithUnity.inf Right click on it Click Install!   </description>
+    </item>
+    
+    <item>
+      <title>Unity .NET 3.5 Framework Issue</title>
+      <link>/unity-net-3-5-framework-issue/</link>
+      <pubDate>Sat, 04 Feb 2017 16:42:55 +0000</pubDate>
+      
+      <guid>/unity-net-3-5-framework-issue/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-issue&#34;&gt;The Issue&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2017/02/62433-unity-capture.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When loading C# scripts from Unity into Visual Studio, we would get “The C# project “xxx” is targeting “.NETFramework, Version=v3.5,Profile=Unity Subset v3.5″, which is not installed on this machine”. So obviously, we just install .NET 3.5 right?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cargo Bay 5</title>
+      <link>/cargo-bay-5/</link>
+      <pubDate>Thu, 02 Feb 2017 17:57:18 +0000</pubDate>
+      
+      <guid>/cargo-bay-5/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Larry ‘Mac’ Craters just got assigned to work the Cargo Bay on the CS Valkyrie. Help Larry get the cargo to the intended destinations and enjoy all that lack of appreciation from your superiors!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe</title>
+      <link>/honest-abe/</link>
+      <pubDate>Thu, 28 Apr 2016 15:59:09 +0000</pubDate>
+      
+      <guid>/honest-abe/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Honest Abe is an arcade beat-em up style game about good ol’ President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he’s not dead, and he’s out for revenge!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Honest Abe – Week 1 – Humble Beginnings…</title>
+      <link>/honest-abe-week-1-humbling-beginnings/</link>
+      <pubDate>Sun, 24 Jan 2016 03:21:11 +0000</pubDate>
+      
+      <guid>/honest-abe-week-1-humbling-beginnings/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So it was decided! &lt;strong&gt;Honest Abe&lt;/strong&gt; is the game, &lt;!-- raw HTML omitted --&gt;Unity&lt;!-- raw HTML omitted --&gt; is going to be our platform, and &lt;!-- raw HTML omitted --&gt;git&lt;!-- raw HTML omitted --&gt; is going to be our version control! &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sokoban</title>
+      <link>/sokoban/</link>
+      <pubDate>Thu, 03 Dec 2015 19:20:01 +0000</pubDate>
+      
+      <guid>/sokoban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City Attempt 2</title>
+      <link>/sand-city-attempt-2/</link>
+      <pubDate>Thu, 24 Sep 2015 19:16:43 +0000</pubDate>
+      
+      <guid>/sand-city-attempt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sand City</title>
+      <link>/sandcity/</link>
+      <pubDate>Sun, 19 Jul 2015 19:17:59 +0000</pubDate>
+      
+      <guid>/sandcity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intro to Cannon Fodder Clone</title>
+      <link>/intro-to-cannon-fodder-clone/</link>
+      <pubDate>Wed, 20 Aug 2014 06:51:07 +0000</pubDate>
+      
+      <guid>/intro-to-cannon-fodder-clone/</guid>
+      <description>&lt;p&gt;One of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cannon Fodder</title>
+      <link>/cannon-fodder/</link>
+      <pubDate>Thu, 14 Aug 2014 19:32:16 +0000</pubDate>
+      
+      <guid>/cannon-fodder/</guid>
+      <description>&amp;lt;div class=&amp;quot;wp-block-embed__wrapper&amp;quot;&amp;gt; https://www.youtube.com/watch?v=Qs-dk3yM_jw &amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;  https://etdofresh.github.io/CannonFodderPlay Now!
+https://github.com/ETdoFresh/CannonFodderSource Code</description>
+    </item>
+    
+    <item>
+      <title>Intro to Photogrammetry</title>
+      <link>/intro-to-photogrammetry/</link>
+      <pubDate>Tue, 01 Jul 2014 00:55:28 +0000</pubDate>
+      
+      <guid>/intro-to-photogrammetry/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry00.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;Another awesome tool that is available for independent game developers is Photogrammetry. This takes real world objects and put them into formats such as OBJ, FBX, etc so that you can use on software such as 3dsmax and Mudbox which can then end up finally in Unity or other game engines!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

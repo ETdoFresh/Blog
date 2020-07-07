@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cargo Bay 5 on ETdoFresh</title>
+    <link>/categories/cargo-bay-5/</link>
+    <description>Recent content in Cargo Bay 5 on ETdoFresh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 May 2016 04:21:10 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/cargo-bay-5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prototype Started</title>
+      <link>/prototype-started/</link>
+      <pubDate>Mon, 09 May 2016 04:21:10 +0000</pubDate>
+      
+      <guid>/prototype-started/</guid>
+      <description>&lt;p&gt;Covered today: 2D Sprites and Sprite Sheets, Animations, Movement&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So today I decided to work on the prototype for Cargo Bay 5 just so our team can start to get the “feel” for what we are talking about. I got a 2D character animated and moving across the screen for my first official episode of my Season/Shelf 05 streams.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
