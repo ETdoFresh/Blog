@@ -1,4 +1,4 @@
-name: Hugo Build to gh-pages
+name: Hugo Build
 on:
   push:
     branches:
