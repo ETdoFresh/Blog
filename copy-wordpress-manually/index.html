@@ -107,75 +107,71 @@
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>Let&rsquo;s copy wordpress manually to localhost.</p>
-<p>Copy over files from your server&hellip; you probably just need the <strong>wp-contents</strong> folder</p>
-<p>Dump your wordpress database to <strong>wordpress.sql</strong> and download. To dump your SQL&hellip;</p>
-<pre><code>mysqldump --databases wordpress &gt; wordpress.sql
-</code></pre>
-<p>Setup a local instance of wordpress with docker-compose. Create a new folder called <em>wordpress</em>. Create <em>wordpress/www</em> folder and add <em>wordpress/docker-compose.yml</em></p>
-<pre><code>version: &quot;3&quot;
-services:
-  db:
-    image: mysql:5.7
-    restart: always
-    volumes:
+                    <p>First, I think it&rsquo;d be best to copy our wordpress site over to our local computer&hellip;</p>
+<p>Copy over files from your server&hellip; you probably just need the wp-contents folder</p>
+<p>Dump your wordpress database and download. To dump your SQL&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mysqldump --databases wordpress &gt; wordpress.sql
+</code></pre></div><p>Setup a local instance of wordpress with docker-compose. Create a new folder called <em>wordpress</em>. Create <em>wordpress/www</em> folder and add <em>wordpress/docker-compose.yml</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">version</span>: <span style="color:#e6db74">&#34;3&#34;</span>
+<span style="color:#66d9ef">services</span>:
+  <span style="color:#66d9ef">db</span>:
+    <span style="color:#66d9ef">image</span>: mysql:<span style="color:#ae81ff">5.7</span>
+    <span style="color:#66d9ef">restart</span>: always
+    <span style="color:#66d9ef">volumes</span>:
       - db_data:/var/www/mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
-    networks:
+    <span style="color:#66d9ef">environment</span>:
+      <span style="color:#66d9ef">MYSQL_ROOT_PASSWORD</span>: password
+      <span style="color:#66d9ef">MYSQL_DATABASE</span>: wordpress
+      <span style="color:#66d9ef">MYSQL_USER</span>: wordpress
+      <span style="color:#66d9ef">MYSQL_PASSWORD</span>: wordpress
+    <span style="color:#66d9ef">networks</span>:
       - wp
 
-  wordpress:
-    depends_on:
+  <span style="color:#66d9ef">wordpress</span>:
+    <span style="color:#66d9ef">depends_on</span>:
       - db
-    image: wordpress
-    restart: always
-    volumes: [&quot;./www/:/var/www/html&quot;]
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
-    ports:
-      - 80:80
-      - 443:443
-    networks:
+    <span style="color:#66d9ef">image</span>: wordpress
+    <span style="color:#66d9ef">restart</span>: always
+    <span style="color:#66d9ef">volumes</span>: [<span style="color:#e6db74">&#34;./www/:/var/www/html&#34;</span>]
+    <span style="color:#66d9ef">environment</span>:
+      <span style="color:#66d9ef">WORDPRESS_DB_HOST</span>: db:<span style="color:#ae81ff">3306</span>
+      <span style="color:#66d9ef">WORDPRESS_DB_USER</span>: wordpress
+      <span style="color:#66d9ef">WORDPRESS_DB_PASSWORD</span>: wordpress
+    <span style="color:#66d9ef">ports</span>:
+      - <span style="color:#ae81ff">80</span>:<span style="color:#ae81ff">80</span>
+      - <span style="color:#ae81ff">443</span>:<span style="color:#ae81ff">443</span>
+    <span style="color:#66d9ef">networks</span>:
       - wp
 
-  phpmyadmin:
-    depends_on:
+  <span style="color:#66d9ef">phpmyadmin</span>:
+    <span style="color:#66d9ef">depends_on</span>:
       - db
-    image: phpmyadmin/phpmyadmin
-    restart: always
-    ports:
-      - 8080:80
-    environment:
-      PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: password
-    networks:
+    <span style="color:#66d9ef">image</span>: phpmyadmin/phpmyadmin
+    <span style="color:#66d9ef">restart</span>: always
+    <span style="color:#66d9ef">ports</span>:
+      - <span style="color:#ae81ff">8080</span>:<span style="color:#ae81ff">80</span>
+    <span style="color:#66d9ef">environment</span>:
+      <span style="color:#66d9ef">PMA_HOST</span>: db
+      <span style="color:#66d9ef">MYSQL_ROOT_PASSWORD</span>: password
+    <span style="color:#66d9ef">networks</span>:
       - wp
 
-networks:
-  wp:
+<span style="color:#66d9ef">networks</span>:
+  <span style="color:#66d9ef">wp</span>:
   
-volumes:
-  db_data:
-</code></pre>
-<p>Copy your <em>wordpress.sql</em> into <em>wordpress/</em>. Get the mysql containter id and copy wordpress.sql into container.</p>
-<pre><code>docker ps
+<span style="color:#66d9ef">volumes</span>:
+  <span style="color:#66d9ef">db_data</span>:
+</code></pre></div><p>Copy your <em>wordpress.sql</em> into <em>wordpress/</em>. Get the mysql containter id and copy wordpress.sql into container.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker ps
 docker cp wordpress.sql CONTAINER_ID:/wordpress.sql
-</code></pre>
-<p>Go into container and copy data into database</p>
-<pre><code>docker exec -it CONTAINER_ID /bin/bash
+</code></pre></div><p>Go into container and copy data into database</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker exec -it CONTAINER_ID /bin/bash
 mysql -u DB_USERNAME -p &lt; wordpress.sql
-</code></pre>
-<p>I&rsquo;ll be honest. I&rsquo;ve been through this process a few times. Here is tweak you&rsquo;ll probably have to make&hellip;</p>
+</code></pre></div><p>I&rsquo;ll be honest. I&rsquo;ve been through this process a few times. Here is tweak you&rsquo;ll probably have to make&hellip;</p>
 <ul>
-<li>Navigate to <a href="http://localhost:8080">http://localhost:8080</a> <em>phpmyadmin</em></li>
-<li>Change <em>wordpress.wp_options.home</em> from <a href="http://SOME-ADDRESS">http://SOME-ADDRESS</a> to <a href="http://localhost">http://localhost</a></li>
-<li>Change <em>wordpress.wp_options.siteurl</em> from <a href="http://SOME-ADDRESS">http://SOME-ADDRESS</a> to <a href="http://localhost">http://localhost</a></li>
+<li>Navigate to http://localhost:8080 <em>phpmyadmin</em></li>
+<li>Change <em>wordpress.wp_options.home</em> from http://SOME-ADDRESS to http://localhost</li>
+<li>Change <em>wordpress.wp_options.siteurl</em> from http://SOME-ADDRESS to http://localhost</li>
 </ul>
 <p>A tweak I had to go through that you probably shouldn&rsquo;t&hellip; I had a custom named 10-year old database (wordpress_etdofresh). The way I did this was create a vanilla wordpress with wordpress as the database. I went through the setup and populated the wordpress data with all new data. I then logged into WordPress and went to an admin page (like the posts page). I then went to phpmyadmin, renamed db wordpress to wordpress_2 and renamed wordpress_etdofresh to wordpress.</p>
 <p>Then copy your site&rsquo;s wp-content into <em>wordpress/www</em>. If you go to localhost, your site should be there. Now modify, backup, or do whatever you need to do! Good luck! - ET</p>
