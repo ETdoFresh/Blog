@@ -1,11 +1,11 @@
 ---
 title: 2019 February Progress Report
-author: ETdoFresh
-type: post
 date: 2019-02-07T04:25:40+00:00
+author: ETdoFresh
 url: /2019-february-progress-report/
+type: post
 featured_image: /wp-content/uploads/2019/02/B2243EC4-DC96-4788-885A-C51F55AF2712-e1549512202633-1200x1143.jpeg
-categories:
+tags:
   - Personal
 
 ---

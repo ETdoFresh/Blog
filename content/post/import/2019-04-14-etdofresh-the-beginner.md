@@ -2,6 +2,8 @@
 title: ETdoFresh – The Beginner
 date: 2019-04-14T20:56:53+00:00
 author: ETdoFresh
+url: /etdofresh-the-beginner/
+type: post
 featured_image: /wp-content/uploads/2019/04/artworks-000520057923-8y7dr4-t500x500.jpg
 hide_featured_image: true
 tags:

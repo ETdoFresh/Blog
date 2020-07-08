@@ -2,12 +2,14 @@
 title: 2019 April Progress Report
 date: 2019-04-08T01:13:30+00:00
 author: ETdoFresh
+url: /2019-april-progress-report/
+type: post
+featured_image: /wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-1024x768.jpeg
 excerpt: March has been a trip! Here’s my March...
 tags:
   - Personal
 
 ---
-<figure class="wp-block-image">[<img src="https://www.etdofresh.com/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-1024x768.jpeg" alt="" class="wp-image-1553" srcset="http://localhost/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-1024x768.jpeg 1024w, http://localhost/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-300x225.jpeg 300w, http://localhost/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-768x576.jpeg 768w, http://localhost/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633-1200x900.jpeg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]</figure> 
 
 March has been a trip! Here&#8217;s my March:
 
@@ -26,7 +28,6 @@ Now what does April hold for me?
 
 Wish me luck! I&#8217;m going to need it this month!
 
- [1]: https://www.etdofresh.com/wp-content/uploads/2019/04/4D3FF347-B064-4151-905E-624131963633.jpeg
  [2]: https://www.google.com/search?q=Mardi+Gras+2019
  [3]: https://www.gdconf.com/
  [4]: https://www.gdcvault.com/browse/gdc-19

@@ -1,0 +1,4 @@
+{{ $src := .Params.src }}
+{{ $width := .Params.width }}
+
+<a href="{{ $src }}"><img src="{{ $src }}" {{ if $width }} width="{{ $width }}" {{ end }} style="display: inline;"/></a>

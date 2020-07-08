@@ -2,8 +2,10 @@
 title: Check In – Start of Fall 2019
 date: 2019-09-13T00:09:26+00:00
 author: ETdoFresh
-excerpt: I've been on a bit of an emotional roller coaster this Summer. I'm back on the ground. I'm dizzy. I'm trying to get my right footing, but stumbling a bit... but here I am. Able and willing!
+url: /check-in-start-of-fall-2019/
+type: post
 featured_image: https://unsplash.com/photos/uuBBew6g2jM/download
+excerpt: I've been on a bit of an emotional roller coaster this Summer. I'm back on the ground. I'm dizzy. I'm trying to get my right footing, but stumbling a bit... but here I am. Able and willing!
 tags:
   - Personal
 ---
