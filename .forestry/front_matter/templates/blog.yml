@@ -5,30 +5,37 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: author
-  label: author
-- type: text
-  name: type
-  label: type
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
-  name: excerpt
-  label: excerpt
+  name: author
+  label: author
+  default: ETdoFresh
 - type: text
   name: url
   label: url
+- type: text
+  name: type
+  label: type
+  default: post
+  hidden: true
 - type: file
   name: featured_image
   label: featured_image
-- type: list
-  name: classic-editor-remember
-  label: classic-editor-remember
-- type: list
-  name: categories
-  label: categories
-- type: list
-  name: tags
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: excerpt
+- name: tags
+  type: tag_list
+  default: []
   label: tags
