@@ -1,31 +1,31 @@
 ---
-label: Blog
+label: Post
 hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
   config:
     required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
   default: now
 - type: text
   name: author
-  label: author
+  label: Author
   default: ETdoFresh
 - type: text
   name: url
-  label: url
+  label: URL
 - type: text
   name: type
-  label: type
+  label: Type (post)
   default: post
   hidden: true
 - type: file
   name: featured_image
-  label: featured_image
+  label: Featured Image
 - name: excerpt
   type: textarea
   default: ''
@@ -34,8 +34,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: excerpt
+  label: Excerpt
 - name: tags
   type: tag_list
   default: []
-  label: tags
+  label: Tags

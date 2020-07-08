@@ -1,5 +1,5 @@
 ---
-label: Blog Post (Feature Image External)
+label: Post (Manual Feature Image)
 hide_body: false
 fields:
 - type: text
@@ -13,6 +13,23 @@ fields:
   name: author
   label: Author
   default: ETdoFresh
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type (post)
+  hidden: true
+  default: post
+- name: featured_image
+  type: text
+  config:
+    required: false
+  label: Featured Image
 - name: excerpt
   type: textarea
   default: ''
@@ -22,11 +39,6 @@ fields:
     schema:
       format: markdown
   label: Excerpt
-- name: featured_image
-  type: text
-  config:
-    required: false
-  label: Featured Image
 - name: tags
   type: tag_list
   default: []
