@@ -26,11 +26,13 @@
     <div class="inner posts">
         <div class="post-feed">
             {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-            {{ range $index, $element := $pages }}
-                {{- partial "post-card.html" (dict "context" . "index" $index "home" $.IsHome) -}}
+            
+            {{ range $index, $element := .Paginator.Pages }}
+            {{- partial "post-card.html" (dict "context" $element "index" $index "home" $.IsHome) -}}
             {{ end }}
         </div>
     </div>
+    <div>{{ template "_internal/pagination.html" . }}</div>
 </main>
 
 {{ end }}
