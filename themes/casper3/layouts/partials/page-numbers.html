@@ -1,0 +1,13 @@
+{{ $paginator := .paginator }}
+
+<div style="text-align: center; font-size: 1.25em; margin: 1em;">
+    {{ range $p := .paginator.Pagers }}
+        {{ if eq $p.PageNumber $paginator.PageNumber}}
+            <span>{{ $p.PageNumber }}</span> -- 
+        {{ else if eq $p.PageNumber $paginator.TotalPages }}
+            <a href="{{ $p.URL }}">{{ $p.PageNumber }}</a>
+        {{ else }}
+            <a href="{{ $p.URL }}">{{ $p.PageNumber }}</a> --
+        {{ end }}
+    {{ end }}
+</div>

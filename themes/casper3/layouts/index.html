@@ -23,16 +23,17 @@
 </header>
 
 <main id="site-main" class="site-main outer">
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $paginator := .Paginate $pages 20 }}
+    {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
     <div class="inner posts">
         <div class="post-feed">
-            {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-            
-            {{ range $index, $element := .Paginator.Pages }}
-            {{- partial "post-card.html" (dict "context" $element "index" $index "home" $.IsHome) -}}
+            {{ range $index, $page := $paginator.Pages }}
+                {{- partial "post-card.html" (dict "context" $page "index" $index "home" $.IsHome) -}}
             {{ end }}
-        </div>
+        </div>        
     </div>
-    <div>{{ template "_internal/pagination.html" . }}</div>
+    {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
 </main>
 
 {{ end }}
