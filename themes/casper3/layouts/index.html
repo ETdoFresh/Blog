@@ -25,15 +25,15 @@
 <main id="site-main" class="site-main outer">
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $paginator := .Paginate $pages 20 }}
-    {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
     <div class="inner posts">
+        {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
         <div class="post-feed">
             {{ range $index, $page := $paginator.Pages }}
                 {{- partial "post-card.html" (dict "context" $page "index" $index "home" $.IsHome) -}}
             {{ end }}
         </div>        
+        {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
     </div>
-    {{- partial "page-numbers.html" (dict "paginator" $paginator) -}}
 </main>
 
 {{ end }}

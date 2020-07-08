@@ -1,13 +1,66 @@
 {{ $paginator := .paginator }}
 
-<div style="text-align: center; font-size: 1.25em; margin: 1em;">
-    {{ range $p := .paginator.Pagers }}
+<div class="page_numbers">
+    {{ if eq $paginator.PageNumber 1 }}
+    <span class="button disabled" style="float: left; width: 5em;">&lt;&lt; Prev</span>
+    {{ else }}
+    <a class="button" href="{{ $paginator.Prev.URL }}" style="float: left; width: 5em;">&lt;&lt; Prev</a>
+    {{end}}
+
+    {{ if eq $paginator.PageNumber $paginator.TotalPages }}
+    <span class="button disabled" style="float: right; width: 5em;">Next &gt;&gt;</span>
+    {{ else }}
+    <a class="button" href="{{ $paginator.Next.URL }}" style="float: right; width: 5em;">Next &gt;&gt;</a>
+    {{end}}
+
+    {{ range $p := $paginator.Pagers }}
         {{ if eq $p.PageNumber $paginator.PageNumber}}
-            <span>{{ $p.PageNumber }}</span> -- 
+            <span class="button selected">{{ $p.PageNumber }}</span> 
         {{ else if eq $p.PageNumber $paginator.TotalPages }}
-            <a href="{{ $p.URL }}">{{ $p.PageNumber }}</a>
+            <a class="button" href="{{ $p.URL }}">{{ $p.PageNumber }}</a>
         {{ else }}
-            <a href="{{ $p.URL }}">{{ $p.PageNumber }}</a> --
+            <a class="button" href="{{ $p.URL }}">{{ $p.PageNumber }}</a> 
         {{ end }}
     {{ end }}
 </div>
+
+<style>
+    .page_numbers {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 1em;
+    }
+    .page_numbers .button { 
+        color: #b4b3b1;
+        border: #1e1c19 solid 0.1em;
+        border-top: #736b5e solid 0.1em;
+        border-left: #736b5e solid 0.1em;
+        background: #181a1b;
+        display: inline-block;
+        width: 2em;
+        line-height: 1.5em;
+    }
+    .page_numbers .button:hover {
+        background: #646a6d;
+    }
+    .page_numbers .selected {
+        color: #101010;
+        background-color: #606060;
+    }
+    .page_numbers .selected:hover {
+        color: #101010;
+        background-color: #606060;
+    }
+    .page_numbers .disabled {
+        color: #181a1b;
+        background-color: #191b1f;
+        border: none;
+        cursor: default;
+    }
+    .page_numbers .disabled:hover {
+        color: #181a1b;
+        background-color: #191b1f;
+        border: none;
+        cursor: auto;
+    }
+</style>
