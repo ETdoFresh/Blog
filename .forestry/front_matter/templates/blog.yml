@@ -1,0 +1,34 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: excerpt
+  label: excerpt
+- type: text
+  name: url
+  label: url
+- type: file
+  name: featured_image
+  label: featured_image
+- type: list
+  name: classic-editor-remember
+  label: classic-editor-remember
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
