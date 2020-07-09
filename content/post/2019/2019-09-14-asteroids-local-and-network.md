@@ -6,12 +6,9 @@ date: 2019-09-14T07:00:04+00:00
 excerpt: A simple game that I'm using to test Local and Network Gameplay. [Network Version Unavailable]
 url: /asteroids-local-and-network/
 featured_image: /wp-content/uploads/2019/09/vlcsnap-2019-09-14-01h21m18s933.png
-classic-editor-remember:
-  - block-editor
-categories:
-  - Project
 tags:
   - Game
+  - Project
   - Network
   - Unity
 ---

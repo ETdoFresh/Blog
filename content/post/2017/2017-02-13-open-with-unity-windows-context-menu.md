@@ -5,6 +5,7 @@ type: post
 date: 2017-02-14T03:19:42+00:00
 url: /open-with-unity-windows-context-menu/
 featured_image: /wp-content/uploads/2017/02/UnityContextWindow.png
+excerpt: This post explains how to add "Open with Unity" in a Windows Context Menu
 tags:
   - Unity
   - Utility
