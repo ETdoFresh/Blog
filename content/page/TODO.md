@@ -25,6 +25,7 @@ Nothing here right now
 - [ ] Upgrade 2011 posts to md [4qty]
 - [ ] Upgrade 2010 posts to md [26qty]
 - [ ] Upgrade 2009 posts to md [53qty]
+- [ ] Add Google AdSense code onto site
 
 ## Completed
 - [X] Alot already :)
