@@ -12,16 +12,20 @@
     
         <div class="post-card-content">
     
-            <a class="post-card-content-link" href="{{ .context.Permalink }}">
-                <header class="post-card-header">
-                    {{ with .context.Params.tags }}
-                        {{ $primaryTag := (index . 0) }}
-                        <div class="post-card-primary-tag">{{ $primaryTag }}</div>
-                    {{ end }}
-
+            <header class="post-card-header">
+                {{ with .context.Params.tags }}
+                {{ $primaryTag := (index . 0) }}
+                <a class="post-card-content-link" href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">
+                    <div class="post-card-primary-tag">{{ $primaryTag }}</div>
+                </a>
+                {{ end }}
+            
+                <a class="post-card-content-link" href="{{ .context.Permalink }}">
                     <h2 class="post-card-title">{{ .context.Title }}</h2>
-                </header>
-    
+                </a>
+            </header>
+            
+            <a class="post-card-content-link" href="{{ .context.Permalink }}">
                 <section class="post-card-excerpt">
                     {{ if .context.Param "excerpt" }}
                     <p>{{ .context.Param "excerpt" }}</p>
