@@ -7,7 +7,6 @@ hide_featured_image: true
 menu:
   main:
     weight: 3
-
 ---
 
 {{< image src="/wp-content/uploads/2014/11/Garcia-Wedding-1121a.jpg" width="50%" >}}
