@@ -8,10 +8,8 @@
 
 <main id="site-main" class="site-main outer">
     <div class="inner">
-
         {{ $show_featured_image := and (.Param "featured_image") (not (.Param "hide_featured_image")) }}
         <article class="post-full post {{ if not $show_featured_image }} no-image {{ end }}">
-
             <header class="post-full-header">
                 <section class="post-full-tags">
                     {{ range .Params.tags }}
@@ -57,8 +55,24 @@
                 <div class="post-content">
                     {{ .Content }}
                 </div>
-            </section>
 
+                {{ if .Param "show_comments" }}
+                <div style="color: black; text-align: center;">
+                    <input id="show_comments" type="button" value="Show Comments" onclick="disqus();" />
+                </div>
+                <div id="disqus_thread"></div>
+                <script>
+                    function disqus() {
+                        document.getElementById("show_comments").style.visibility = "hidden";
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://www-etdofresh-com.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    }
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
+                {{ end }}
+            </section>
         </article>
 
     </div>
