@@ -3,29 +3,6 @@ title: Home
 author: ETdoFresh
 type: page
 date: 2019-01-06T05:12:01+00:00
-sharing_disabled:
-  - 1
-slide_template:
-  - default
-custom_sidebar:
-  - default
-layout:
-  - full
-menu-type-bg:
-  - '#0a0a0a'
-select-title:
-  - hide
-select-bread:
-  - hide
-content_top:
-  - 0px
-content_bottom:
-  - 0px
-post_grid_post_settings:
-  - 'a:14:{s:9:"post_skin";s:4:"flat";s:19:"custom_thumb_source";s:97:"https://www.etdofresh.com/wp-content/plugins/post-grid/assets/frontend/css/images/placeholder.png";s:16:"thumb_custom_url";s:0:"";s:17:"font_awesome_icon";s:0:"";s:23:"font_awesome_icon_color";s:0:"";s:22:"font_awesome_icon_size";s:0:"";s:17:"custom_youtube_id";s:0:"";s:15:"custom_vimeo_id";s:0:"";s:21:"custom_dailymotion_id";s:0:"";s:14:"custom_mp3_url";s:0:"";s:20:"custom_soundcloud_id";s:0:"";s:16:"custom_video_MP4";s:0:"";s:16:"custom_video_OGV";s:0:"";s:17:"custom_video_WEBM";s:0:"";}'
-classic-editor-remember:
-  - classic-editor
-
 ---
 \[et\_pb\_section fb\_built="1&#8243; \_builder\_version="3.25.2&#8243; background\_color="#242424&#8243; custom\_padding="15px||19px|||"\]\[et\_pb\_row column\_structure="1\_2,1\_2&#8243; \_builder\_version="3.25.2&#8243; width="100%" max\_width="2560px"\]\[et\_pb\_column type="1\_2&#8243; \_builder\_version="3.25.2&#8243;\]\[et\_pb\_image \_builder\_version="3.25.2&#8243; background\_image="https://www.etdofresh.com/wp-content/uploads/2014/11/DSC\_0947.jpg" parallax="on" custom\_margin="0px|0px|0px|0px" custom\_padding="100px|0px|100px|0px"\]\[/et\_pb\_image\]\[/et\_pb\_column\]\[et\_pb\_column type="1\_2&#8243; \_builder\_version="3.25.2&#8243;\]\[et\_pb\_text \_builder\_version="3.25.2&#8243; text\_font="||||||||" text\_text\_color="#c4c4c4&#8243; header\_font="||||||||" header\_text\_color="#FFFFFF" custom\_padding="20px|16px||||"\]
 
