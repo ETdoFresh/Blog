@@ -18,9 +18,9 @@ categories:
 ---
 Dear Blog,
 
-Alright! Saints won a playoff game! I&#8217;m sooo excited. I&#8217;ve been really watching a lot of football since playoffs started. I even BBQed today, cause I was just excited about football. You better believe I&#8217;m going to do everything exactly like I did today to please the football gods. Lots of work during the week, and all the same rituals during the weekend!
+Alright! Saints won a playoff game! I'm sooo excited. I've been really watching a lot of football since playoffs started. I even BBQed today, cause I was just excited about football. You better believe I'm going to do everything exactly like I did today to please the football gods. Lots of work during the week, and all the same rituals during the weekend!
 
-So, I jogged a whole 2 miles today! Oh my gosh! That took a beating out of me. Colleen still jogs slightly faster than I do, but I&#8217;m thinking I may run an aditional sprint every other day just so I can build up some speed!
+So, I jogged a whole 2 miles today! Oh my gosh! That took a beating out of me. Colleen still jogs slightly faster than I do, but I'm thinking I may run an aditional sprint every other day just so I can build up some speed!
 
 <p align="center">
   <a href="http://lh3.ggpht.com/_yEPuIWl8ybE/S1K8kLXkkcI/AAAAAAAABAk/MqdKKsyzmNw/s1600/IMG_7962.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/S1K8kLXkkcI/AAAAAAAABAk/MqdKKsyzmNw/s288/IMG_7962.JPG" width="225" /></a>

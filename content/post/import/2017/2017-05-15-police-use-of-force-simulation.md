@@ -41,7 +41,7 @@ tags:
   </li>
 </ul>
 
-I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I&#8217;ve worked on with the <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://nil.cs.uno.edu/projects/" target="_blank">Narrative Intelligence Laboratory</a> at the <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.uno.edu" target="_blank">University of New Orleans</a>. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+I am the primary Unity developer on the Police Use of Force Prototype Simulation. It is a research project I've worked on with the <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://nil.cs.uno.edu/projects/" target="_blank">Narrative Intelligence Laboratory</a> at the <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.uno.edu" target="_blank">University of New Orleans</a>. You control a Police Officer in either VR or Keyboard/Mouse controls learning Use of Force policies.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
 <div class="wp-block-embed__wrapper">
   <span class="embed-youtube" style="text-align:center; display: block;"></span>

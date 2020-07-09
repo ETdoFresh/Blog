@@ -22,11 +22,11 @@ categories:
   </p>
   
   <p>
-    Today we are going to discuss how make a simple XML socket server using PHP (as a command line server) and Flash as the client. I assume that PHP has been installed with the &#8220;sockets plug-in&#8221;.
+    Today we are going to discuss how make a simple XML socket server using PHP (as a command line server) and Flash as the client. I assume that PHP has been installed with the "sockets plug-in".
   </p>
   
   <p>
-    First let&#8217;s associate a new type of file to Windows, called PHS, or PHP Script. (I borrowed the following from <a href="http://www.php.net/manual/en/features.commandline.php#93479">this site</a>) Open up a command prompt window and&#8230;
+    First let's associate a new type of file to Windows, called PHS, or PHP Script. (I borrowed the following from <a href="http://www.php.net/manual/en/features.commandline.php#93479">this site</a>) Open up a command prompt window and...
   </p>
   
   <pre>ASSOC .phs=PHPScript
@@ -38,7 +38,7 @@ set PATHEXT=.phs;%PATHEXT%</pre>
   </p>
   
   <p>
-    After that, we simply create a PHS like the following that will run as your server (borrowed from <a href="http://devzone.zend.com/article/1086#Heading7">here</a> and tweaked to work <a href="http://wheresninja.com/sxmlss/simpleXMLSocketServer.phps">here</a>)&#8230;
+    After that, we simply create a PHS like the following that will run as your server (borrowed from <a href="http://devzone.zend.com/article/1086#Heading7">here</a> and tweaked to work <a href="http://wheresninja.com/sxmlss/simpleXMLSocketServer.phps">here</a>)...
   </p>
   
   <pre>&lt;?php 

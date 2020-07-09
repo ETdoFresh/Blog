@@ -8,7 +8,7 @@ categories:
   - Programming
 
 ---
-Here&#8217;s a little windows batch script for sharing your &#8220;idea&#8221; or &#8220;thought&#8221; videos that are perhaps too big for Discord. I use FFMPEG to reencode the video to under the 8MB limit.
+Here's a little windows batch script for sharing your "idea" or "thought" videos that are perhaps too big for Discord. I use FFMPEG to reencode the video to under the 8MB limit.
 
 <pre class="lang:default decode:true" title="2DiscordVideo.cmd">@echo off
 cd /D %~p0
@@ -23,7 +23,7 @@ ffmpeg -i %1 -c:v libx264 -b:v %videoBitrate%k -pass 2 -b:a %audioBitrate%k "%ou
 del /q ffmpeg2pass-*.log ffmpeg2pass-*.mbtree
 pause</pre>
 
-I&#8217;ve packaged this code and ffmpeg.exe together for easy distribution later.
+I've packaged this code and ffmpeg.exe together for easy distribution later.
 
 [Download 2DiscordVideo][1] [15.5MB]
 

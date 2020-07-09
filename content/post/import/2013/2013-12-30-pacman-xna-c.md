@@ -41,7 +41,7 @@ tags:
   <a href="http://www.etdofresh.com/wp-content/uploads/2014/11/PacmanPlayable.zip">PacmanPlayable.zip</a> <em>Binary</em><br /><a href="https://github.com/ETdoFresh/Pacman">https://github.com/ETdoFresh/Pacman</a> <em>Source Code</em>
 </p>
 
-This was my first and last XNA project. It&#8217;s not because I didn&#8217;t love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.
+This was my first and last XNA project. It's not because I didn't love XNA, it is very cool and very fast! But as an independent/sole developer, the time it took me to get to this point was too long. I realized I had to go to another tool like GameMaker or Unity.
 
 <!--more-->This is a true to the original clone of Pacman. All ghosts (and all sprites actually) are made up of white sprites tinted at run-time. Results look good, I just worry about how many sprites could a CPU handle.
 

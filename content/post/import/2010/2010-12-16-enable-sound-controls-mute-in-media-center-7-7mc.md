@@ -20,7 +20,7 @@ Dear Blog
 
 Tonight I was having issues muting my HD content. My normal SD conent has normal, vol up/down and mute capabilities. Unfortunately, my HD conent was always like near max blast, even if I hit mute or vol down.
 
-So what I did was turn on Auto Volume! It works now&#8230; no dolby digital sound from the TV anymore, but, I only use TV speakers anyway, so I&#8217;m not missing much.
+So what I did was turn on Auto Volume! It works now... no dolby digital sound from the TV anymore, but, I only use TV speakers anyway, so I'm not missing much.
 
 <pre>I believe it's in:
 Settings > TV > Audio > Auto Volume Checkbox</pre>

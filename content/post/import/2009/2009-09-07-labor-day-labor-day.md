@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-I&#8217;ve been calling this Memorial Day weekend, when it&#8217;s been Labor Day Weekend! D&#8217;oh! Anyway, I&#8217;ve been on the 3D today since I got my 3d book this weekend, [3ds Max Modeling for Gaming][1]. The modelling has been pretty easy, but the texturing has been a learning experience to me. Anyway, I figured I&#8217;d post my results here on the blog for where I&#8217;m at.
+I've been calling this Memorial Day weekend, when it's been Labor Day Weekend! D'oh! Anyway, I've been on the 3D today since I got my 3d book this weekend, [3ds Max Modeling for Gaming][1]. The modelling has been pretty easy, but the texturing has been a learning experience to me. Anyway, I figured I'd post my results here on the blog for where I'm at.
 
 Chapter 1 (Cardboard Box):  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 90px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/SqXyslAuoKI/AAAAAAAAAfw/_pNHLwR_To4/s400/Chapter01_Top.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5378972177627259042" />][2]  
@@ -32,12 +32,12 @@ Chapter 2 (Barrel):
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 90px;" src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SqXyyf8yMOI/AAAAAAAAAf4/TQbEpnLVm7A/s400/Chapter02_Perspective.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5378972279347753186" />][8]  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 90px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SqXyy3lPZQI/AAAAAAAAAgA/sM4FPSP9wEg/s400/Chapter02_PerspectiveLow.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5378972285691454722" />][9]
 
-After a little bit of working, I went over to Colleen&#8217;s house. She got that [entertainment book][10] with all the coupons for restaurants and entertainment. It&#8217;s cool, and it&#8217;s the first time they are selling here in Metaire/New Orleans since Hurricane Katrina (2005).  
+After a little bit of working, I went over to Colleen's house. She got that [entertainment book][10] with all the coupons for restaurants and entertainment. It's cool, and it's the first time they are selling here in Metaire/New Orleans since Hurricane Katrina (2005).  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SqXy7veZAqI/AAAAAAAAAgg/Xx76ZCfiPUo/s400/CIMG0010.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5378972438134063778" />][11]  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/SqXy62Lel1I/AAAAAAAAAgY/qFzTNb3Eodc/s400/CIMG0005.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5378972422753916754" />][12]  
-Then we went over to big lots, where I picked up a few things, including Arizona Green Tea. I remember in high school my mom and I would go to MacFrugal&#8217;s/Big Lots to pick up stuff, and I would always get a Green Tea! I loved it then, and I love it now. Good stuff.
+Then we went over to big lots, where I picked up a few things, including Arizona Green Tea. I remember in high school my mom and I would go to MacFrugal's/Big Lots to pick up stuff, and I would always get a Green Tea! I loved it then, and I love it now. Good stuff.
 
-Then we watched a few movies at Colleen&#8217;s house. [Everything You Always Wanted to Know About Sex * But Were Afraid to Ask][13], [El Dorado][14], and [Roman Holiday][15]. They were good, and El Dorado has been like the second or third Western I&#8217;ve watched. They&#8217;re not too bad if you take the time. I never took the time, so I thought I always hated westerns&#8230; but now that I seen a few&#8230; I like it!
+Then we watched a few movies at Colleen's house. [Everything You Always Wanted to Know About Sex * But Were Afraid to Ask][13], [El Dorado][14], and [Roman Holiday][15]. They were good, and El Dorado has been like the second or third Western I've watched. They're not too bad if you take the time. I never took the time, so I thought I always hated westerns... but now that I seen a few... I like it!
 
 Anyway, watching some King of the Hill which is ending very soon (very sad!) and going to read some more books.
 

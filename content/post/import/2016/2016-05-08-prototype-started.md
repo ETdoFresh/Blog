@@ -15,11 +15,11 @@ Covered today: 2D Sprites and Sprite Sheets, Animations, Movement
   <img aria-describedby="caption-attachment-227" class="wp-image-227 size-full" src="http://www.etdofresh.com/wp-content/uploads/2016/05/S05E00.png" alt="S05E00" width="1345" height="756" />
   
   <p id="caption-attachment-227" class="wp-caption-text">
-    Twitch Stream: S05E00 &#8211; Cargo Bay 5 &#8211; In the beginning&#8230;
+    Twitch Stream: S05E00 &#8211; Cargo Bay 5 &#8211; In the beginning...
   </p>
 </div>
 
-So today I decided to work on the prototype for Cargo Bay 5 just so our team can start to get the &#8220;feel&#8221; for what we are talking about. I got a 2D character animated and moving across the screen for my first official episode of my Season/Shelf 05 streams.<!--more-->
+So today I decided to work on the prototype for Cargo Bay 5 just so our team can start to get the "feel" for what we are talking about. I got a 2D character animated and moving across the screen for my first official episode of my Season/Shelf 05 streams.<!--more-->
 
 ## 2D Sprites and Sprite Sheets
 
@@ -33,15 +33,15 @@ Here is what I did to get this Bomberman spritesheet in my prototype:
       * Sprite Mode: Multiple
       * Slice (Top Left of Sprite Editor) and Smart Slice
 
-If done correctly, you&#8217;ll have a nicely cut out Sprites (light grey box around each sprite). Click inside a grey box if dimensions are a bit off to edit it. Done!
+If done correctly, you'll have a nicely cut out Sprites (light grey box around each sprite). Click inside a grey box if dimensions are a bit off to edit it. Done!
 
 I recommend whatever the size of your sprites are, you use the max width or height value as your Pixels Per Unit in the inspector so that your sprites fit in 1-by-1 Unity Units.
 
-Another recommendation is to name each of your sprites&#8230; yup, it will be a pain in the butt, but will be worth it down the line.
+Another recommendation is to name each of your sprites... yup, it will be a pain in the butt, but will be worth it down the line.
 
 ## Animations
 
-Now that you have a bunch of Sprites, it&#8217;s time to animate them in a flipbook fashion.
+Now that you have a bunch of Sprites, it's time to animate them in a flipbook fashion.
 
 <img class="alignnone size-full wp-image-232" src="http://www.etdofresh.com/wp-content/uploads/2016/05/S05E00-3.png" alt="S05E00" width="805" height="388" /> 
 
@@ -112,4 +112,4 @@ public class Movement : MonoBehaviour
 }
 </pre>
 
-In the final product, I do not recommend calling animator.Play() or rigidbody.velocty in the Update() function. But for now, attach the script to your GameObject with the Animator with the Animations and that&#8217;s it! We got a 2D Sprite moving and animating around in a 2D World.
+In the final product, I do not recommend calling animator.Play() or rigidbody.velocty in the Update() function. But for now, attach the script to your GameObject with the Animator with the Animations and that's it! We got a 2D Sprite moving and animating around in a 2D World.

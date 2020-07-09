@@ -21,14 +21,14 @@ categories:
 </div>
 
 <div>
-  I&#8217;m glad to be writing to you again from Sweden. It&#8217;s 1:00 AM, and its probably going to be darkest as it&#8217;s possibly going to be tonight. Sun will probably start coming out in about an hour. It&#8217;s just insane. Anyway, as always, I&#8217;ll tell you about my day.
+  I'm glad to be writing to you again from Sweden. It's 1:00 AM, and its probably going to be darkest as it's possibly going to be tonight. Sun will probably start coming out in about an hour. It's just insane. Anyway, as always, I'll tell you about my day.
 </div>
 
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/SkanD2kJDsI/AAAAAAAAAPI/EgD5e9nF-r8/s400/S6301880.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352148891804962498" />][1]  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/SkanETGKtrI/AAAAAAAAAPQ/g60qVrz4nA8/s400/S6301887.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352148899463870130" />][2]
 
 <div>
-  Well, everyone woke up so that we can do some shopping and checking out of the area around where we are currently staying (Tanumshede). We left our nice red house and our first stop was the second-hand store. It was a place where my mom and Ximena have found many plates together. It&#8217;s really cheap for very nice expensive plates. For example, we saw one plate for 50 Kr at second-hand store, and it was 150 Kr at a tourist shop (7.6 Kr / Dollar). I also saw a glass from New Orleans!
+  Well, everyone woke up so that we can do some shopping and checking out of the area around where we are currently staying (Tanumshede). We left our nice red house and our first stop was the second-hand store. It was a place where my mom and Ximena have found many plates together. It's really cheap for very nice expensive plates. For example, we saw one plate for 50 Kr at second-hand store, and it was 150 Kr at a tourist shop (7.6 Kr / Dollar). I also saw a glass from New Orleans!
 </div>
 
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SkanEorHdyI/AAAAAAAAAPY/VSzLX76nnoI/s400/S6301893.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352148905255991074" />][3]  
@@ -49,7 +49,7 @@ categories:
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SkapXb2ps9I/AAAAAAAAAQA/nqzckAGTLN8/s400/S6301958.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352151427255481298" />][8]
 
 <div>
-  Then Jerry and Ximena thought it would be nice that they would take us to rocks with paintings from the Bronze Age (1800 &#8211; 500BC). It&#8217;s great to know that age old culture exists everywhere. In one of our stops of viewing culuture, I learned that the ants made hills 100 times bigger than those I&#8217;ve seen in New Orleans. Seriously! Check out the picture with Jerry and Andre, and behind them is an actual ant pile. It is more than half of a human size. Amazing.
+  Then Jerry and Ximena thought it would be nice that they would take us to rocks with paintings from the Bronze Age (1800 &#8211; 500BC). It's great to know that age old culture exists everywhere. In one of our stops of viewing culuture, I learned that the ants made hills 100 times bigger than those I've seen in New Orleans. Seriously! Check out the picture with Jerry and Andre, and behind them is an actual ant pile. It is more than half of a human size. Amazing.
 </div>
 
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SkapXhR3twI/AAAAAAAAAQI/Klq53_K32dE/s400/S6301971.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352151428711823106" />][9]  
@@ -63,11 +63,11 @@ categories:
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/SkarZ87M-1I/AAAAAAAAAQg/fYKQQ9Y2i2g/s400/S6301997.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352153669515934546" />][12]
 
 <div>
-  We got hungry, stopped by the fisherman&#8217;s market for shrimp, and bought 2k shrimp and 3 loaves of bread for about 200 Kronas. We made sandwiches with a mayonnaise, garlic, lemon sauce (shown in purple tube). Fresh bread, shrimp, and this sauce&#8230; yum yum! Maybe we should make some in New Orleans in a restaurant. Or maybe we already have it&#8230; I don&#8217;t know
+  We got hungry, stopped by the fisherman's market for shrimp, and bought 2k shrimp and 3 loaves of bread for about 200 Kronas. We made sandwiches with a mayonnaise, garlic, lemon sauce (shown in purple tube). Fresh bread, shrimp, and this sauce... yum yum! Maybe we should make some in New Orleans in a restaurant. Or maybe we already have it... I don't know
 </div>
 
 <div>
-  As it is late, I think I will go to bed while the sun is still down (but it&#8217;s still light enough to see). Good night!
+  As it is late, I think I will go to bed while the sun is still down (but it's still light enough to see). Good night!
 </div>
 
 <div>

@@ -17,7 +17,7 @@ After setting up MinGW from our [previous post][1], now we want to add a package
 
 OK! Done!<!--more-->
 
-Let&#8217;s try a sample program:
+Let's try a sample program:
 
 <pre class="lang:c++ decode:true " title="GL01Hello.cpp">/*
  * GL01Hello.cpp: Test OpenGL C/C++ Setup
@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
    return 0;
 }</pre>
 
-Then let&#8217;s compile it.
+Then let's compile it.
 
 <pre class="lang:default decode:true" title="Command Line">g++ GL01Hello.cpp -o GL01Hello.exe -lopengl32 -lfreeglut</pre>
 

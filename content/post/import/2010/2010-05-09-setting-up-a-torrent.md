@@ -18,7 +18,7 @@ categories:
 ---
 <div xmlns='http://www.w3.org/1999/xhtml'>
   <p>
-    Here&#8217;s a quick, no frills, text-only tutorial on setting up your own torrent (and personal tracker), for family photos, family movies, etc (using uTorrent)&#8230;
+    Here's a quick, no frills, text-only tutorial on setting up your own torrent (and personal tracker), for family photos, family movies, etc (using uTorrent)...
   </p>
   
   <ol>
@@ -37,7 +37,7 @@ categories:
     <li>
       Create Torrent! <ol>
         <li>
-          File > Create New Torrent&#8230;
+          File > Create New Torrent...
         </li>
         <li>
           Select files you want to server
@@ -49,7 +49,7 @@ categories:
           Check Start Seedings and Private Torrent
         </li>
         <li>
-          Click Create and Save As&#8230; to make torrent file (then wait)
+          Click Create and Save As... to make torrent file (then wait)
         </li>
         <li>
           If you see the torrent in your list, a green arrow, and everything is seeding, you are doing swell! If not, check your port and check it with the built-in Speed test in Options > Speed Guide

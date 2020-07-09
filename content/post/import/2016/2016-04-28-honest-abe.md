@@ -43,7 +43,7 @@ tags:
   <a href="https://etdofresh.github.io/HonestAbe">https://etdofresh.github.io/HonestAbe</a> <em>Play Now! (No Enemies)</em><br /><a href="https://github.com/ETdoFresh/HonestAbe">https://github.com/ETdoFresh/HonestAbe</a> <em>Source Code</em><br /><a href="https://www.etdofresh.com/honest-abe-post-mortem-game-dev-meetup/">Post Mortem</a> <em>Plus OS Builds</em>
 </p>
 
-Honest Abe is an arcade beat-em up style game about good ol&#8217; President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he&#8217;s not dead, and he&#8217;s out for revenge!
+Honest Abe is an arcade beat-em up style game about good ol' President Lincoln. The confederates stole Mary Todd and beat our hero up and left him for dead. But he's not dead, and he's out for revenge!
 
 <!--more-->
 

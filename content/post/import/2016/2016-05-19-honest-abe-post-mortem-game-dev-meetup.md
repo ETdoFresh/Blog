@@ -23,7 +23,7 @@ categories:
   <a href="http://www.etdofresh.com/wp-content/uploads/2016/05/HonestAbe.pdf">Game Meetup Presentation</a><br /> (Thanks Rachel for putting this together!)
 </p>
 
-Today I&#8217;m headed into the city (New Orleans, LA) to present Honest Abe to the [NOLA Game Developers Meetup][1] with a few of my classmates and teacher. Should be a fun time! Abe got the keys, so I think we ready to go!
+Today I'm headed into the city (New Orleans, LA) to present Honest Abe to the [NOLA Game Developers Meetup][1] with a few of my classmates and teacher. Should be a fun time! Abe got the keys, so I think we ready to go!
 
 ## Honest Abe Credits
 

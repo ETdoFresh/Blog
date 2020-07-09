@@ -12,9 +12,9 @@ tags:
 Alright, definitely slowed down this February. Still doing alright, but I got sick for about 10 days , and then sprained my ankle. So training has been bad the second half of the month!
 
   * Submitted my camera ready version of my Police Use of Force paper! Woot!
-  * Been on autopilot mostly, doing the work/school thing&#8230; Homeworks, projects, programming, etc.
-  * Completed a simple [3d project][1] this weekend that I&#8217;ve been wanting to do for a little while now!
+  * Been on autopilot mostly, doing the work/school thing... Homeworks, projects, programming, etc.
+  * Completed a simple [3d project][1] this weekend that I've been wanting to do for a little while now!
 
-As for what&#8217;s coming this month, I really want to get back on track on dieting and running. Got a trip this month to GDC and need to keep pushing myself to be the best me I can be!
+As for what's coming this month, I really want to get back on track on dieting and running. Got a trip this month to GDC and need to keep pushing myself to be the best me I can be!
 
  [1]: https://www.etdofresh.com/chrono-cross-serge-fan-art/

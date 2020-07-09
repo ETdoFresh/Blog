@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-Waking up late still, 11:00AM, but today I got back to work. I&#8217;m still working on [clickinclock.com][1]. I&#8217;m really not getting anything done, just shuffling code around to make it cleaner and more efficient. I was on the computer for about 6.5 hours today working on the site. I guess what I&#8217;m trying to do change the million of database functions for each table into one or two functions that work for each and every table. Pretty successful! I also changed it so that userid and usercode get used instead of username(since username is not unique). Soooo, hopefully, if I can work diligently on this site for the next few days, I can get it done! I would love to start working on [downloadtobrain.com][2], I have a few tutorials I want to start on!
+Waking up late still, 11:00AM, but today I got back to work. I'm still working on [clickinclock.com][1]. I'm really not getting anything done, just shuffling code around to make it cleaner and more efficient. I was on the computer for about 6.5 hours today working on the site. I guess what I'm trying to do change the million of database functions for each table into one or two functions that work for each and every table. Pretty successful! I also changed it so that userid and usercode get used instead of username(since username is not unique). Soooo, hopefully, if I can work diligently on this site for the next few days, I can get it done! I would love to start working on [downloadtobrain.com][2], I have a few tutorials I want to start on!
 
 Anyway, my mom came home for lunch so that we could eat together. That was nice! She made me a salad, and it was delicious. She made me this the first day I was here too. It was Spinach lettuce, potato, chicken, homegrown tomato, oil, and salt. It was just excellent. Then for dinner time, she made some fixings so we could make Fajitas. Tortilla, Avocado, Chicken, Pico de Gallo, Lime, Cilantro, and Hot Sauce. Great Fajitas, with a strawberry and banana dish for dessert.
 
@@ -30,7 +30,7 @@ Then my bro came and picked us up to do some shopping. We got some fitness suppl
   <a href="http://lh6.ggpht.com/_yEPuIWl8ybE/Sjc0HbqZwTI/AAAAAAAAAHk/CInPMooW0Nw/s1600/S6301583.JPG"><img src="http://lh6.ggpht.com/_yEPuIWl8ybE/Sjc0HbqZwTI/AAAAAAAAAHk/CInPMooW0Nw/s288/S6301583.JPG" width="225" /></a>
 </p>
 
-Well, I&#8217;m off to read another chapter of _iWoz_&#8230; good book!
+Well, I'm off to read another chapter of _iWoz_... good book!
 
 &#8211; Edge Trace
 

@@ -24,14 +24,14 @@ categories:
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/Sk_ph5f_mOI/AAAAAAAAAXM/2T_7bahyp9E/s400/S6302595.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354755250546776290" />][2]
 
 <div>
-  Happy Independence Day to all those in the United States. This year, I&#8217;m in Sweden celebrating in a nice, unique style. We started off by BBQing. Made some Hamburgers, Chicken on sticks, Hotdogs, and Andres made the hunk o&#8217; pork. Delicious foods, and good times.
+  Happy Independence Day to all those in the United States. This year, I'm in Sweden celebrating in a nice, unique style. We started off by BBQing. Made some Hamburgers, Chicken on sticks, Hotdogs, and Andres made the hunk o' pork. Delicious foods, and good times.
 </div>
 
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/Sk_pi6BBO_I/AAAAAAAAAXc/cnHwVWcpFgw/s400/S6302598.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354755267865164786" />][3]  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/Sk_pjaQFb_I/AAAAAAAAAXk/dAuf3YopMQo/s400/S6302599.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354755276518289394" />][4]
 
 <div>
-  It was most of the family and even Jerry&#8217;s sister and kid came by to have some food and celebratation. I aplogize if there are bad pictures, it&#8217;s just that I didn&#8217;t take that many pictures today (for once!).
+  It was most of the family and even Jerry's sister and kid came by to have some food and celebratation. I aplogize if there are bad pictures, it's just that I didn't take that many pictures today (for once!).
 </div>
 
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/Sk_pj2cNu1I/AAAAAAAAAXs/w55WlH8kAHI/s400/S6302602.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354755284085357394" />][5]
@@ -43,11 +43,11 @@ categories:
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/Sk_qQj184uI/AAAAAAAAAX0/iU1X0a3oK4U/s400/S6302626.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354756052187144930" />][6]
 
 <div>
-  Then we went to watch Jerry&#8217;s son Linux play some Futbal (or Soccer to us). It was fun to watch a game, even if it was younger kids. You can see the mistakes, funny goal keepers, and star players.
+  Then we went to watch Jerry's son Linux play some Futbal (or Soccer to us). It was fun to watch a game, even if it was younger kids. You can see the mistakes, funny goal keepers, and star players.
 </div>
 
 <div>
-  In the nighttime, we had some leftovers from the BBQ, and had lots of candies. Good times. However, I&#8217;m soo exhausted right now, so I must sleep. I&#8217;ll blog more later! Bye!
+  In the nighttime, we had some leftovers from the BBQ, and had lots of candies. Good times. However, I'm soo exhausted right now, so I must sleep. I'll blog more later! Bye!
 </div>
 
 <div>

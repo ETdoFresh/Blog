@@ -18,15 +18,15 @@ categories:
 ---
 Dear Blog,
 
-It&#8217;s been a few days since I got this case, but the more I play with my iPod Touch, the more I see this god awful case! It&#8217;s actually a really cool case, but the color! Ick!
+It's been a few days since I got this case, but the more I play with my iPod Touch, the more I see this god awful case! It's actually a really cool case, but the color! Ick!
 
 <p align="center">
   <a href="http://lh6.ggpht.com/_yEPuIWl8ybE/S0_7rH-mFQI/AAAAAAAAA_0/0vCH7gFOZdc/s1600/IMG_7940.JPG"><img src="http://lh6.ggpht.com/_yEPuIWl8ybE/S0_7rH-mFQI/AAAAAAAAA_0/0vCH7gFOZdc/s288/IMG_7940.JPG" width="225" /></a>
 </p>
 
-I bought it off [ebay][1]. And the seller pointed out, tell me the color on your notes section on PayPal and I will send you that color, otherwise, don&#8217;t blame me for the color selection. So I checked out, and didn&#8217;t see this box anywhere. He said not to email about color, so I said "what the hey", I&#8217;ll still get a silicone case, and whatever color it happens to be, it&#8217;ll be destiny. But my destiny thinks it&#8217;d be funny for me to get a pink case! Haha, very funny destiny! Anyway, I&#8217;ll keep it on as a reminder for times where I make mistakes. Mistakes happen, it&#8217;s no big deal, but I DO have to live with the consequences!
+I bought it off [ebay][1]. And the seller pointed out, tell me the color on your notes section on PayPal and I will send you that color, otherwise, don't blame me for the color selection. So I checked out, and didn't see this box anywhere. He said not to email about color, so I said "what the hey", I'll still get a silicone case, and whatever color it happens to be, it'll be destiny. But my destiny thinks it'd be funny for me to get a pink case! Haha, very funny destiny! Anyway, I'll keep it on as a reminder for times where I make mistakes. Mistakes happen, it's no big deal, but I DO have to live with the consequences!
 
-I just woke up from like a 2 hour nap, and I&#8217;m wide awake @ 11:25 PM. I guess I&#8217;ll sneak some programming in, and see what "work" I can sneak in tonight. Later!
+I just woke up from like a 2 hour nap, and I'm wide awake @ 11:25 PM. I guess I'll sneak some programming in, and see what "work" I can sneak in tonight. Later!
 
 &#8211; E.T.
 

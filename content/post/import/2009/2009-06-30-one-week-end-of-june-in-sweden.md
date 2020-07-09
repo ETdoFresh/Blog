@@ -21,13 +21,13 @@ categories:
 </div>
 
 <div>
-  I am here again, writing to you, telling you my stories, my adventures, my life. I went to sleep late last night, and woke up late. Now I&#8217;m watching musiv videos, very cool stuff, hopefully this stuff is playing in the U.S.
+  I am here again, writing to you, telling you my stories, my adventures, my life. I went to sleep late last night, and woke up late. Now I'm watching musiv videos, very cool stuff, hopefully this stuff is playing in the U.S.
 </div>
 
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SkqooMq-NsI/AAAAAAAAATk/NQ5vZlG52BI/s400/S6302232.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5353276515632953026" />][1]
 
 <div>
-  Andre always eats ice cream&#8230; always!
+  Andre always eats ice cream... always!
 </div>
 
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/SkqooWiXRvI/AAAAAAAAATs/UfINiRppCgA/s400/S6302235.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5353276518281201394" />][2]
@@ -50,7 +50,7 @@ categories:
 </div>
 
 <div>
-  Now we&#8217;re home, I&#8217;m kinda out of it. So sorry for the lack of writing, but hopefully I&#8217;ll be back tomorrow. Good night blog.
+  Now we're home, I'm kinda out of it. So sorry for the lack of writing, but hopefully I'll be back tomorrow. Good night blog.
 </div>
 
 <div>
@@ -58,7 +58,7 @@ categories:
 </div>
 
 <div>
-  Two songs I heard tonight that I&#8217;ll try to remember:<br /> Damn, I wish I was your lover (older stuff)<br /> Don&#8217;t know what the name of the song it, but it says &#8220;love me wherever you are&#8221;
+  Two songs I heard tonight that I'll try to remember:<br /> Damn, I wish I was your lover (older stuff)<br /> Don't know what the name of the song it, but it says "love me wherever you are"
 </div>
 
  [1]: http://3.bp.blogspot.com/_yEPuIWl8ybE/SkqooMq-NsI/AAAAAAAAATk/NQ5vZlG52BI/s1600/S6302232.JPG

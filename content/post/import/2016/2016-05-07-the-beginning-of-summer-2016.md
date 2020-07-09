@@ -16,9 +16,9 @@ categories:
   </p>
 </div>
 
-Hey everyone, today is the first day I tell myself, I will spend at least 10 minutes to write a blog entry a few times a week. Some may be content packed, but some may be like this&#8230; bare!
+Hey everyone, today is the first day I tell myself, I will spend at least 10 minutes to write a blog entry a few times a week. Some may be content packed, but some may be like this... bare!
 
-Summer 2016 is packed for me, here are the things I&#8217;ll be doing:
+Summer 2016 is packed for me, here are the things I'll be doing:
 
   * Work with SinkLab Games
   * First Thesis class at University of New Orleans
@@ -26,4 +26,4 @@ Summer 2016 is packed for me, here are the things I&#8217;ll be doing:
   * Write the other 14 weeks of Honest Abe Post-Mortem
   * Perhaps even polish Honest Abe so that it can be released on Apple ios!
 
-I don&#8217;t know if I can fit anything else in. We&#8217;ll see! Wish me luck!
+I don't know if I can fit anything else in. We'll see! Wish me luck!

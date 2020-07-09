@@ -44,5 +44,5 @@ tags:
 <a href="https://github.com/ETdoFresh/CannonFodder" target="_blank" rel="noreferrer noopener" aria-label="https://github.com/ETdoFresh/CannonFodder (opens in a new tab)">https://github.com/ETdoFresh/CannonFodder</a> _Source Code_
 
 <p class="SoftwareDescription">
-  This was one of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes. Here is my initial attempt to remake it&#8230;
+  This was one of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes. Here is my initial attempt to remake it...
 </p>

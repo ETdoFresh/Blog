@@ -16,18 +16,18 @@ Fall 2016 semester is starting up, and now I got to figure out what my prioritie
 
 ### Use of Police Force Simulation, University of New Orleans
 
-<a href="http://www.etdofresh.com/wp-content/uploads/2016/08/Screenshot.png" target="_blank"><img class="alignright wp-image-279" src="http://www.etdofresh.com/wp-content/uploads/2016/08/Screenshot.png" alt="Screenshot" width="189" height="110" /></a>A Master&#8217;s Thesis project I am working on. We will use Artificial Intelligence Planner to create an intelligient simulation of an Officer dealing with a situation between mother and adult son who will not move out. (Unity C#)<!--more-->
+<a href="http://www.etdofresh.com/wp-content/uploads/2016/08/Screenshot.png" target="_blank"><img class="alignright wp-image-279" src="http://www.etdofresh.com/wp-content/uploads/2016/08/Screenshot.png" alt="Screenshot" width="189" height="110" /></a>A Master's Thesis project I am working on. We will use Artificial Intelligence Planner to create an intelligient simulation of an Officer dealing with a situation between mother and adult son who will not move out. (Unity C#)<!--more-->
 
 ### Principles of Computer Graphics, University of New Orleans
 
 <a href="http://www.etdofresh.com/wp-content/uploads/2016/08/Capture.png" target="_blank"><img class="alignleft wp-image-281" src="http://www.etdofresh.com/wp-content/uploads/2016/08/Capture.png" alt="Capture" width="79" height="100" /></a>This is a class I am in that will discuss how computer graphics are programmed. Besides that, I am glad I get to relearn a language I learned a long time ago. (MAKEFILE C++)
 
-### Registrar&#8217;s Office, University of New Orleans
+### Registrar's Office, University of New Orleans
 
-<a href="http://www.etdofresh.com/wp-content/uploads/2016/08/13131232_1258715814143403_3006957500933065802_o.jpg" target="_blank"><img class="alignright wp-image-278" src="http://www.etdofresh.com/wp-content/uploads/2016/08/13131232_1258715814143403_3006957500933065802_o.jpg" alt="13131232_1258715814143403_3006957500933065802_o" width="204" height="153" /></a>Besides these projects, I also work as Director of Records and Registration and the University of New Orleans. I have many projects in this job alone. But for now, I&#8217;m just surviving, trying to keep this department happy and sane, and streamlining as many processes as I can for current and future employees of this department. (PeopleSoft Campus Solutions, SQL, SharePoint)
+<a href="http://www.etdofresh.com/wp-content/uploads/2016/08/13131232_1258715814143403_3006957500933065802_o.jpg" target="_blank"><img class="alignright wp-image-278" src="http://www.etdofresh.com/wp-content/uploads/2016/08/13131232_1258715814143403_3006957500933065802_o.jpg" alt="13131232_1258715814143403_3006957500933065802_o" width="204" height="153" /></a>Besides these projects, I also work as Director of Records and Registration and the University of New Orleans. I have many projects in this job alone. But for now, I'm just surviving, trying to keep this department happy and sane, and streamlining as many processes as I can for current and future employees of this department. (PeopleSoft Campus Solutions, SQL, SharePoint)
 
-So, all-in-all, I have a lot on my plate. I barely have time to chill out&#8230; and when I do, I feel guilty I&#8217;m not working on at least one of the projects above. But, hey, I need to find the right balance where all of these goals get done in a timely, yet comfortable pace.
+So, all-in-all, I have a lot on my plate. I barely have time to chill out... and when I do, I feel guilty I'm not working on at least one of the projects above. But, hey, I need to find the right balance where all of these goals get done in a timely, yet comfortable pace.
 
-Wish me luck, and I&#8217;ll do my best to keep writing!
+Wish me luck, and I'll do my best to keep writing!
 
 &nbsp;

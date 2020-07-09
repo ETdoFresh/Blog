@@ -41,7 +41,7 @@ Well, not soon after I get the keyboard and pen, I get the itch. Where are my wi
 
 {{< image src="/wp-content/uploads/2018/04/3C7D9153-12D2-4A66-8FC5-AD4182648C14.jpeg" width="100%" >}}
 
-This device is nice, very nice! Super quick and super smooth. If I was solely an artist, I’d say screw everything else for pen/stylus input&#8230; this is the tool I always wanted.
+This device is nice, very nice! Super quick and super smooth. If I was solely an artist, I’d say screw everything else for pen/stylus input... this is the tool I always wanted.
 
 However, I’m mostly a programmer/coder these days, and I haven’t found that same sweet spot. I remoted into my computer and saw the tools I am used to. However, I don’t think remoting to other devices is where this device will accel or what this device is made for. I can see a big oppurtunity for some kind of hybrid device/cloud ide where you write the code in a nice iOS app, and it compiles and runs in the cloud. Such would be a killer app for iPads/Androids and I think it can make a lot of money. Something to ponder I guess.
 

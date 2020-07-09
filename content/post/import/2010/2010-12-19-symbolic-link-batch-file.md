@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-I use Boxee, and when I download DVDs, they don&#8217;t show up as episodes on my TV Guide. Someone suggested making symbolic links&#8230; Sounds good to me. Here&#8217;s a batch file I use to generate these symbolic links (not catching me renaming 100&#8217;s of files
+I use Boxee, and when I download DVDs, they don't show up as episodes on my TV Guide. Someone suggested making symbolic links... Sounds good to me. Here's a batch file I use to generate these symbolic links (not catching me renaming 100's of files
 
 <pre>@echo off
 SETLOCAL EnableDelayedExpansion
@@ -57,7 +57,7 @@ FOR /l %%n IN (%episodeStart%,1,%episodeEnd%) DO (
 )
 pause</pre>
 
-_Edit:_ Hmm, my sickbeard renames the files, so here is my newer method&#8230; I append each dvd with their first episode, like first dvd would now end in s01e01. Do that for each dvd. Then sickbeard renames it. To show up nicely in boxee, I run the following, slighltly modified script:
+_Edit:_ Hmm, my sickbeard renames the files, so here is my newer method... I append each dvd with their first episode, like first dvd would now end in s01e01. Do that for each dvd. Then sickbeard renames it. To show up nicely in boxee, I run the following, slighltly modified script:
 
 <pre>@echo off
 SETLOCAL EnableDelayedExpansion

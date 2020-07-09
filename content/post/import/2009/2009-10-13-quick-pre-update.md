@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-Just wanted to post a quick Pre Update. I found a solution to get My Tether 1.5 to work with Palm Pre WebOS 1.2.1. I used the method from [Leathal&#8217;s Post on precentral.net][1]. Here&#8217;s a quick copy and past of his method:
+Just wanted to post a quick Pre Update. I found a solution to get My Tether 1.5 to work with Palm Pre WebOS 1.2.1. I used the method from [Leathal's Post on precentral.net][1]. Here's a quick copy and past of his method:
 
 1) Connect your Pre in dev mode to your computer  
 2) [Download the old driver][2]  
@@ -26,9 +26,9 @@ Just wanted to post a quick Pre Update. I found a solution to get My Tether 1.5 
 4) Browse to where you saved sd8xxx.ko  
 5) Paste the following line in Destination Folder:  
 /lib/modules/2.6.24-palm-joplin-3430/kernel/net/wifi/  
-6) Click Send to Device and reboot your Pre when it&#8217;s done (Sym+Orange+R)
+6) Click Send to Device and reboot your Pre when it's done (Sym+Orange+R)
 
-Cool! Also you can edit the SSID in the sh file found in TetherService.jar found in /usr/lib/luna/java. Happy PalmPre&#8217;ing!
+Cool! Also you can edit the SSID in the sh file found in TetherService.jar found in /usr/lib/luna/java. Happy PalmPre'ing!
 
 &#8211; E.T.
 

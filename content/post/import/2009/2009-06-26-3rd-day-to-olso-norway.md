@@ -21,14 +21,14 @@ categories:
 </div>
 
 <div>
-  It&#8217;s my 3rd day outside the country, and today we went to Olso, Norway. This is the capital. It was about 2 hours away and that means I got 2 hours extra sleep this morning (and so did Andre).
+  It's my 3rd day outside the country, and today we went to Olso, Norway. This is the capital. It was about 2 hours away and that means I got 2 hours extra sleep this morning (and so did Andre).
 </div>
 
 [<img src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SkVbIg04XjI/AAAAAAAAAOo/DefKsvUw6EI/s400/DSC_0117.JPG" border="0" alt="" id="BLOGGER_PHOTO_ID_5351783934008516146" style="float:left; display: block; margin-top: 0px; margin-right: auto; margin-left: auto; text-align: center; cursor: pointer; width: 190px; " />][1]  
 [<img src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SkVbIJlvn4I/AAAAAAAAAOg/ELCTmHBMNP0/s400/DSC_0114.JPG" border="0" alt="" id="BLOGGER_PHOTO_ID_5351783927771012994" style="float:left; display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; text-align: center; cursor: pointer; width: 190px; " />][2]
 
 <div>
-  When we got there, we walked down the major street (forget what it&#8217;s called now). We saw some shops, people, and at the end, there was a royal palace.
+  When we got there, we walked down the major street (forget what it's called now). We saw some shops, people, and at the end, there was a royal palace.
 </div>
 
 <div>

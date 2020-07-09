@@ -30,19 +30,19 @@ I split up the ingredients into two teams! The Pre-cook team, and then the post-
   <a href="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFeWkJGyjI/AAAAAAAAAps/uIFDqawGV5g/s1600/IMG_6338.JPG"><img src="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFeWkJGyjI/AAAAAAAAAps/uIFDqawGV5g/s144/IMG_6338.JPG" width="125" /></a><a href="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFeWdo3s0I/AAAAAAAAApk/jbmtMUKg3w8/s1600/IMG_6327.JPG"><img src="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFeWdo3s0I/AAAAAAAAApk/jbmtMUKg3w8/s144/IMG_6327.JPG" width="125" /></a><a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFeWz3uHmI/AAAAAAAAAp0/-7Zallc3CNc/s1600/IMG_6339.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFeWz3uHmI/AAAAAAAAAp0/-7Zallc3CNc/s144/IMG_6339.JPG" width="125" /></a>
 </p>
 
-First I take my beef bones (not very good choice of beef bones my frist time around, not even bones! I hear knuckle bone is a good choice, and will try it next time) and parboil them (boil them for 10 &#8211; 15 minutes before actually cooking). I take two yellow onions and split them in half. I do the same with the 4" &#8211; 5" nubbin&#8217; of ginger. Stick them in your broiler on HI. After about 10 &#8211; 15 minutes you should have some nicely charred veggies. Your beef bones should be done too, just scoop up and scum on surface and toss that in the trash or sink.
+First I take my beef bones (not very good choice of beef bones my frist time around, not even bones! I hear knuckle bone is a good choice, and will try it next time) and parboil them (boil them for 10 &#8211; 15 minutes before actually cooking). I take two yellow onions and split them in half. I do the same with the 4" &#8211; 5" nubbin' of ginger. Stick them in your broiler on HI. After about 10 &#8211; 15 minutes you should have some nicely charred veggies. Your beef bones should be done too, just scoop up and scum on surface and toss that in the trash or sink.
 
 <p align="center">
   <a href="http://lh5.ggpht.com/_yEPuIWl8ybE/SwFfKXk6wUI/AAAAAAAAAp8/BUibGWgvyGI/s288/IMG_6342.JPG"><img src="http://lh5.ggpht.com/_yEPuIWl8ybE/SwFfKXk6wUI/AAAAAAAAAp8/BUibGWgvyGI/s288/IMG_6342.JPG" width="190" /></a><a href="http://lh5.ggpht.com/_yEPuIWl8ybE/SwFfKpZZPGI/AAAAAAAAAqE/YwksUZgCwhM/s288/IMG_6343.JPG"><img src="http://lh5.ggpht.com/_yEPuIWl8ybE/SwFfKpZZPGI/AAAAAAAAAqE/YwksUZgCwhM/s288/IMG_6343.JPG" width="190" /></a>
 </p>
 
-Alright, I throw everything into the slow cooker, and I add some sugar, salt, beef broth (cause I didn&#8217;t use real bones) + water, and fish sauce. I let this cook for about 8 hours in the slow cooker on low.
+Alright, I throw everything into the slow cooker, and I add some sugar, salt, beef broth (cause I didn't use real bones) + water, and fish sauce. I let this cook for about 8 hours in the slow cooker on low.
 
 <p align="center">
   <a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfK8_m83I/AAAAAAAAAqM/p2vsmo7m8GY/s1600/IMG_6385.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfK8_m83I/AAAAAAAAAqM/p2vsmo7m8GY/s144/IMG_6385.JPG" width="125" /></a><a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfLfCcMxI/AAAAAAAAAqU/xx6n7Js_B6s/s1600/IMG_6386.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfLfCcMxI/AAAAAAAAAqU/xx6n7Js_B6s/s144/IMG_6386.JPG" width="125" /></a><a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfLl_3p6I/AAAAAAAAAqc/b3tVIp1Bn38/s1600/IMG_6388.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SwFfLl_3p6I/AAAAAAAAAqc/b3tVIp1Bn38/s144/IMG_6388.JPG" width="125" /></a>
 </p>
 
-Ok! 8 hours have passed and I&#8217;m ready to prepare the post-cook team. I get a nice big bowl, put some rice noodles into it. Then Itake some nice steak and slice it very thin and put it in your bowl. I chilled my steak for a little bit in the freezer so it was easier to cut thinly.
+Ok! 8 hours have passed and I'm ready to prepare the post-cook team. I get a nice big bowl, put some rice noodles into it. Then Itake some nice steak and slice it very thin and put it in your bowl. I chilled my steak for a little bit in the freezer so it was easier to cut thinly.
 
 <p align="center">
   <a href="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFfZ4cVPnI/AAAAAAAAAqk/9fP5YnjYs-Y/s1600/IMG_6389.JPG"><img src="http://lh6.ggpht.com/_yEPuIWl8ybE/SwFfZ4cVPnI/AAAAAAAAAqk/9fP5YnjYs-Y/s288/IMG_6389.JPG" width="225" /></a>

@@ -34,7 +34,7 @@ If you like to keep the build information in a separate channel, create a new ch
 
 ### Setup Webhook in Discord
 
-The goal here is to get Discord&#8217;s webhook URL. Follow these steps:
+The goal here is to get Discord's webhook URL. Follow these steps:
 
 <div id="attachment_844" style="width: 261px" class="wp-caption aligncenter">
   <a href="https://www.etdofresh.com/wp-content/uploads/2017/03/SetupWebhook00.png"><img aria-describedby="caption-attachment-844" class="wp-image-844 size-full" src="https://www.etdofresh.com/wp-content/uploads/2017/03/SetupWebhook00.png" alt="" width="251" height="62" /></a>
@@ -54,7 +54,7 @@ The goal here is to get Discord&#8217;s webhook URL. Follow these steps:
 
 ### Setup Translation Webhook
 
-Until Unity Cloud Build or Discord comes up with a way to produce/consume each other&#8217;s webhook, I came up with a solution that translates Unity Cloud Build&#8217;s webhook into a Discord webhook. Here&#8217;s how to set it up:
+Until Unity Cloud Build or Discord comes up with a way to produce/consume each other's webhook, I came up with a solution that translates Unity Cloud Build's webhook into a Discord webhook. Here's how to set it up:
 
 Create a new Translation Webhook: <https://www.etdofresh.com/webhook/translate.php?from=unity&to=discord>
 
@@ -62,7 +62,7 @@ Create a new Translation Webhook: <https://www.etdofresh.com/webhook/translate.p
   <a href="https://www.etdofresh.com/wp-content/uploads/2017/03/webhook02-1.png"><img aria-describedby="caption-attachment-855" class="wp-image-855 size-medium" src="https://www.etdofresh.com/wp-content/uploads/2017/03/webhook02-1-300x110.png" alt="" width="300" height="110" srcset="http://localhost/wp-content/uploads/2017/03/webhook02-1-300x110.png 300w, http://localhost/wp-content/uploads/2017/03/webhook02-1.png 709w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p id="caption-attachment-855" class="wp-caption-text">
-    Paste Discord&#8217;s Webhook URL, Click Update, and Copy Webhook at bottom of page.
+    Paste Discord's Webhook URL, Click Update, and Copy Webhook at bottom of page.
   </p>
 </div>
 
@@ -70,7 +70,7 @@ Feel free to change Username and Avatar URL if you like.
 
 ### Connect Webhook to Unity Cloud Build
 
-Now we have to connect the webhook to Unity Cloud Build. Navigate to your project&#8217;s Cloud Build under <https://developer.cloud.unity3d.com/projects/>. Then go to the Notifications Tab and click &#8220;Add New Webhook&#8221;
+Now we have to connect the webhook to Unity Cloud Build. Navigate to your project's Cloud Build under <https://developer.cloud.unity3d.com/projects/>. Then go to the Notifications Tab and click "Add New Webhook"
 
 [<img class="aligncenter size-medium wp-image-847" src="https://www.etdofresh.com/wp-content/uploads/2017/03/path4612-300x104.png" alt="" width="300" height="104" srcset="http://localhost/wp-content/uploads/2017/03/path4612-300x104.png 300w, http://localhost/wp-content/uploads/2017/03/path4612-768x266.png 768w, http://localhost/wp-content/uploads/2017/03/path4612-1024x354.png 1024w, http://localhost/wp-content/uploads/2017/03/path4612-1200x415.png 1200w" sizes="(max-width: 300px) 100vw, 300px" />][4]
 

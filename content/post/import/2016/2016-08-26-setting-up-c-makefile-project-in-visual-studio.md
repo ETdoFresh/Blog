@@ -10,9 +10,9 @@ categories:
 ---
 <img class="alignleft wp-image-289 size-full" src="http://www.etdofresh.com/wp-content/uploads/2016/08/vsicon.png" alt="vsicon" width="30" height="32" />For my computer graphics course, I have to submit all my projects using C++, compiled using g++ and a Makefile.
 
-If you don&#8217;t know what a Makefile is, it&#8217;s basically a list of steps/depencies to get to the final product. For example, to end up with DogSimulator.exe, you will need to run g++ on DogSimulator.o and Dog.o (compiled objects). And the prerequisites to DogSimulator.o and Dog.o are DogSimulator.cpp and Dog.cpp respectively.
+If you don't know what a Makefile is, it's basically a list of steps/depencies to get to the final product. For example, to end up with DogSimulator.exe, you will need to run g++ on DogSimulator.o and Dog.o (compiled objects). And the prerequisites to DogSimulator.o and Dog.o are DogSimulator.cpp and Dog.cpp respectively.
 
-It&#8217;s not too hard in the terminal, because once you have all your files in the terminal, you just type &#8220;make&#8221; and the magic ensues. But I&#8217;m a snob for my Visual Studio IDE, so I am going to set it up there. Haha.<!--more-->
+It's not too hard in the terminal, because once you have all your files in the terminal, you just type "make" and the magic ensues. But I'm a snob for my Visual Studio IDE, so I am going to set it up there. Haha.<!--more-->
 
 ### Step 1 &#8211; Install Software
 
@@ -31,7 +31,7 @@ It&#8217;s not too hard in the terminal, because once you have all your files in
 
 [<img class="aligncenter wp-image-290" src="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppstartscreen-300x88.png" alt="vscppstartscreen" width="500" height="146" srcset="http://localhost/wp-content/uploads/2016/08/vscppstartscreen-300x88.png 300w, http://localhost/wp-content/uploads/2016/08/vscppstartscreen-768x225.png 768w, http://localhost/wp-content/uploads/2016/08/vscppstartscreen.png 908w" sizes="(max-width: 500px) 100vw, 500px" />][1]
 
-<img class="alignright wp-image-292 size-medium" src="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppmakesettings-300x235.png" alt="vscppmakesettings" width="300" height="235" srcset="http://localhost/wp-content/uploads/2016/08/vscppmakesettings-300x235.png 300w, http://localhost/wp-content/uploads/2016/08/vscppmakesettings.png 666w" sizes="(max-width: 300px) 100vw, 300px" /> Now we should be able to create a new C++ Makefile project. I&#8217;ll list two examples below. Regardless of which one you use, use the following settings when creating the project.
+<img class="alignright wp-image-292 size-medium" src="http://www.etdofresh.com/wp-content/uploads/2016/08/vscppmakesettings-300x235.png" alt="vscppmakesettings" width="300" height="235" srcset="http://localhost/wp-content/uploads/2016/08/vscppmakesettings-300x235.png 300w, http://localhost/wp-content/uploads/2016/08/vscppmakesettings.png 666w" sizes="(max-width: 300px) 100vw, 300px" /> Now we should be able to create a new C++ Makefile project. I'll list two examples below. Regardless of which one you use, use the following settings when creating the project.
 
   * Build command line: make
   * Clean commands: make clean

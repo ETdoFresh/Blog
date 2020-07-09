@@ -22,7 +22,7 @@ Dear Blog,
   <a href=""><img src="" /></a>
 </p>
 
-Setting up git (Version Control System) really did suck on Windows. It wasn&#8217;t a simple install this package, and all your problems are solved. I had major issues trying to use PuTTy, plink, and copSSH, which I believe most people use if they are using git on windows. I&#8217;m doing the cygwin approach. It&#8217;s soo much easier (to me at least). Setting up the server kind of sucks, but the client is easy. I&#8217;ll show how to setup the client today, and put up another post very shortly on how to setup a git server on windows using these exact same files.
+Setting up git (Version Control System) really did suck on Windows. It wasn't a simple install this package, and all your problems are solved. I had major issues trying to use PuTTy, plink, and copSSH, which I believe most people use if they are using git on windows. I'm doing the cygwin approach. It's soo much easier (to me at least). Setting up the server kind of sucks, but the client is easy. I'll show how to setup the client today, and put up another post very shortly on how to setup a git server on windows using these exact same files.
 
 # Step 1 &#8211; Download and install Cygwin
 
@@ -63,7 +63,7 @@ Download gitextensions MSI file from <http://code.google.com/p/gitextensions/> (
   * Click **Install**
   * Let it install
   * Click **Finish**
-  * Note: If you are prompted to install msysgit and kdiff3, just install kdiff3&#8230; otherwise download and install [kdiff3][3] (or whatever diff software you like)
+  * Note: If you are prompted to install msysgit and kdiff3, just install kdiff3... otherwise download and install [kdiff3][3] (or whatever diff software you like)
 
 # Step 3 &#8211; Setup Git Extensions
 
@@ -96,7 +96,7 @@ Download gitextensions MSI file from <http://code.google.com/p/gitextensions/> (
   * You will only have to log into your SSH on every push (not for every commit)
   * Now get to work!
 
-So, I know the issues I ran into using the putty, plink, msysgit may not be normal. But it definitely was a problem for me. So, here is my how-to on Cygwin and Git Extension, and I love this setup. I&#8217;ll get to that server how-to in the next couple of days. Later!
+So, I know the issues I ran into using the putty, plink, msysgit may not be normal. But it definitely was a problem for me. So, here is my how-to on Cygwin and Git Extension, and I love this setup. I'll get to that server how-to in the next couple of days. Later!
 
 &#8211; ETdoFresh
 

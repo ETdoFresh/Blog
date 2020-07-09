@@ -39,7 +39,7 @@ Dear Blog,
 </div>
 
 <div>
-  Then after this boat ride, we walked to the park. It was beautiful, with a botanical garden, and fountains, etc. We had some coffee/tea and ate biscotti made with actual rose petals. It was very sweet, but also had a somewhat fruity taste. Then we walked over to the mall, checked out a few stores, and ate at McDonald&#8217;s. It&#8217;s amazing how many people here actually speak english. I am trying my best to learn the language, but I&#8217;m not doing to well in it. I try!
+  Then after this boat ride, we walked to the park. It was beautiful, with a botanical garden, and fountains, etc. We had some coffee/tea and ate biscotti made with actual rose petals. It was very sweet, but also had a somewhat fruity taste. Then we walked over to the mall, checked out a few stores, and ate at McDonald's. It's amazing how many people here actually speak english. I am trying my best to learn the language, but I'm not doing to well in it. I try!
 </div>
 
 [<img style="float:left; display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SkQBMed2BfI/AAAAAAAAAOY/ZDZzjP1dazI/s400/S6301846.JPG" border="0" alt="" id="BLOGGER_PHOTO_ID_5351403571071288818" />][1]  
@@ -53,7 +53,7 @@ Dear Blog,
 </div>
 
 <div>
-  Jerry met with us, and we started to head back home. I got some more sleep, and we made it home! We ate some salad and some fish. Great stuff. We played outside with a R/C helicopter just like my roommate Stephen had. It was fun! Then I played some soccer also, but geez, I&#8217;m out of my league. Chilean and Sweedish guys in this house area really good.
+  Jerry met with us, and we started to head back home. I got some more sleep, and we made it home! We ate some salad and some fish. Great stuff. We played outside with a R/C helicopter just like my roommate Stephen had. It was fun! Then I played some soccer also, but geez, I'm out of my league. Chilean and Sweedish guys in this house area really good.
 </div>
 
 <div>

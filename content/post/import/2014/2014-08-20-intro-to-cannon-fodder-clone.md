@@ -14,7 +14,7 @@ tags:
 ---
 One of my favorite PC Games was Cannon Fodder. The mixture between a point-and-click adventure game and top-down action game was a home run in my eyes.
 
-<!--more-->I decided to recreate it in Unity. Here&#8217;s the start of the project.
+<!--more-->I decided to recreate it in Unity. Here's the start of the project.
 
 [Play the demo here (Unity Web Player)][1]
 

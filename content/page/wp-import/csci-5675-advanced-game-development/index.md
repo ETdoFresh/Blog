@@ -116,10 +116,10 @@ The **Producer** is ultimately responsible for ensuring that development stays o
 
   * The Paper Prototype, a non-digital version of the game that allows the designers to test and refine gameplay.
   * The First Playable (or Alpha Release), which is the first digital version of the game. It must be completed before mid-term grades are due.
-  * The Beta Release, which should contain all of the game&#8217;s features but may contain bugs.
+  * The Beta Release, which should contain all of the game's features but may contain bugs.
   * The Final Release, which should be thoroughly tested and ready to play. It must be completed before the scheduled final exam for the class.
 
-A **Game Designer** is responsible for ensuring that the game meets its goals (such as to be fun or educational). A designer decides what mechanics the game needs to have and creates content such as dialog and levels. A designer earns credit by providing thoughtful, critical observations about the game&#8217;s strengths and weaknesses every week. These reports are given to the Producer and should be based on first-person observations or observations of play tests and should include recommendations for changes that the Producer and Lead Developer can translate into specific tasks. Designers also earn credit by completing content creation tasks assigned by the Lead Developer on time. A designer&#8217;s workload will be heavy at the start of the course but will become lighter as the game nears completion and features can no longer be changed.
+A **Game Designer** is responsible for ensuring that the game meets its goals (such as to be fun or educational). A designer decides what mechanics the game needs to have and creates content such as dialog and levels. A designer earns credit by providing thoughtful, critical observations about the game's strengths and weaknesses every week. These reports are given to the Producer and should be based on first-person observations or observations of play tests and should include recommendations for changes that the Producer and Lead Developer can translate into specific tasks. Designers also earn credit by completing content creation tasks assigned by the Lead Developer on time. A designer's workload will be heavy at the start of the course but will become lighter as the game nears completion and features can no longer be changed.
 
 The **Lead Developer** (or Lead Programmer) collaborates with the Producer to decide what features can be implemented in each milestone and delegates programming tasks to the other developers and content creation tasks to the game designers. The Lead Developer earns credit each time a programming task that has been assigned to a developer is completed on time. It is expected that the Lead Developer is an experienced programmer capable of helping other developers when needed; however, the Lead Developer _may not_ assign tasks to herself unless she is also a developer. The Lead Developer is encouraged, but not required, to choose developer as her second role.
 
@@ -131,11 +131,11 @@ An **Artist** creates the art assets that are assigned by the Lead Artist. All F
 
 The **Sound Designer** creates the sound assets that are assigned by the Lead Artist. The Sound Designer earns credit each time she completes a task that was assigned to her on time. The Sound Designer is not required to create all assets from scratch, but she must respect digital copyright laws when using or adapting sound assets from other sources.
 
-A **Quality Assurance Tester** plays the game to ensure that it works as expected. A QA tester earns credit by reporting bugs that are detailed enough that the Lead Developer can reproduce the bug without needing to ask for additional detail. A QA Tester&#8217;s workload will be light at the start of the course but will become heavier. Thus, QA tester and designer are complimentary roles.
+A **Quality Assurance Tester** plays the game to ensure that it works as expected. A QA tester earns credit by reporting bugs that are detailed enough that the Lead Developer can reproduce the bug without needing to ask for additional detail. A QA Tester's workload will be light at the start of the course but will become heavier. Thus, QA tester and designer are complimentary roles.
 
 The **Head of Marketing** is the interface between the development team and the general public. Marketing creates promotional materials for the game and maintains a public-facing web presence, such as a website, blog, and social media presence. The Head of Marketing earns credit for doing at least two of the following things each week:
 
-  * Updating the game&#8217;s website
+  * Updating the game's website
   * Writing blog posts about development
   * Posting updates on social media
   * Making promotional material, such as posters and videos
@@ -150,7 +150,7 @@ These policies are in place to maintain professionalism and mutual respect:
 
 ## Academic Integrity {#AcademicIntegrity}
 
-All students are expected to follow [UNO&#8217;s code of academic integrity][10]. Violations of this policy will be dealt with on a case-by-case basis, but punishment will be severe and may include failing the class and expulsion from the university.
+All students are expected to follow [UNO's code of academic integrity][10]. Violations of this policy will be dealt with on a case-by-case basis, but punishment will be severe and may include failing the class and expulsion from the university.
 
 ## Students with Disabilities {#StudentswithDisabilities}
 
@@ -208,7 +208,7 @@ It is university policy to provide, on a flexible and individualized basis, reas
     <td>
       <ul>
         <li>
-          University closed in honor of Dr. Martin Luther King Jr.&#8217;s birthday.
+          University closed in honor of Dr. Martin Luther King Jr.'s birthday.
         </li>
       </ul>
     </td>

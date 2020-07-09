@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 
 ---
-I have decided to go back in time and write a series of Post-Mortem blog entries. I&#8217;ll try to cover interesting areas, discoveries, and problems we faced along the way.
+I have decided to go back in time and write a series of Post-Mortem blog entries. I'll try to cover interesting areas, discoveries, and problems we faced along the way.
 
 So here we are, a group of 10 Computer Science Students meeting in Mathematics Building 118 at 3:00 PM on Monday January 11, 2016 at the University of New Orleans. We go over the syllabus, and our teacher explains what this class ([Syllabus Here][1]) will simulate a Game Development Company. Each of us are to take two roles from the following list:
 

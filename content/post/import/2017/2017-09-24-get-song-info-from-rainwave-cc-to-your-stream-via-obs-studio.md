@@ -21,7 +21,7 @@ Wow! Rainwave.cc tweeted me back with a much better solution. Hence the post bel
 
 I love listening to video game remix music at <https://ocr.rainwave.cc>, and wanted a way I can show on my stream the information about the current song being played.
 
-I&#8217;m sure there are probably easier ways to do this, but I made a small windows GUI Executable using C#/WPF that will download Album, Title, and Art from rainwave&#8217;s API, and I wanted to share it with you.[<img class="aligncenter size-medium wp-image-901" src="https://www.etdofresh.com/wp-content/uploads/2017/09/GetSongInfo-248x300.png" alt="" width="248" height="300" srcset="http://localhost/wp-content/uploads/2017/09/GetSongInfo-248x300.png 248w, http://localhost/wp-content/uploads/2017/09/GetSongInfo.png 346w" sizes="(max-width: 248px) 100vw, 248px" />][1]Download the project here:
+I'm sure there are probably easier ways to do this, but I made a small windows GUI Executable using C#/WPF that will download Album, Title, and Art from rainwave's API, and I wanted to share it with you.[<img class="aligncenter size-medium wp-image-901" src="https://www.etdofresh.com/wp-content/uploads/2017/09/GetSongInfo-248x300.png" alt="" width="248" height="300" srcset="http://localhost/wp-content/uploads/2017/09/GetSongInfo-248x300.png 248w, http://localhost/wp-content/uploads/2017/09/GetSongInfo.png 346w" sizes="(max-width: 248px) 100vw, 248px" />][1]Download the project here:
 
   * Windows Binary: [SongInfo.zip][2] (232 KB)
   * Windows Source: [SongInfoSource.zip][3] (1085 KB)

@@ -21,7 +21,7 @@ categories:
 </div>
 
 <div>
-  I have had a long day in planes, and lay overs. I don&#8217;t really have the energy to write a blog entry today. However, I do want to place all the autostitched pictures I have, AKA panoramic pictures of my trip! Check them out! I know some of them may have a ghosty effect, but too lazy to fix it!
+  I have had a long day in planes, and lay overs. I don't really have the energy to write a blog entry today. However, I do want to place all the autostitched pictures I have, AKA panoramic pictures of my trip! Check them out! I know some of them may have a ghosty effect, but too lazy to fix it!
 </div>
 
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 53px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SlT9mxA8kmI/AAAAAAAAAas/6mYo3kPObjI/s400/S6302502.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5356184699284525666" />][1]  

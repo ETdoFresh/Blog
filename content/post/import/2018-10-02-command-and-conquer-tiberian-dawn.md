@@ -15,7 +15,7 @@ tags:
   - Abandoned
 ---
 
-I am working on a fan game, reimaging one of my favorite real time strategy games, Command and Conquer! I haven&#8217;t really put much work into it just yet, but whenever I get time I would love to keep going!
+I am working on a fan game, reimaging one of my favorite real time strategy games, Command and Conquer! I haven't really put much work into it just yet, but whenever I get time I would love to keep going!
 
 https://etdofresh.github.io/CnC {{< sub "Play Now!" >}}
 https://github.com/ETdoFresh/CommandAndConquerTiberianDawn {{< sub Source Code >}}

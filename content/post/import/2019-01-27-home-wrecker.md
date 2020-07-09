@@ -38,6 +38,6 @@ https://globalgamejam.org/2019/games/home-wrecker-3 {{< sub Game Jam Entry >}}
 
 Ever had an exhausting shopping trip to decorate your home with all the shipping and handling, etc? Or looked forever to find someone to rent a room? Well look no further! We got you covered! But with all the difficulties of home maintenance, how long can you protect the comfort of your home? (Left click to punch! Right click to hide!)
 
-For Global Game Jam 2019, the theme is &#8220;What Home means to you&#8221;. We split into random groups and talked about deep things about what homes meant to us. This led to deep game ideas (which were probably too big of scope)&#8230;. Then someone at the meetup pitched a crazy idea where a house has legs and eats stuff. We loved it, and we literally took it and ran with Home Wrecker!
+For Global Game Jam 2019, the theme is "What Home means to you". We split into random groups and talked about deep things about what homes meant to us. This led to deep game ideas (which were probably too big of scope).... Then someone at the meetup pitched a crazy idea where a house has legs and eats stuff. We loved it, and we literally took it and ran with Home Wrecker!
 
 {{< youtube t4BSH3D1YWM >}}

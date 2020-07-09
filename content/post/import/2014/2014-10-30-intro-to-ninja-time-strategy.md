@@ -49,12 +49,12 @@ tags:
   <a href="https://etdofresh.github.io/NTS">https://etdofresh.github.io/NTS</a> <em>Play Now</em><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-2-Ninja-Time-Strategy.pdf">Game Proposal &#8211; Ninja-Time Strategy</a><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/NTSv0.01.zip">Source Code</a>
 </p>
 
-This game is quite different. It&#8217;s not one of those games I&#8217;ve been dying to make for many years. On the flip-side, I decided to try to make a game on a &#8220;whim&#8221;. I also was very interested in HTML5 before I started, so this was a perfect opportunity.
+This game is quite different. It's not one of those games I've been dying to make for many years. On the flip-side, I decided to try to make a game on a "whim". I also was very interested in HTML5 before I started, so this was a perfect opportunity.
 
 <!--more-->I thought of a premise that is light and humorous. A ninja that goes back through time and destroys all bases and armies that may have taken players 30 minutes to an hour to build in a typical real-time strategy game. In a flick of a few shurikens, sword, and ninja bombs, bases and armies would be destroyed. No need to build bases. Just one ninja vs the world!
 
 I was simply having fun when I made this game. There was also a cool mechanic that accidentally came about. A sword that is always sticking out of the ninja where swinging the mouse around swings the sword. The faster you swing, the more damage you do. Fun!
 
-Here&#8217;s the link to the game and source if interested.
+Here's the link to the game and source if interested.
 
 &nbsp;

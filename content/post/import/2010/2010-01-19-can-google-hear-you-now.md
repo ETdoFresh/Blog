@@ -26,11 +26,11 @@ My bro invited me to use [Google Voice][1]. This is a cool little service that t
 
 **What I expected**
 
-Well, like my voicemail at my old engineering job, I knew I&#8217;d probably be able to play through the computer. It was cool, but was it worth Google taking over my voicemail just for that?
+Well, like my voicemail at my old engineering job, I knew I'd probably be able to play through the computer. It was cool, but was it worth Google taking over my voicemail just for that?
 
-**What I didn&#8217;t expect**
+**What I didn't expect**
 
-It doesn&#8217;t clutter your email if you don&#8217;t want it to. There&#8217;s a seperate "Inbox" of voicemails on the Google Voice homepage. If you want to be notified by email, it&#8217;ll send you an email with a direct link to play the voicemail. On top of that, Google Voice transcribes the voicemail! That&#8217;s awesome. So, not only do you get a link to the audio file, it sends you the text of what the person said! Now that&#8217;s nice! Now I&#8217;m seriously considering leaving my old voicemail to go with Google.
+It doesn't clutter your email if you don't want it to. There's a seperate "Inbox" of voicemails on the Google Voice homepage. If you want to be notified by email, it'll send you an email with a direct link to play the voicemail. On top of that, Google Voice transcribes the voicemail! That's awesome. So, not only do you get a link to the audio file, it sends you the text of what the person said! Now that's nice! Now I'm seriously considering leaving my old voicemail to go with Google.
 
 **The setup**
 
@@ -47,7 +47,7 @@ I know somewhere in there I was able to record my greeting before I got the voic
 
 **Conclusion**
 
-Well, I don&#8217;t know for sure how I feel about Google having access to my voicemail, but the features are darn cool! Maybe if Sprint would offer this to me, I can use them instead of Google. Give it a try, and if you need an invite, I think I can send them!
+Well, I don't know for sure how I feel about Google having access to my voicemail, but the features are darn cool! Maybe if Sprint would offer this to me, I can use them instead of Google. Give it a try, and if you need an invite, I think I can send them!
 
 &#8211; ETdoFresh
 

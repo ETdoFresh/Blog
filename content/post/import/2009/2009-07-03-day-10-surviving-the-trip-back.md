@@ -21,7 +21,7 @@ categories:
 </div>
 
 <div>
-  I woke up in a hot hotel room this morning. We were in need of taking a shower, packing up, and getting out of there! We left our bag in the hotel &#8220;at our own risk&#8221;. Well, as you can see, I still have my laptop, which let&#8217;s me blog!
+  I woke up in a hot hotel room this morning. We were in need of taking a shower, packing up, and getting out of there! We left our bag in the hotel "at our own risk". Well, as you can see, I still have my laptop, which let's me blog!
 </div>
 
 <div>
@@ -36,7 +36,7 @@ categories:
 [<img style="display:block; float: left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/Sk6WwBMA3qI/AAAAAAAAAWc/fCiY0YmNhl8/s400/S6302501.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354382758686809762" />][2]
 
 <div>
-  Then we walked the city of Copenhagen, Denmark. Found interesting places, people, and things. I found my name on metal plates all over construction sites, so it only made sense for me to take a picture with it. One of the stores we found served mint lemonade&#8230; but it was basically mint leaves with lemon juice&#8230; too strong for me. So I loaded it with brown sugar that was on the table, after about a cup of sugar, it tasted just right to me!
+  Then we walked the city of Copenhagen, Denmark. Found interesting places, people, and things. I found my name on metal plates all over construction sites, so it only made sense for me to take a picture with it. One of the stores we found served mint lemonade... but it was basically mint leaves with lemon juice... too strong for me. So I loaded it with brown sugar that was on the table, after about a cup of sugar, it tasted just right to me!
 </div>
 
 <div>
@@ -60,7 +60,7 @@ categories:
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/Sk6YKg3dBqI/AAAAAAAAAXE/y0kr7BxL7Uw/s400/S6302593.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5354384313378735778" />][7]
 
 <div>
-  I love coming to Menena and Jerry house, but I was especially happy to see it tonight. I had an adventure today, and it was a mild one from an outside perspective at best. But to me, it blew me away. I&#8217;m usually in such control of my life, and when things don&#8217;t go according to plan, I usually can fix or avoid the problem right away. Today, things didn&#8217;t go as planned, and I wasn&#8217;t sure how it was possible to fix the problem. Maybe I need to learn to let go of controlling my life so much, and learn to go with the flow and ask for help when I need it. I don&#8217;t ever ask for help! I&#8217;m too proud/independent that way. Maybe I needed so much help growing up, that when I finally did grow up, I never wanted help from anyone anymore. I don&#8217;t know if that makes sense, but it does to me. But sometimes it&#8217;s good to control all the aspects in your life, but sometimes you need to release yourself from that control too, otherwise when things get out of your control, your life may go into a deadly tailspin. I may be babbling, but I try to see things from every possible perspective, it helps me see things more clearly. Maybe some sleep right now will help me blog more clearly. Haha. Alright, God Natt!
+  I love coming to Menena and Jerry house, but I was especially happy to see it tonight. I had an adventure today, and it was a mild one from an outside perspective at best. But to me, it blew me away. I'm usually in such control of my life, and when things don't go according to plan, I usually can fix or avoid the problem right away. Today, things didn't go as planned, and I wasn't sure how it was possible to fix the problem. Maybe I need to learn to let go of controlling my life so much, and learn to go with the flow and ask for help when I need it. I don't ever ask for help! I'm too proud/independent that way. Maybe I needed so much help growing up, that when I finally did grow up, I never wanted help from anyone anymore. I don't know if that makes sense, but it does to me. But sometimes it's good to control all the aspects in your life, but sometimes you need to release yourself from that control too, otherwise when things get out of your control, your life may go into a deadly tailspin. I may be babbling, but I try to see things from every possible perspective, it helps me see things more clearly. Maybe some sleep right now will help me blog more clearly. Haha. Alright, God Natt!
 </div>
 
 <div>

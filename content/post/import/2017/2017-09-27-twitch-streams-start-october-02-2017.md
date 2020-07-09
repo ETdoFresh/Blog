@@ -20,7 +20,7 @@ tags:
   <a href="https://www.twitch.tv/etdofresh">https://www.twitch.tv/etdofresh</a>
 </p>
 
-My Twitch stream is going to start October 2, 2017 6:00-7:00pm every Monday and Wednesday. I am going to be working on my **Vector Animation** program targeted mostly towards mobile platforms. Watch the exciting progress I make as I program live on twitch! Haha, ok, watching someone program can almost be considered crazy&#8230; almost as crazy  recording it and streaming to the world wide web. :p
+My Twitch stream is going to start October 2, 2017 6:00-7:00pm every Monday and Wednesday. I am going to be working on my **Vector Animation** program targeted mostly towards mobile platforms. Watch the exciting progress I make as I program live on twitch! Haha, ok, watching someone program can almost be considered crazy... almost as crazy  recording it and streaming to the world wide web. :p
 
 Also track my progress on Trello to see what will be discussed next stream:  
 <https://trello.com/b/wOHgDWHx/vector-animation>

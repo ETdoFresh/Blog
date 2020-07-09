@@ -10,11 +10,11 @@ tags:
   - Physics
 
 ---
-Before I knew the existence of [Jitter Physics][1] (which is what I&#8217;ll end up using), I decided to try to make my own Physics Engine following [Game Physics Engine Developmnet by Ian Millington][2], and basically got stuck somewhere when making Contact Resolvers for Rigidbodies. However, I wanted to share my experience making Physics Engine, hopefully as briefly as I can while still making sense.
+Before I knew the existence of [Jitter Physics][1] (which is what I'll end up using), I decided to try to make my own Physics Engine following [Game Physics Engine Developmnet by Ian Millington][2], and basically got stuck somewhere when making Contact Resolvers for Rigidbodies. However, I wanted to share my experience making Physics Engine, hopefully as briefly as I can while still making sense.
 
 ## Base Data Types
 
-Before we get started in creating the very best physics engine (right?), we first need to decide what kind of data types we&#8217;ll be using.
+Before we get started in creating the very best physics engine (right?), we first need to decide what kind of data types we'll be using.
 
 ### Single Precision (float) or Double Precision (double) Numbers
 
@@ -66,7 +66,7 @@ Before we get started in creating the very best physics engine (right?), we firs
   </tr>
 </table>
 
-I am going to choose Single because it&#8217;s faster, smaller, and basically it is almost exclusively used by Unity. That&#8217;s where I&#8217;ll be doing all my testing. Another goal of mine is to structure our code so that we can change between single and double pretty painlessly.
+I am going to choose Single because it's faster, smaller, and basically it is almost exclusively used by Unity. That's where I'll be doing all my testing. Another goal of mine is to structure our code so that we can change between single and double pretty painlessly.
 
 ### Vector3
 
@@ -102,7 +102,7 @@ Matrices are used because they are quite powerful. You can do various things wit
 
 ### Timing
 
-We want our Physics Engine to run the same given the same input. Hence we will use a constant/fixed time step. This can be whatever you want, but I think for the purposes of this tutorial, we&#8217;ll make it 1/60 seconds. Some psuedo code on how we can handle timing is
+We want our Physics Engine to run the same given the same input. Hence we will use a constant/fixed time step. This can be whatever you want, but I think for the purposes of this tutorial, we'll make it 1/60 seconds. Some psuedo code on how we can handle timing is
 
 <pre class="lang:default decode:true " title="Time PsuedoCode">float time = 0f;
 float fixedDeltaTime = 1 / 60f;
@@ -131,7 +131,7 @@ while(programIsRunning())
 	Render(intermediate);
 }</pre>
 
-But if we are handling this via Unity, it&#8217;ll probably more in line with the following:
+But if we are handling this via Unity, it'll probably more in line with the following:
 
 <pre class="lang:default decode:true" title="Unity Time Psuedocode">private PhysicsManager physics;
 private State previousState;
@@ -147,9 +147,9 @@ void FixedUpdate()
 	physics.Update(Time.fixedDeltaTime);
 }</pre>
 
-### Next Time&#8230;
+### Next Time...
 
-We&#8217;ll start with an overview of the entire Physics Engine. A list of objects, and what they&#8217;ll be responsible for. Also start getting into basic physics concepts. See you there!
+We'll start with an overview of the entire Physics Engine. A list of objects, and what they'll be responsible for. Also start getting into basic physics concepts. See you there!
 
  [1]: https://github.com/mattleibow/jitterphysics
  [2]: https://www.amazon.com/Game-Physics-Engine-Development-Commercial-Grade/dp/0123819768

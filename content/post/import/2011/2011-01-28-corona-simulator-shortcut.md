@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-I decided that I am going to use Ansca Corona to develop a game I&#8217;m working on vs. Airplay SDK. This LUA language is soo much easier than C++. I still would love to have my games programmed in C++, but for just me, it&#8217;ll take too long to get to my final destination. So, LUA it is! Anyway, here is a quick batch file that I like to keep in my projects directory so all I have to do is drag the folder to this batch file, or type in the name of the porject I&#8217;m working on.
+I decided that I am going to use Ansca Corona to develop a game I'm working on vs. Airplay SDK. This LUA language is soo much easier than C++. I still would love to have my games programmed in C++, but for just me, it'll take too long to get to my final destination. So, LUA it is! Anyway, here is a quick batch file that I like to keep in my projects directory so all I have to do is drag the folder to this batch file, or type in the name of the porject I'm working on.
 
 **simulate.cmd**
 

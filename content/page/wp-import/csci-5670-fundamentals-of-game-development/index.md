@@ -80,7 +80,7 @@ The book will primarily be used in the first half of the class and will be a maj
 
 Two other books are recommended reading, and may help you with the class projects:
 
-  * [_The Game Maker&#8217;s Apprentice: Game Development for Beginners_][16] by Jacob Habgood and Mark Overmars.
+  * [_The Game Maker's Apprentice: Game Development for Beginners_][16] by Jacob Habgood and Mark Overmars.
   * [_Beginning 3D Game Development with Unity 4: All-In-One, Multi-Platform Game Development_][17] by Sue Blackman, Second Edition.  
     * * *
 
@@ -241,7 +241,7 @@ If you are enrolled in CSCI 5670, you must complete a research paper on a topic 
 These policies are in place to maintain professionalism and mutual respect:
 
   * _Attendance:_ Attendance is only required on the day of the midterm exam and final project presentations, but it is always strongly encouraged. One of the essential skills that you will learn in this class is the ability to critically discuss a game, and this is done primarily through the in-class lectures.
-  * _Laptops and Phones:_ I try to respect your time by making lectures interesting and helpful, so I ask that you show me the same respect by being an attentive audience when you come to class. This mean that you may not use any computers or mobile devices during the lecture unless it is during a designated in-class assignment. In summary: you don&#8217;t have to come, but if you do, you have to give this class your full attention.
+  * _Laptops and Phones:_ I try to respect your time by making lectures interesting and helpful, so I ask that you show me the same respect by being an attentive audience when you come to class. This mean that you may not use any computers or mobile devices during the lecture unless it is during a designated in-class assignment. In summary: you don't have to come, but if you do, you have to give this class your full attention.
   * _Grading:_ I try to make grading a transparent and objective process, but unfortunately this class involves a lot of subjective evaluation. To the greatest extent possible, I will try to give you detailed grading rubrics before you start an assignment.
   * _Due Dates:_ All assignments are due promptly at midnight on the day they are due; however the submit lockers will not close until 3 AM the next day. Consider those three hours an unofficial grace period. At 3:01 AM, you assignment is not 1 minute late; it is 3 hours and 1 minute late, and it will not be accepted.
   * _Late Work:_ Late assignments will not be accepted, except in the case of a serious, documented excuse.
@@ -253,7 +253,7 @@ These policies are in place to maintain professionalism and mutual respect:
 
 ## Academic Dishonesty
 
-Please don&#8217;t cheat. Getting a good grade in this class without learning the skills it teaches is a waste of your time and money. If you are caught cheating you will be removed from the class and given a failing grade.
+Please don't cheat. Getting a good grade in this class without learning the skills it teaches is a waste of your time and money. If you are caught cheating you will be removed from the class and given a failing grade.
 
 There is a fine line between giving and receiving help from your classmates and cheating. As a general guideline, cheating means copying answers on an exam or copy/pasting code. You can discuss your work with your classmates, but do not share code.
 
@@ -271,7 +271,7 @@ It is University policy to provide, on a flexible and individualized basis, reas
 
 Please note that the calendar may change. It will be updated after every class with relevant notes and resources from the lectures.
 
-Many class meetings come with suggested play. Some of these games are not freely available, and you are not required to buy them. They are listed because they are especially relevant to the day&#8217;s topic.
+Many class meetings come with suggested play. Some of these games are not freely available, and you are not required to buy them. They are listed because they are especially relevant to the day's topic.
 
 <table border="1" cellspacing="0" cellpadding="0">
   <tr style="font-size: 120%;">
@@ -375,7 +375,7 @@ Many class meetings come with suggested play. Some of these games are not freely
           Read chapters 7 &#8211; 10 in RoP.
         </li>
         <li>
-          Read <a href="http://www.rogerebert.com/rogers-journal/video-games-can-never-be-art">&#8220;Video Games Can Never Be Art&#8221;</a>.
+          Read <a href="http://www.rogerebert.com/rogers-journal/video-games-can-never-be-art">"Video Games Can Never Be Art"</a>.
         </li>
         <li>
           Play <a href="http://boardgamegeek.com/boardgame/30549/pandemic">Pandemic</a>.
@@ -420,7 +420,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Watch a playthrough of <a href="https://www.youtube.com/watch?v=i6em4GRiRY0">Dragon&#8217;s Lair</a>.
+          Watch a playthrough of <a href="https://www.youtube.com/watch?v=i6em4GRiRY0">Dragon's Lair</a>.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/Super_Metroid">Super Metroid</a>.
@@ -465,7 +465,7 @@ Many class meetings come with suggested play. Some of these games are not freely
           Read chapters 11 &#8211; 13 in RoP.
         </li>
         <li>
-          Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway&#8217;s <i>Life</i></a>.
+          Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway's <i>Life</i></a>.
         </li>
       </ul>
     </td>
@@ -509,7 +509,7 @@ Many class meetings come with suggested play. Some of these games are not freely
           Read chapters 14 &#8211; 15 in RoP.
         </li>
         <li>
-          Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway&#8217;s <i>Life</i></a>.
+          Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway's <i>Life</i></a>.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/Gearheads">Gearheads</a>.
@@ -714,7 +714,7 @@ Many class meetings come with suggested play. Some of these games are not freely
           Play <a href="http://en.wikipedia.org/wiki/The_Sims">The Sims</a>.
         </li>
         <li>
-          Play <a href="http://en.wikipedia.org/wiki/The_Landlord's_Game">The Landlord&#8217;s Game</a>.
+          Play <a href="http://en.wikipedia.org/wiki/The_Landlord's_Game">The Landlord's Game</a>.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/Monopoly_(game)">Monopoly</a>.

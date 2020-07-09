@@ -10,13 +10,13 @@ categories:
 ---
 <img class="alignnone size-full wp-image-268" src="http://www.etdofresh.com/wp-content/uploads/2016/07/PokeVision.png" alt="PokeVision" width="893" height="572" /><!--more-->
 
-Hey everyone. So I&#8217;ve been taking a peek at this [Pokevision][1] map and loving it! So, figured out the name of the function of what loads the pokemon nearby and decided I&#8217;ll do the whole city of New Orleans using a simple For loop.
+Hey everyone. So I've been taking a peek at this [Pokevision][1] map and loving it! So, figured out the name of the function of what loads the pokemon nearby and decided I'll do the whole city of New Orleans using a simple For loop.
 
 The javaScript function to find nearby pokemon was:
 
 <pre lang="javascript" line="0">App.home.findNearbyPokemon(latitude, longitude)</pre>
 
-So to load the entire city of New Orleans in about a minute&#8230; after loading PokeVision site, you have to open up a javascript console. In chrome, you click Menu > More Tools >  Developer Tools > Console. Paste the following into the javascript console.
+So to load the entire city of New Orleans in about a minute... after loading PokeVision site, you have to open up a javascript console. In chrome, you click Menu > More Tools >  Developer Tools > Console. Paste the following into the javascript console.
 
 UPDATE: Make sure the Java Console is up before loading the site
 

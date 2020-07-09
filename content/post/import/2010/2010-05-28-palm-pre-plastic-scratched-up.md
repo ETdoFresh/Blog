@@ -18,12 +18,12 @@ categories:
 ---
 Dear Blog, 
 
-After playing some volleyball and using my phone, I realized sand + my thumb = deep scratches on my phone. Now when I use my phone, I could feel the scratches and it made me cringe&#8230;
+After playing some volleyball and using my phone, I realized sand + my thumb = deep scratches on my phone. Now when I use my phone, I could feel the scratches and it made me cringe...
 
 Well I decided to buy some plastic repair off ebay called Novus plastic scratch repair kit. It came in 1, 2, 3 bottles, where 1 was just a polish, 2 was a shallow scractch repair, and 3 was the heavy duty scratch repair.
 
 [<img src="" width="125" />]()[<img src="" width="125" />]()[<img src="" width="125" />]()
 
-I picked up my phone, did number 2 like 2 &#8211; 3 times, and I finished off with a number 1. Looked much better, but the scratches are still there if you look at it in the right light. But the "feeling" is completely smooth. Soo happy I did this! If you have a scracthed pre, or anything that&#8217;s plastic. Try this out. I think it was about $10 after shipping. Worth it, for me!
+I picked up my phone, did number 2 like 2 &#8211; 3 times, and I finished off with a number 1. Looked much better, but the scratches are still there if you look at it in the right light. But the "feeling" is completely smooth. Soo happy I did this! If you have a scracthed pre, or anything that's plastic. Try this out. I think it was about $10 after shipping. Worth it, for me!
 
 &#8211; ET

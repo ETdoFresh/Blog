@@ -22,7 +22,7 @@ categories:
   </p>
   
   <p>
-    Wow! This is a pretty cool blogging software. I was doing my entries in Adobe DreamWeaver, but little did I know, I had the software all along specifically for this kind of website. I&#8217;m going to test a picture, and see if it works well.
+    Wow! This is a pretty cool blogging software. I was doing my entries in Adobe DreamWeaver, but little did I know, I had the software all along specifically for this kind of website. I'm going to test a picture, and see if it works well.
   </p>
   
   <p align='center'>
@@ -30,7 +30,7 @@ categories:
   </p>
   
   <p>
-    So this picture just shows the length of my hair during Mardi Gras season. I&#8217;m seriously considering chopping it off, but maybe I can donate it? We&#8217;ll see. Well, this was just a quick entry, cause I was excited to see what this software could do! And  you know what, I&#8217;m liking it very much! If you have a blog, and you happen to have Adobe Contribute on your computer, I say&#8230;. give this software a try, it may speed up how you write in your blog!
+    So this picture just shows the length of my hair during Mardi Gras season. I'm seriously considering chopping it off, but maybe I can donate it? We'll see. Well, this was just a quick entry, cause I was excited to see what this software could do! And  you know what, I'm liking it very much! If you have a blog, and you happen to have Adobe Contribute on your computer, I say.... give this software a try, it may speed up how you write in your blog!
   </p>
   
   <p>

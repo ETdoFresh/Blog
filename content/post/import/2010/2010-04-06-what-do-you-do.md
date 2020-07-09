@@ -26,23 +26,23 @@ categories:
   </p>
   
   <p>
-    Granted, this friend and I haven&#8217;t been in contact for years now&#8230; but it&#8217;s his last days, and I have a way to contact him. Aww man, I just don&#8217;t know!?
+    Granted, this friend and I haven't been in contact for years now... but it's his last days, and I have a way to contact him. Aww man, I just don't know!?
   </p>
   
   <p>
-    I really don&#8217;t think about this often. I don&#8217;t know how I would react to death? Personally, I want to feel like at any moment, I&#8217;d be ready&#8230; but I don&#8217;t think I would be. There may be things I still need to experience. I tell you my priorities would be so much different if I knew I only had 6 or less weeks to live.
+    I really don't think about this often. I don't know how I would react to death? Personally, I want to feel like at any moment, I'd be ready... but I don't think I would be. There may be things I still need to experience. I tell you my priorities would be so much different if I knew I only had 6 or less weeks to live.
   </p>
   
   <p>
-    My friend has really touched my life, and molded me from someone who would have been completely dull to someone with a little personality. We have had adventures and I don&#8217;t think I could forget them.
+    My friend has really touched my life, and molded me from someone who would have been completely dull to someone with a little personality. We have had adventures and I don't think I could forget them.
   </p>
   
   <p>
-    But what about now? What do I do? We can&#8217;t relive those adventures, because I&#8217;m not that crazy (or young) anymore.
+    But what about now? What do I do? We can't relive those adventures, because I'm not that crazy (or young) anymore.
   </p>
   
   <p>
-    Hmm&#8230; oh well, the truth is, I got nothing. I will just try to be there, and maybe he&#8217;ll know what I could do for him.
+    Hmm... oh well, the truth is, I got nothing. I will just try to be there, and maybe he'll know what I could do for him.
   </p>
   
   <p>
