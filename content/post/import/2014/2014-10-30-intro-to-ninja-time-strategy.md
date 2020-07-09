@@ -46,7 +46,7 @@ tags:
 </div>
 
 <p class="SoftwareLink">
-  <a href="https://etdofresh.github.io/NTS">https://etdofresh.github.io/NTS</a> <em>Play Now</em><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-2-Ninja-Time-Strategy.pdf">Game Proposal &#8211; Ninja-Time Strategy</a><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/NTSv0.01.zip">Source Code</a>
+  <a href="https://etdofresh.github.io/NTS">https://etdofresh.github.io/NTS</a> <em>Play Now</em><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-2-Ninja-Time-Strategy.pdf">Game Proposal – Ninja-Time Strategy</a><br /><a href="http://www.etdofresh.com/wp-content/uploads/2014/11/NTSv0.01.zip">Source Code</a>
 </p>
 
 This game is quite different. It's not one of those games I've been dying to make for many years. On the flip-side, I decided to try to make a game on a "whim". I also was very interested in HTML5 before I started, so this was a perfect opportunity.

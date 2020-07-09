@@ -34,7 +34,7 @@ My bro picked me up at 12:30pm and we went to eat at the Bleu River Grille hoste
 
 Then I walked down to the Borders (a block away from where I was) so that my brother could return to work, and I could start on mine. I programmed the section in clickinclock.com where admin's can add or delete users. So far no JavaScript, pure PHP. Well I lied, the only JavaScript is the time incrementing every second. I had nice black coffee for $2, and that lasted me the rest of the day as I sipped, sipped, and sipped.
 
-After work we went over to the Daily Grill where it was Happy Hour. I had 2 beers, and lots of $2 &#8211; $3 plates, like Ahi Tuna, Calimari, and Hummus. Good stuff. We checked out the Apple store for a few minutes, and Apple has their stuff together. Everything is sleek, bright, and responsive. We should all take note, and apply it everywhere for some fierce competition.
+After work we went over to the Daily Grill where it was Happy Hour. I had 2 beers, and lots of $2 – $3 plates, like Ahi Tuna, Calimari, and Hummus. Good stuff. We checked out the Apple store for a few minutes, and Apple has their stuff together. Everything is sleek, bright, and responsive. We should all take note, and apply it everywhere for some fierce competition.
 
 At this point, we headed back home, had lotsa water, and some wine, and watched [Grandma's Boy][1]. Very funny movie about a game tester who moves in with his Grandma.
 
@@ -46,7 +46,7 @@ Then we got the Wii to boot backed up games from a hard drive, or USB stick in m
 
 While I was trying to get this all working, we played a bit of [Urban Terror][3], a free, older First Person Shooter (FPS) where you run around and kill each other, like usual. You can capture the flag, deathmatch, etc. We played til' really late (around now). So hopefully I can keep my waking up at decent hours in check. Wish me luck
 
-&#8211; e.t.@2-cool.com (used to be my email address, really!)
+– e.t.@2-cool.com (used to be my email address, really!)
 
  [1]: http://www.imdb.com/title/tt0456554/
  [2]: http://www.teknoconsolas.es/blogs/waninkoko

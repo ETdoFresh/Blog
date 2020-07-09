@@ -48,7 +48,7 @@ Anyway, check out [The Secret][4], and also, please check out [Pirates of Silico
 
 On that line! Good night!
 
-&#8211; ETdoFresh
+– ETdoFresh
 
  [1]: http://frys.com/
  [2]: http://www.halfpricebooks.com/

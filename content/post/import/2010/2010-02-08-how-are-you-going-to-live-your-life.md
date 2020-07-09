@@ -32,4 +32,4 @@ How. How. How. Live life with compassion, with greatness, with heart, with happi
 
 It's my life, it's your life, live it HOW you want and you too will be a man of the ages.
 
-&#8211; ET
+– ET

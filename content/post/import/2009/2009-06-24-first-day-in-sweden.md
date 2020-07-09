@@ -46,4 +46,4 @@ Then we went to the top of a mountain and saw the whole city. We really had a gr
   <a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SkKT8gvKJaI/AAAAAAAAAMg/8kGAzpH_AJw/s1600/DSC_0006.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SkKT8gvKJaI/AAAAAAAAAMg/8kGAzpH_AJw/s288/DSC_0006.JPG" width="225" /></a>
 </p>
 
-&#8211; ETdoFresh
+– ETdoFresh

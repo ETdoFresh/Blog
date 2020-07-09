@@ -220,7 +220,7 @@ These projects are _not_ intended to be large undertakings, but simply to introd
 
 ### Game Play Journals
 
-One key skill taught in this class is the ability to critically evaluate a game. You will complete 3 Game Play Journals, during which you play a game (new or one you have played before) and write about your experience. These should be short&#8211;between 2 and 5 pages. These journals are meant to exercise your ability to analyse game design and provide constructive criticism to other designers.
+One key skill taught in this class is the ability to critically evaluate a game. You will complete 3 Game Play Journals, during which you play a game (new or one you have played before) and write about your experience. These should be short–between 2 and 5 pages. These journals are meant to exercise your ability to analyse game design and provide constructive criticism to other designers.
 
 ### Game Marketing Project
 
@@ -330,7 +330,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 1 &#8211; 6 in RoP.
+          Read chapters 1 – 6 in RoP.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/Chess">Chess</a>.
@@ -372,7 +372,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 7 &#8211; 10 in RoP.
+          Read chapters 7 – 10 in RoP.
         </li>
         <li>
           Read <a href="http://www.rogerebert.com/rogers-journal/video-games-can-never-be-art">"Video Games Can Never Be Art"</a>.
@@ -462,7 +462,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 11 &#8211; 13 in RoP.
+          Read chapters 11 – 13 in RoP.
         </li>
         <li>
           Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway's <i>Life</i></a>.
@@ -506,7 +506,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 14 &#8211; 15 in RoP.
+          Read chapters 14 – 15 in RoP.
         </li>
         <li>
           Play <a href="http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/">Conway's <i>Life</i></a>.
@@ -539,7 +539,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 16 &#8211; 17 in RoP.
+          Read chapters 16 – 17 in RoP.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Mastermind</a>.
@@ -572,7 +572,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 18 &#8211; 20 in RoP.
+          Read chapters 18 – 20 in RoP.
         </li>
         <li>
           Ponder <a href="http://en.wikipedia.org/wiki/Pirate_game">The 5 Pirates Riddle</a>.
@@ -605,7 +605,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 22 &#8211; 25 in RoP.
+          Read chapters 22 – 25 in RoP.
         </li>
         <li>
           Play <a href="http://www.sleepingbeastgames.com/spaceteam/">Spaceteam</a>.
@@ -666,7 +666,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 26 &#8211; 28 in RoP.
+          Read chapters 26 – 28 in RoP.
         </li>
         <li>
           Play <a href="http://www.hangman.no/">Hangman</a>.
@@ -708,7 +708,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Read chapters 29 &#8211; 31 in RoP.
+          Read chapters 29 – 31 in RoP.
         </li>
         <li>
           Play <a href="http://en.wikipedia.org/wiki/The_Sims">The Sims</a>.
@@ -1295,7 +1295,7 @@ Many class meetings come with suggested play. Some of these games are not freely
     <td>
       <ul>
         <li>
-          Time: 3:00 PM &#8211; 5:00 PM
+          Time: 3:00 PM – 5:00 PM
         </li>
         <li>
           <a href="http://www.etdofresh.com/wp-content/uploads/2016/09/Final-Grades.xlsx">Calculate your final grade</a>.

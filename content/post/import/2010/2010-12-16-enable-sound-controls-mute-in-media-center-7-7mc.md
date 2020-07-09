@@ -25,4 +25,4 @@ So what I did was turn on Auto Volume! It works now... no dolby digital sound fr
 <pre>I believe it's in:
 Settings > TV > Audio > Auto Volume Checkbox</pre>
 
-&#8211; ETdoFresh
+– ETdoFresh

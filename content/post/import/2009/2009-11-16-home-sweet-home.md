@@ -98,4 +98,4 @@ And the chair padding was really thin also. So I pulled it apart to find that it
 
 Life at the house can seem hard, but it really is fun creating something for myself and my loved one. One day everything around the house will be done.... one day!
 
-&#8211; E.T.
+– E.T.

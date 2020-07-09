@@ -30,6 +30,6 @@ Then I had some fun with my camera I got from ebay. I'll show you pics from my d
   <a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SsWQgs0LC-I/AAAAAAAAAlc/rV8Pjt9WuQ0/s1600/IMG_5432.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SsWQgs0LC-I/AAAAAAAAAlc/rV8Pjt9WuQ0/s144/IMG_5432.JPG" width="125" /></a><a href="http://lh3.ggpht.com/_yEPuIWl8ybE/SsWQhLvFEGI/AAAAAAAAAlk/KYiHpdATCs0/s1600/IMG_5463.JPG"><img src="http://lh3.ggpht.com/_yEPuIWl8ybE/SsWQhLvFEGI/AAAAAAAAAlk/KYiHpdATCs0/s144/IMG_5463.JPG" width="125" /></a><a href="http://lh4.ggpht.com/_yEPuIWl8ybE/SsWQfwGLIXI/AAAAAAAAAlM/SoX0toq65kg/s1600/IMG_5410.JPG"><img src="http://lh4.ggpht.com/_yEPuIWl8ybE/SsWQfwGLIXI/AAAAAAAAAlM/SoX0toq65kg/s144/IMG_5410.JPG" width="125" /></a>
 </p>
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://www.nintendo.com/sites/mariostrikerscharged/

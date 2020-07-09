@@ -28,7 +28,7 @@ On another note, my bro said he may get more serious about blogging again! I lov
 
 I love blogging, and I love just using Dreamweaver to type up my blog and upload it to blogspot! I don't have much tonight, except super excited about the New Orleans Saints Football game tomorrow. It's going to be a blast! Later!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://www.google.com/finance?q=palm
  [2]: http://alexlife.blogspot.com/

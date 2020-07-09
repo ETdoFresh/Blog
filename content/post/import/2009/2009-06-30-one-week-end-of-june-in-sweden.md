@@ -54,7 +54,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
 <div>

@@ -34,4 +34,4 @@ Stop 2: Down town. We drove around for a little bit and finally found parking (f
 
 Now I'm at my brother's house and just watched JCVD, a movie where Jon Claude Van Dam makes fun of himself, but surprisingly, kind of a good movie just to chill and watch it unfold. I guess I would recommend it to certain people, but definitely not all. Anyway, now it's pretty late, and I'm going to get to bed! Hope I can get some pictures on this blog someday soon. **Update: Linked to some pix!** Night!
 
-&#8211; E.Tizzle
+– E.Tizzle

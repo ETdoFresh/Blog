@@ -28,4 +28,4 @@ So, I jogged a whole 2 miles today! Oh my gosh! That took a beating out of me. C
 
 And then we celebrated a friends birthday afterwards, and watched the terminal. I wish I never have to hear that my country is at war when I leave to visit other countries! When Colleen and I got home, we finished a mosaic puzzle of Charlie Brown! Man it was hard at the end when all we had were red pieces, but we still got a strategy going, and finished it up! All-in-all, fun times!
 
-&#8211; E.T.
+– E.T.

@@ -46,6 +46,6 @@ categories:
   </p>
   
   <p>
-    &#8211; ET
+    – ET
   </p>
 </div>

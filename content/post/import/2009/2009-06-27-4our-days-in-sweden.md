@@ -49,7 +49,7 @@ categories:
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://3.bp.blogspot.com/_yEPuIWl8ybE/SkapXb2ps9I/AAAAAAAAAQA/nqzckAGTLN8/s400/S6301958.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352151427255481298" />][8]
 
 <div>
-  Then Jerry and Ximena thought it would be nice that they would take us to rocks with paintings from the Bronze Age (1800 &#8211; 500BC). It's great to know that age old culture exists everywhere. In one of our stops of viewing culuture, I learned that the ants made hills 100 times bigger than those I've seen in New Orleans. Seriously! Check out the picture with Jerry and Andre, and behind them is an actual ant pile. It is more than half of a human size. Amazing.
+  Then Jerry and Ximena thought it would be nice that they would take us to rocks with paintings from the Bronze Age (1800 – 500BC). It's great to know that age old culture exists everywhere. In one of our stops of viewing culuture, I learned that the ants made hills 100 times bigger than those I've seen in New Orleans. Seriously! Check out the picture with Jerry and Andre, and behind them is an actual ant pile. It is more than half of a human size. Amazing.
 </div>
 
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 190px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SkapXhR3twI/AAAAAAAAAQI/Klq53_K32dE/s400/S6301971.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352151428711823106" />][9]  
@@ -71,7 +71,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
  [1]: http://1.bp.blogspot.com/_yEPuIWl8ybE/SkanD2kJDsI/AAAAAAAAAPI/EgD5e9nF-r8/s1600/S6301880.JPG

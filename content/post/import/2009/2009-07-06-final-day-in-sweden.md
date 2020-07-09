@@ -46,7 +46,7 @@ categories:
 </div>
 
 <div>
-  &#8211; Eternally Thankful
+  – Eternally Thankful
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SlKDmZM0WII/AAAAAAAAAYU/z0F2-aAIAo0/s1600/S6302648.JPG

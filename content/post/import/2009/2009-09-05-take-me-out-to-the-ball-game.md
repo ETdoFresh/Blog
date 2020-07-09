@@ -33,7 +33,7 @@ Then I got back home, and I played some [Mario Strikers Charged][5]. Cool game, 
 
 Well it's late, soo good night blog. I'll speak with ya tomorrow.
 
-&#8211; ETdoFresh
+– ETdoFresh
 
  [1]: http://www.videora.com/en-us/Converter/palm-pre/
  [2]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SqIX8z_aK8I/AAAAAAAAAdw/KB3bz6JbS1U/s1600/CIMG0007.jpg

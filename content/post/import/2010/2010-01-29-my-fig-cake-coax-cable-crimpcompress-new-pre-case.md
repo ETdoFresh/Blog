@@ -38,8 +38,8 @@ I was complaining about my Palm Pre's silicone case before, and low and behold, 
 
 All and all, a pretty good week. I had some audacious goals for the game I'm working on, but didn't meet them. Even though it's the weekend, I hope I can spend a few of these hours working on the game, cause I fell a bit behind this week. As for now, I say to you, adieu.
 
-&#8211; E.T.
+– E.T.
 
-PS &#8211; Don't watch [The Girlfriend Experience][1], bad movie! I watched it streaming on Netflix, and there was really nothing in that movie that made me feel any completeness. Just people thrown in front of a camera following a very vague story. Watch out!
+PS – Don't watch [The Girlfriend Experience][1], bad movie! I watched it streaming on Netflix, and there was really nothing in that movie that made me feel any completeness. Just people thrown in front of a camera following a very vague story. Watch out!
 
  [1]: http://www.imdb.com/title/tt1103982/

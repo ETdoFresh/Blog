@@ -76,4 +76,4 @@ Stocks easy, if stock goes up, you make money. If stock goes down you lose money
 
 No one will ever care about your money as much as you do. Invest wisely! Thanks Jim Cramer for the wonderful book. I thoroughly enjoyed it, and anxiously awaiting your new one! Let's make the monies!
 
-&#8211; E.T.
+– E.T.

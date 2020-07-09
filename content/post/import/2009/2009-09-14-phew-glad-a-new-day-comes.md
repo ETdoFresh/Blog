@@ -48,7 +48,7 @@ During lunch today, we went to [Mother's World's Best Baked Ham Restaurant][2]. 
 
 Well off to read some book, and go to bed.
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://maps.google.com/maps?f=q&source=s_q&hl=en&q=august+restaurant&sll=30.015707,-90.183822&sspn=0.012319,0.022724&ie=UTF8&t=h&ei=jxSvSvbAJYuwNMKGjZAM&panoid=luHDBOffxIF1Btm7kUejNQ&cd=4&usq=august+restaurant&geocode=FUkAyQEdgrGh-g&cid=15019484278524360694&li=lmd&ll=29.950082,-90.066562&spn=0.012327,0.022724&z=16&iwloc=A
  [2]: http://www.mothersrestaurant.net/

@@ -30,7 +30,7 @@ I worked on some 3d today, like a good boy! And I'm on step 100! Man! Progress. 
 
 Well, good night!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://www.biggreenegg.com/
  [2]: http://www.youtube.com/watch?v=ARkvr-bzbFY

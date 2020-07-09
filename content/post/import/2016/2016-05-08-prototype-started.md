@@ -15,7 +15,7 @@ Covered today: 2D Sprites and Sprite Sheets, Animations, Movement
   <img aria-describedby="caption-attachment-227" class="wp-image-227 size-full" src="http://www.etdofresh.com/wp-content/uploads/2016/05/S05E00.png" alt="S05E00" width="1345" height="756" />
   
   <p id="caption-attachment-227" class="wp-caption-text">
-    Twitch Stream: S05E00 &#8211; Cargo Bay 5 &#8211; In the beginning...
+    Twitch Stream: S05E00 – Cargo Bay 5 – In the beginning...
   </p>
 </div>
 

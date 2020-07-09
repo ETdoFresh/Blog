@@ -28,7 +28,7 @@ I want to be healthier, eat better, do more exercise, but I let it all slide. I 
 
 I like writing on this blog, and I just realized I can do this on my cell! Cool! I'll write more of these little psychological ones every once in a while. I think the end product will be more motivation for me at least. And hopefully more motivation = better blog posts. 🙂
 
-Nite! &#8211; ET
+Nite! – ET
 
 <div id="geo-post-889" class="geo geo-post" style="display: none">
   <span class="latitude">29.99236</span><span class="longitude">-90.184508</span>

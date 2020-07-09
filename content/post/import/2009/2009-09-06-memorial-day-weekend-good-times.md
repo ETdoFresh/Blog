@@ -18,7 +18,7 @@ categories:
 ---
 Dear Blog,
 
-Another strange feeling day, but all in all, another success for me. So I went to sleep ultra late again, but woke up around 9 &#8211; 10am. So, that being said, I was soo sleepy most of the day.  
+Another strange feeling day, but all in all, another success for me. So I went to sleep ultra late again, but woke up around 9 – 10am. So, that being said, I was soo sleepy most of the day.  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 195px;" src="http://2.bp.blogspot.com/_yEPuIWl8ybE/SqNeY8C5x0I/AAAAAAAAAeQ/UBgW4G-pWf8/s400/CIMG0006.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5378246162538678082" />][1]  
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 195px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/SqNeZY_Fh6I/AAAAAAAAAeY/ieXnvKmMKAQ/s400/CIMG0011.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5378246170307299234" />][2]  
 But around 2PM today, I decided to head over to the library. Often times, I forget that I have ultimate resources just blocks away, where I can learn about anything and everything. I checked two of Jim Cramar's books because I want to get more serious in investing. I feel like that will be the only way I can find true wealth that will last for me and my future family. Then I got a [3ds Max Bible][3] so I can find myself if I lose myself in the interface. And then I got a Spanish Lesson book so we can start Spanish lessons again every Sunday.
@@ -39,7 +39,7 @@ Anyway, great times, and I'm going to read and get to bed. I'm starting with Jim
 [<img style="display:block; float:left; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 195px;" src="http://4.bp.blogspot.com/_yEPuIWl8ybE/SqNeYSdp4ZI/AAAAAAAAAeI/OVDNNxduITQ/s400/CIMG0003.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5378246151376593298" />][10]  
 Well I'll end this with a picture of Colleen trying to hide from the camera, LOL. She's beautiful, so I never really see the need to hide, so I try to snap pics when I can. And the other one of my glasses. The frame broke on the top, so I solder to whole edge. They've worked for the past month. I just love that solder could hold it together! Well, good night!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SqNeY8C5x0I/AAAAAAAAAeQ/UBgW4G-pWf8/s1600/CIMG0006.jpg
  [2]: http://4.bp.blogspot.com/_yEPuIWl8ybE/SqNeZY_Fh6I/AAAAAAAAAeY/ieXnvKmMKAQ/s1600/CIMG0011.jpg

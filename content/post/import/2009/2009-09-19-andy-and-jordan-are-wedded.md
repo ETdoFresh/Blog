@@ -32,4 +32,4 @@ I get frustrated sometimes.... maybe money can buy happiness for all? Don't you 
 
 I don't know why I get these crazy feelings, even on such momentous days like this. I am happy for my little brother, but unhappy with myself. I can do better, and I know it. I have set goals (shallow as they may be) since 2000 or earlier. I want to be lean, I want to create (a videogame), I want to explore my unexplored life. Simple as it might sounds, it has been a mountain I've been scaling for the last 9 years. I want to be on the peak for the 10th.
 
-&#8211; E.T.
+– E.T.

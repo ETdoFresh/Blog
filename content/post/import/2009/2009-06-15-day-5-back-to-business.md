@@ -32,7 +32,7 @@ Then my bro came and picked us up to do some shopping. We got some fitness suppl
 
 Well, I'm off to read another chapter of _iWoz_... good book!
 
-&#8211; Edge Trace
+– Edge Trace
 
  [1]: http://www.clickinclock.com/
  [2]: http://www.downloadtobrain.com/

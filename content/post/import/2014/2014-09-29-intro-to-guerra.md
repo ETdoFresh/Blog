@@ -38,7 +38,7 @@ tags:
 </div>
 
 <p class="SoftwareLink">
-  <a href="http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-1-Guerra.pdf">Game Proposal 1 &#8211; Guerra<br /></a><a href="http://www.etdofresh.com/wp-content/uploads/2014/09/Guerra-Default-0.1.0.0.zip">Guerra v0.01</a> <em>Single Runtime Executable</em><br /><a href="https://github.com/ETdoFresh/Guerra.gmx">https://github.com/ETdoFresh/Guerra.gmx</a> <em>Source Code</em>
+  <a href="http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-1-Guerra.pdf">Game Proposal 1 – Guerra<br /></a><a href="http://www.etdofresh.com/wp-content/uploads/2014/09/Guerra-Default-0.1.0.0.zip">Guerra v0.01</a> <em>Single Runtime Executable</em><br /><a href="https://github.com/ETdoFresh/Guerra.gmx">https://github.com/ETdoFresh/Guerra.gmx</a> <em>Source Code</em>
 </p>
 
 Guerra is Spanish for War! This was the title of a childhood game that I used to play with my friends. It was a mixture between action and the game of Memory.

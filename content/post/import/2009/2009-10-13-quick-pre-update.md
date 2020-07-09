@@ -30,7 +30,7 @@ Just wanted to post a quick Pre Update. I found a solution to get My Tether 1.5 
 
 Cool! Also you can edit the SSID in the sh file found in TetherService.jar found in /usr/lib/luna/java. Happy PalmPre'ing!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://forums.precentral.net/web-os-development/208788-howto-reenable-wifi-tethering-free-mytether.html
  [2]: http://www.mediafire.com/file/jywhtmrymzl/sd8xxx.ko

@@ -14,7 +14,7 @@ tags:
 
 ---
 <p style="text-align: right;">
-  January 18 &#8211; January 24
+  January 18 – January 24
 </p>
 
 <p style="text-align: center;">

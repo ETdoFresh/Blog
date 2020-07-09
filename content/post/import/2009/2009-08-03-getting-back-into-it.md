@@ -36,4 +36,4 @@ Hmmm, I'm out of things to report right now... but don't worry. I'll be back wit
 
 Stop, take a second, look at where you are, look at where you want to be, and go!
 
-&#8211; ET
+– ET

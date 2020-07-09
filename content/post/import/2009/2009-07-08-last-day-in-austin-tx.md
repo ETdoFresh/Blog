@@ -49,7 +49,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
  [1]: http://1.bp.blogspot.com/_yEPuIWl8ybE/SlWDDGdtBMI/AAAAAAAAAbQ/0-FpbmdYlk4/s1600/S6302665.JPG

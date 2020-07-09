@@ -48,9 +48,9 @@ So I did laundry, folded clothes, and I'm about ready to go to Sweden. So my mom
 
 Well I'm getting sleepy and have a big trip in front of me. Right now, the time is around 11:30 PM, Monday here in Austin, TX and the time there is 6:30 AM, Tuesday (+7 hours in Sweden).
 
-&#8211; E^T
+– E^T
 
-I know this song is like a year old, but I like still like it and gets me pumped! It must be that semi-techno beat at the beginning. [Lady Gaga &#8211; Just Dance][7].
+I know this song is like a year old, but I like still like it and gets me pumped! It must be that semi-techno beat at the beginning. [Lady Gaga – Just Dance][7].
 
  [1]: http://www.imdb.com/title/tt1049413/
  [2]: http://www.createtv.com/

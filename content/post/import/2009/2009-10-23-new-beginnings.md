@@ -26,6 +26,6 @@ Ugh, but can I tell you, I'm feeling fat? I'm getting fat! I think I gained a go
 
 Goodness, I'm writing a lot. I have a lot on my mind, I have a lot to ponder, I have many things to do.... life, whatever you have for me... bring it! I'm ready! Nothing will stop my passion for living the life I want to live. Thanks to all those that have brought me this far.... I can't wait to help others go further! Good Night! I'll post more entries later... and yeah, yeah, I know, I know... no pictures this entry... it sucks! Just like the money I lost in stocks today! But what can I say? C'est la vie! Get up, fight back!
 
-&#8211; E.T.
+– E.T.
 
-PS &#8211; Thank you, Kovacs, for a wonderful 3 years! I had a blast living with you guys! I know Baby Kovacs will fill my shoes and more when he/she comes around.
+PS – Thank you, Kovacs, for a wonderful 3 years! I had a blast living with you guys! I know Baby Kovacs will fill my shoes and more when he/she comes around.

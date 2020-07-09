@@ -63,7 +63,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ETdoFresh
+  – ETdoFresh
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SkVbIg04XjI/AAAAAAAAAOo/DefKsvUw6EI/s1600/DSC_0117.JPG

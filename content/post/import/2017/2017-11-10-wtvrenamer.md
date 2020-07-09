@@ -13,7 +13,7 @@ tags:
   - Utility
 
 ---
-  This project renames files to (Series) &#8211; S##E##.wtv format for use with programs such as Plex. It uses TVDB database to determine season and episode number. All paths can be found in WTVRenamer.cfg.
+  This project renames files to (Series) – S##E##.wtv format for use with programs such as Plex. It uses TVDB database to determine season and episode number. All paths can be found in WTVRenamer.cfg.
 
 https://etdofresh.github.io/WTVRenamer/WTVRenamer.zip {{< sub Download >}}
 https://github.com/ETdoFresh/WTVRenamer {{< sub Source Code>}}

@@ -28,4 +28,4 @@ Well the 3d I did, I got to step 72. Here it is:
 
 I want to ZIP right past the rest of the lesson, but I really want to learn this right... so I will. I will succeed! 
 
-&#8211; E.T.
+– E.T.

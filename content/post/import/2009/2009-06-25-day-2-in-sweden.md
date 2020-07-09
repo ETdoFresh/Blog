@@ -67,7 +67,7 @@ Dear Blog,
 </div>
 
 <div>
-  &#8211; E.T.
+  – E.T.
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SkQBMed2BfI/AAAAAAAAAOY/ZDZzjP1dazI/s1600/S6301846.JPG

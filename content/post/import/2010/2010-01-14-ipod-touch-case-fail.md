@@ -28,6 +28,6 @@ I bought it off [ebay][1]. And the seller pointed out, tell me the color on your
 
 I just woke up from like a 2 hour nap, and I'm wide awake @ 11:25 PM. I guess I'll sneak some programming in, and see what "work" I can sneak in tonight. Later!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=320430861436&ssPageName=STRK:MEWNX:IT#ht_8569wt_939

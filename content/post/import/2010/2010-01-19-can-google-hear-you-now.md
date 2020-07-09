@@ -49,6 +49,6 @@ I know somewhere in there I was able to record my greeting before I got the voic
 
 Well, I don't know for sure how I feel about Google having access to my voicemail, but the features are darn cool! Maybe if Sprint would offer this to me, I can use them instead of Google. Give it a try, and if you need an invite, I think I can send them!
 
-&#8211; ETdoFresh
+– ETdoFresh
 
  [1]: http://www.google.com/voice

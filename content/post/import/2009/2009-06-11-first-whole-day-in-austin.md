@@ -34,4 +34,4 @@ Then my mom came back home, and we had some salad, went to Goodwill, and then to
 
 I know my first post has been wordy, and may get _wordier_ as time passes, but it's a good experience for me to get what I want off my chest. So Thanks!
 
-&#8211; E.T.
+– E.T.

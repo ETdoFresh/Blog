@@ -26,6 +26,6 @@ Well I got a whole bunch of stuff these last few days that I ordered online. The
 
 Oh, and I watched the like 4 episodes tonight of a show called [Fast Forward][1] on ABC. It's pretty cool... the whole world gets a glimpse of the future (6 months ahead), and everyone is trying to piece the future together, and maybe even try to pursue the future they saw, or completely avoid the future they saw. As we watch, we kind of get a feel for both sides... interesting show. Check it out!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://abc.go.com/shows/flash-forward

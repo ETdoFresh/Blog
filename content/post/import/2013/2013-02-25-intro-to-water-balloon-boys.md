@@ -35,6 +35,6 @@ I have tried implementing this a few times, but I can never get it quite right. 
 The other interesting part is that I plan to try to implement levels using procedural content generation. There will be multiple environments like forests, neighborhoods, playgrounds, and cities. For my UNO Game Class, I want to try and implement the neighborhood content generation. It is what I'm writing my graduate paper on, and something I'll post up here.
 
 Here is my proposal I wrote for class:  
-[Game Proposal 3 &#8211; Water Balloon Boys][1]
+[Game Proposal 3 – Water Balloon Boys][1]
 
  [1]: http://www.etdofresh.com/wp-content/uploads/2014/11/Game-Proposal-3-Water-Balloon-Boys.pdf

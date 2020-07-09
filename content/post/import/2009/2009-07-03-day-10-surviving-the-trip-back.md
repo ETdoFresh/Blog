@@ -64,7 +64,7 @@ categories:
 </div>
 
 <div>
-  &#8211; E.T.
+  – E.T.
 </div>
 
  [1]: http://1.bp.blogspot.com/_yEPuIWl8ybE/Sk6Wvz0J_RI/AAAAAAAAAWU/SZE5NVh08Jw/s1600/S6302491.JPG

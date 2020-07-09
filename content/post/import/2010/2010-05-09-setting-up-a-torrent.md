@@ -67,6 +67,6 @@ categories:
   </p>
   
   <p>
-    &#8211; E.T.
+    – E.T.
   </p>
 </div>

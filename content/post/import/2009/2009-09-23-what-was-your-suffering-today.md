@@ -28,4 +28,4 @@ I know I just gone completely crazy for stocks, but I freaking love it! I am rea
 
 Well my game that I'm making has been made, somewhat. I'm going to add some new features, and maybe multi platform support. We'll see! I'll give you a hint though, it will be facebook dependent.
 
-&#8211; E.T.
+– E.T.

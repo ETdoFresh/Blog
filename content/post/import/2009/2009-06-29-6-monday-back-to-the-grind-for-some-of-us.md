@@ -55,7 +55,7 @@ categories:
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 175px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/SklOwOXd4uI/AAAAAAAAASc/XKWhdBlvS2o/s400/009.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5352896222503756514" />][9]
 
 <div>
-  &#8211; E.T.
+  – E.T.
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SklOw-J3L1I/AAAAAAAAASs/SdVCs8XahLg/s1600/S6302128.JPG

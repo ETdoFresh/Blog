@@ -32,4 +32,4 @@ Then we stopped by my mom's and we spent time here. Had some Jambalaya and fruit
 
 I really want to work with my brohter on this, but it'll take time, and a great idea... I don't want to get into just any business, but a business that I can be proud of. I'm soul searching. I'm passion searching. I'm searching! Back on topic, we watch this movie, we walk Jacque, and we all part ways and basically get ready for bed! It was a great night, and I am burnt, sun burnt that is! I wonder what tomorrow will hold?
 
-&#8211; Easy Eddy
+– Easy Eddy

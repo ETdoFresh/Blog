@@ -22,7 +22,7 @@ categories:
   </p>
   
   <p>
-    I just read an article called <a href="http://kokugamer.com/2010/03/27/software-piracy-its-not-right-but-how-do-we-fix-it/">Software Piracy &#8211; It's Not Right, but How Do We Fix It?</a>
+    I just read an article called <a href="http://kokugamer.com/2010/03/27/software-piracy-its-not-right-but-how-do-we-fix-it/">Software Piracy – It's Not Right, but How Do We Fix It?</a>
   </p>
   
   <p>
@@ -50,6 +50,6 @@ categories:
   </p>
   
   <p>
-    &#8211; ETdoFresh
+    – ETdoFresh
   </p>
 </div>

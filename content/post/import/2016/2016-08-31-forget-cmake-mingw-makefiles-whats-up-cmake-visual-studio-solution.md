@@ -49,7 +49,7 @@ Finally, we do a little Post-Build scripting to copy over the DLLs and Shaders f
 
 OK. We're done! Here's an example using these libraries and settings. [Check out this visual studio solution (Project1.zip)][15]!
 
-PS &#8211; _I used a slightly different folder structure than the tutorial, but everything else is the same._
+PS – _I used a slightly different folder structure than the tutorial, but everything else is the same._
 
  [1]: http://www.etdofresh.com/wp-content/uploads/2016/08/CSCI5631-SmallVictory.png
  [2]: http://www.etdofresh.com/add-freeglut-to-mingw/

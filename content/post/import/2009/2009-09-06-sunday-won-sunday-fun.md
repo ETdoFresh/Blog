@@ -25,6 +25,6 @@ I had some pancakes in the morning (like 1pm, hah). And had some tilapia, veggie
 
 I played some Mario Stikers Charged today, and got matched up with Rank 1 player, Rod. today. I won! I never beat a superior ranked players! So I'm all excited tonight. I am trying to sleep early tonight so I can wake up at a decent hour. So, on that note, good night!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://4.bp.blogspot.com/_yEPuIWl8ybE/SqR68bxAhSI/AAAAAAAAAfQ/ePF61dJEUm4/s1600/CIMG0001.jpg

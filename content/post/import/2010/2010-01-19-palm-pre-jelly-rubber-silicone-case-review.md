@@ -36,4 +36,4 @@ Although it seems nice, this case actually SUCKS. Yeah, I know I was praising it
 
 I would give this product an overall negative review due to its reliability. It feels great and looks cool, but at what cost? My next purchase will be a snap-on case... we'll see how long that lasts...
 
-&#8211; E.T.
+– E.T.

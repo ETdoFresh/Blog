@@ -46,4 +46,4 @@ I blank my mind out, and put my body in autopilot (like the movie Click, if you 
 
 Colleen gets up to start packing up. I get up too. I get in front of her, grab her by the shoulders, and tell her about what I did (how no one was coming, and that we were spending a romantic weekend together). Then I dig in my bag, get down on one knee, pull out the ring, and asked "Colleen, will you marry me?"
 
-&#8211; ETdoFresh
+– ETdoFresh

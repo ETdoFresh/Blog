@@ -57,7 +57,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ETdoFresh
+  – ETdoFresh
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SkfoQA-UPuI/AAAAAAAAAQo/j--J3MKICSE/s1600/S6302015.JPG

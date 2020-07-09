@@ -38,4 +38,4 @@ I gave it a little test run around the house, and it seemed to do an OK job. But
 
 The interface is alright. I was expecting to see more information about my "friends" at Nike+.com. Apparently, it's really hard to friend anyone if you don't share your info. I shared mine, but my bro did not. I tried "friend"ing him, but it would never let me add him. However, he could request me very easily. He switched his data to publicly available for about 1 minutes, and I saw all his jogs as status updates on his site. But when he switched it back, they all disappeared. We haven't had a new run available to see if it only shows runs after we become friends, but I doubt it! That sucks, I was hoping to see all the cool graphs of my friends with this thing. I like where Nike+ is going, they just haven't got there yet. I'll still continue to use it as my personal time and distance tracker for my runs.... but I wish it was more than that!
 
-&#8211; ETdoFresh
+– ETdoFresh

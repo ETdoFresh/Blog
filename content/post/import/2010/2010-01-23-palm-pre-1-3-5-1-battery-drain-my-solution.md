@@ -28,7 +28,7 @@ I figure I'd blog about my struggles with Palm Pre battery issues after certain 
 
 I bought a Palm Pre, flashed a custom firmware on it (qinray 1.0.4 v2). I then used novaterm to install Dropbear which is a SSH server for my phone so that I can just PuTTy and sFTP right into it. Then I setup ez-ipudate so that I could have a static hostname for my dynamic-IP address, so I only had to type myhostname.homeip.net instead of 123.45.54.32. All convenient, and never really had an issue. My phone would last me about 2 days without a charge.
 
-**Before 1.3.5.1 &#8211; Updating PRL**
+**Before 1.3.5.1 – Updating PRL**
 
 The first time I encounter phone dying within one day problem with little or no usage was right around the 1.3 update. The solution I found to this was updating the PRL and disabling roaming. In weak signal areas, your phone keeps polling the area and draining your battery fast! Especially if you have roaming on (that's a whole bunch of more places to poll).
 
@@ -52,7 +52,7 @@ I read some forums online, and I noticed people without homebrew had significant
   <a href="http://www.webos-internals.org/images/3/36/Preware_ss1.png"><img src="http://www.webos-internals.org/images/3/36/Preware_ss1.png" height="144" /></a>
 </p>
 
-I then read this [post][1], and installed Preware. I love Preware! I was doing everything by SSH before, but little did I know, this could be my last SSH session ever! I agreed to everything, and installed a few apps, like battery mointor, flashlight, etc. More imporantly, Preware didn't register I had software like Dropbear (SSH), and EZ-IPUpdate installed, so I just reinstalled them on top of my previous installs from Preware. Left the battery monitor software on over night last night. Woke up, and had only a 1.52% drop of battery per hour vs something like 8% &#8211; 10%. Oh man! It was wonderful!
+I then read this [post][1], and installed Preware. I love Preware! I was doing everything by SSH before, but little did I know, this could be my last SSH session ever! I agreed to everything, and installed a few apps, like battery mointor, flashlight, etc. More imporantly, Preware didn't register I had software like Dropbear (SSH), and EZ-IPUpdate installed, so I just reinstalled them on top of my previous installs from Preware. Left the battery monitor software on over night last night. Woke up, and had only a 1.52% drop of battery per hour vs something like 8% – 10%. Oh man! It was wonderful!
 
 Oh, and I use GMAIL, Exchange, Wifi, and EVDO (email polls every 30 minutes).
 
@@ -60,9 +60,9 @@ Oh, and I use GMAIL, Exchange, Wifi, and EVDO (email polls every 30 minutes).
 
 I'm excited about my new battery life, and maybe it's not Palm's fault entirely, but maybe us tweakers may be to blame (just little itty bitty bit). But once Palm learns to leave tweaker's settings alone, I think we can live in harmony! 🙂 Later!
 
-&#8211; ETdoFresh
+– ETdoFresh
 
-PS &#8211; Use [WebOS Internals][2] for all your Homebrew needs! Very cool place!
+PS – Use [WebOS Internals][2] for all your Homebrew needs! Very cool place!
 
  [1]: http://www.webos-internals.org/wiki/Application:Preware
  [2]: http://www.webos-internals.org/wiki/Main_Page

@@ -42,4 +42,4 @@ Haha, when we watched BB11 at Colleen's house, we also had some Gummy Pizza from
 
 Stocks did well today. I made some money, and can't wait to learn more about investing from Jim Cramer. Once I get this posted, I'm going straight to reading. So good night, I'll blog more manana.
 
-&#8211; E.T.
+– E.T.

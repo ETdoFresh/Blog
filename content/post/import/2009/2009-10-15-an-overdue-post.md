@@ -50,7 +50,7 @@ And then before we ordered the refrigerator, I wanted to ensure that the spigot 
 
 I'm still living at the Kovac's for now, and excited about moving soon to my new house. Tons of adventures wait, and hopefully, tons of success also awaits! Well, good night, and hopefully you'll hear from me a lot sooner... than later!
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://gbatemp.net/index.php?showtopic=183064
  [2]: http://en.wikipedia.org/wiki/USS_New_York_(LPD-21)

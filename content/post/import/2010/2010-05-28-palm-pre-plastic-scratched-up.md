@@ -24,6 +24,6 @@ Well I decided to buy some plastic repair off ebay called Novus plastic scratch 
 
 [<img src="" width="125" />]()[<img src="" width="125" />]()[<img src="" width="125" />]()
 
-I picked up my phone, did number 2 like 2 &#8211; 3 times, and I finished off with a number 1. Looked much better, but the scratches are still there if you look at it in the right light. But the "feeling" is completely smooth. Soo happy I did this! If you have a scracthed pre, or anything that's plastic. Try this out. I think it was about $10 after shipping. Worth it, for me!
+I picked up my phone, did number 2 like 2 – 3 times, and I finished off with a number 1. Looked much better, but the scratches are still there if you look at it in the right light. But the "feeling" is completely smooth. Soo happy I did this! If you have a scracthed pre, or anything that's plastic. Try this out. I think it was about $10 after shipping. Worth it, for me!
 
-&#8211; ET
+– ET

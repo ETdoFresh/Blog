@@ -40,4 +40,4 @@ I'm here to get answers. I'm here to make plans. I want to revive my company "Dr
 
 All I can do is all I can do. Just do it!
 
-&#8211; ETdoFresh [^ always thinking of you buddy!]
+– ETdoFresh [^ always thinking of you buddy!]

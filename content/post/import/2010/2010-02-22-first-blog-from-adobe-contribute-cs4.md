@@ -34,6 +34,6 @@ categories:
   </p>
   
   <p>
-    &#8211; ETdoFresh
+    – ETdoFresh
   </p>
 </div>

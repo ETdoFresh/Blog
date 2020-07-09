@@ -14,7 +14,7 @@ If you don't know what a Makefile is, it's basically a list of steps/depencies t
 
 It's not too hard in the terminal, because once you have all your files in the terminal, you just type "make" and the magic ensues. But I'm a snob for my Visual Studio IDE, so I am going to set it up there. Haha.<!--more-->
 
-### Step 1 &#8211; Install Software
+### Step 1 – Install Software
 
   * **Visual Studio** (<http://www.visualstudio.com>) 
       * We need an IDE, and the whole reason for this post 🙂
@@ -37,7 +37,7 @@ It's not too hard in the terminal, because once you have all your files in the t
   * Clean commands: make clean
   * Rebuild command line: make clean all
 
-### Step 3 &#8211; Simple Hello World Example!
+### Step 3 – Simple Hello World Example!
 
 We will create two files: **main.cpp** and **Makefile**
 

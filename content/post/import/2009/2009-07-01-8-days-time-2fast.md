@@ -43,7 +43,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
  [1]: http://3.bp.blogspot.com/_yEPuIWl8ybE/SkvPErmvtbI/AAAAAAAAAUM/pB-N0Gq5nuM/s1600/S6302282.JPG

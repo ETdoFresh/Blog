@@ -36,14 +36,14 @@ categories:
 [<img style="display:block; margin:0px auto; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 60px;" src="http://1.bp.blogspot.com/_yEPuIWl8ybE/SlTGNTEVM_I/AAAAAAAAAZU/0Z7o4INAxrY/s400/S6301690.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5356123788609401842" />][10]
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
 <div>
 </div>
 
 <div>
-  PS &#8211; I wish I could upload better quality panoramic photos (because I had to scale them 1/10th the size), but hopefully this is good enough.
+  PS – I wish I could upload better quality panoramic photos (because I had to scale them 1/10th the size), but hopefully this is good enough.
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/SlT9mxA8kmI/AAAAAAAAAas/6mYo3kPObjI/s1600/S6302502.jpg

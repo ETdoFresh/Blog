@@ -24,7 +24,7 @@ Dear Blog,
 
 Setting up git (Version Control System) really did suck on Windows. It wasn't a simple install this package, and all your problems are solved. I had major issues trying to use PuTTy, plink, and copSSH, which I believe most people use if they are using git on windows. I'm doing the cygwin approach. It's soo much easier (to me at least). Setting up the server kind of sucks, but the client is easy. I'll show how to setup the client today, and put up another post very shortly on how to setup a git server on windows using these exact same files.
 
-# Step 1 &#8211; Download and install Cygwin
+# Step 1 – Download and install Cygwin
 
 <p style="text-align:center">
   <a href=""><img src="" /></a>
@@ -47,7 +47,7 @@ Download cygwin from <http://www.cygwin.com/> ([Even Quicker Link][1])
   * Run it once. You should get a unix command prompt. Type in git<enter>, and you should see a list of options. Type in ssh<enter>, and you should also get a list of options.
   * If all looks alright, you are done with Cygwin (if you are just using this as a client)
 
-# Step 2 &#8211; Download and install Git Extensions
+# Step 2 – Download and install Git Extensions
 
 <p style="text-align:center">
   <a href=""><img src="" /></a>
@@ -65,14 +65,14 @@ Download gitextensions MSI file from <http://code.google.com/p/gitextensions/> (
   * Click **Finish**
   * Note: If you are prompted to install msysgit and kdiff3, just install kdiff3... otherwise download and install [kdiff3][3] (or whatever diff software you like)
 
-# Step 3 &#8211; Setup Git Extensions
+# Step 3 – Setup Git Extensions
 
 <p style="text-align:center">
   <a href=""><img src="" /></a>
 </p>
 
   * Run Git Extensions
-  * Select English (if you perfer) &#8211; The UK flag!
+  * Select English (if you perfer) – The UK flag!
   * In settings (which should pop up right away) Select the Git tab 
       * Set command used to run git as **C:cygwinbingit.exe**
       * Set Path to linux tools as **C:cygwinbin**
@@ -81,7 +81,7 @@ Download gitextensions MSI file from <http://code.google.com/p/gitextensions/> (
   * Select Ssh 
       * Ensure **OpenSSH** is selected
 
-# Step 4 &#8211; Use Git
+# Step 4 – Use Git
 
 <p style="text-align:center">
   <a href=""><img src="" /></a>
@@ -98,7 +98,7 @@ Download gitextensions MSI file from <http://code.google.com/p/gitextensions/> (
 
 So, I know the issues I ran into using the putty, plink, msysgit may not be normal. But it definitely was a problem for me. So, here is my how-to on Cygwin and Git Extension, and I love this setup. I'll get to that server how-to in the next couple of days. Later!
 
-&#8211; ETdoFresh
+– ETdoFresh
 
  [1]: http://www.cygwin.com/setup.exe
  [2]: http://code.google.com/p/gitextensions/downloads/list

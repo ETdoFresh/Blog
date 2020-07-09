@@ -23,7 +23,7 @@ tags:
 
 <!--more-->
 
-[<img class="alignnone size-full wp-image-100" src="http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry01.jpg" alt="Photogrammetry01" width="1928" height="1048" />][3]At the end of the day however, you should be able to use Mudbox to reduce the polygons significantly, and put it into your favorite game engine! (PS &#8211; the model in this scene was my first attempt ever, and it was from my cell phone camera, so ET may look a little beat up here!)
+[<img class="alignnone size-full wp-image-100" src="http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry01.jpg" alt="Photogrammetry01" width="1928" height="1048" />][3]At the end of the day however, you should be able to use Mudbox to reduce the polygons significantly, and put it into your favorite game engine! (PS – the model in this scene was my first attempt ever, and it was from my cell phone camera, so ET may look a little beat up here!)
 
  [1]: http://www.etdofresh.com/wp-content/uploads/2014/11/Photogrammetry00.jpg
  [2]: http://www.etdofresh.com/wp-content/uploads/2014/11/DSC_0947.jpg

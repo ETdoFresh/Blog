@@ -36,4 +36,4 @@ One other person would be my brother. If there is someone I have to name I have 
 
 Reflection is nice, and gives me some confidence to do what I love. I just need to shake off some negative parts of 2009 which are still attached to me in some ways, and get on with it. Tell me if there's anything else I can do to get my goals done!
 
-&#8211; E.T.
+– E.T.

@@ -51,7 +51,7 @@ categories:
 </div>
 
 <div>
-  &#8211; ET
+  – ET
 </div>
 
  [1]: http://2.bp.blogspot.com/_yEPuIWl8ybE/Sk_piVNb7FI/AAAAAAAAAXU/zL2yvmrI9lw/s1600/S6302597.JPG

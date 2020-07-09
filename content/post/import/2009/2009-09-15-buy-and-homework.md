@@ -28,7 +28,7 @@ I was up all night finishing up the [Real Money][2] book. I may decide to summar
 
 Here's step 145, but I managed to reach step 150 of 173... which means, I'm done modeling! I'm soo happy! I just have to do some texturing, and I'm done with this model. I totally started to understand how to model objects. Maybe I need to do the last section, which may take some more time. But I think I have enough knowledge to make a simple game.
 
-&#8211; E.T.
+– E.T.
 
  [1]: http://www.thestreet.com/story/10292290/do-your-stock-homework.html
  [2]: http://www.thesimpledollar.com/2007/01/22/jim-cramers-real-money-overview/

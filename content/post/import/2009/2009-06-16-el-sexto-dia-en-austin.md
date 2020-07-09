@@ -36,7 +36,7 @@ Then my mom came home, and she made us dinner (for her, my brother, and myself).
 
 So the rest of my night was in the hospital, and now I'm going to drink a little tea, and get some rest.
 
-&#8211; Eat Tea
+– Eat Tea
 
  [1]: http://www.clickinclock.com/
  [2]: http://forums.precentral.net/web-os-development/184378-ok-rom-comes.html
