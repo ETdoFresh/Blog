@@ -4,23 +4,24 @@ author: ETdoFresh
 type: post
 date: 2017-02-04T16:42:55+00:00
 url: /unity-net-3-5-framework-issue/
-categories:
-  - Misc
+featured_image: /wp-content/uploads/2017/02/62433-unity-capture.png
+excerpt: I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.
 tags:
   - Unity
+  - Troubleshooting
+  - Misc
 
 ---
-  * I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.
+
+I just wanted to write down my solution to an issue we were having at my university with getting .NET 3.5 framework installed.
 
 ## The Issue
-
-[<img class="aligncenter size-medium wp-image-704" src="http://www.etdofresh.com/wp-content/uploads/2017/02/62433-unity-capture-300x143.png" alt="" width="300" height="143" srcset="http://localhost/wp-content/uploads/2017/02/62433-unity-capture-300x143.png 300w, http://localhost/wp-content/uploads/2017/02/62433-unity-capture.png 597w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 When loading C# scripts from Unity into Visual Studio, we would get "The C# project "xxx" is targeting ".NETFramework, Version=v3.5,Profile=Unity Subset v3.5&#8243;, which is not installed on this machine". So obviously, we just install .NET 3.5 right?<!--more-->
 
 ## Next Issue
 
-[<img class="aligncenter size-medium wp-image-705" src="http://www.etdofresh.com/wp-content/uploads/2017/02/0x800f081f-300x219.png" alt="" width="300" height="219" srcset="http://localhost/wp-content/uploads/2017/02/0x800f081f-300x219.png 300w, http://localhost/wp-content/uploads/2017/02/0x800f081f.png 562w" sizes="(max-width: 300px) 100vw, 300px" />][2]
+![](/wp-content/uploads/2017/02/0x800f081f.png)
 
 We would then try to install .NET 3.5 and get this issue! I tried the following right afterwards.
 

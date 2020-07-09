@@ -4,17 +4,16 @@ author: ETdoFresh
 type: post
 date: 2017-09-18T04:14:11+00:00
 url: /checking-in/
+featured_image: https://unsplash.com/photos/Hgb4gzB1ZPs/download
 geo_latitude:
   - 29.99236
 geo_longitude:
   - -90.184508
 geo_public:
   - 1
-categories:
-  - Personal
 tags:
-  - Misc
   - Personal
+  - Misc
   - Psychological
 
 ---
@@ -29,7 +28,3 @@ I want to be healthier, eat better, do more exercise, but I let it all slide. I 
 I like writing on this blog, and I just realized I can do this on my cell! Cool! I'll write more of these little psychological ones every once in a while. I think the end product will be more motivation for me at least. And hopefully more motivation = better blog posts. 🙂
 
 Nite! – ET
-
-<div id="geo-post-889" class="geo geo-post" style="display: none">
-  <span class="latitude">29.99236</span><span class="longitude">-90.184508</span>
-</div>

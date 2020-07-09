@@ -4,19 +4,21 @@ author: ETdoFresh
 type: post
 date: 2017-02-14T03:19:42+00:00
 url: /open-with-unity-windows-context-menu/
-categories:
-  - Programming
+featured_image: /wp-content/uploads/2017/02/UnityContextWindow.png
 tags:
   - Unity
+  - Utility
+  - Windows
+  - Programming
 
 ---
-[<img class="aligncenter size-medium wp-image-827" src="http://www.etdofresh.com/wp-content/uploads/2017/02/UnityContextWindow-300x193.png" alt="" width="300" height="193" srcset="http://localhost/wp-content/uploads/2017/02/UnityContextWindow-300x193.png 300w, http://localhost/wp-content/uploads/2017/02/UnityContextWindow.png 449w" sizes="(max-width: 300px) 100vw, 300px" />][1]I found this on Unity Forums (<https://forum.unity3d.com/threads/openwithunity-inf.325221/>). Thanks [rakkarage][2]!
 
   * Copy text into [OpenWithUnity.inf][3]
   * Right click on it
   * Click Install!
 
-<pre class="lang:default decode:true " title="OpenWithUnity.inf">[version]
+```ini
+[version]
 signature="$CHICAGO$"
  
 [OpenWithUnityInstall]
@@ -53,10 +55,11 @@ HKCR,Directory\Shell\OpenWithUnity,Icon,,"C:\Program Files\Unity\Editor\Unity.ex
 [Strings]
 OpenWithUnityName="OpenWithUnity PowerToy"
 OpenWithUnityAccel="Open with &Unity"
-OWU="Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenWithUnity"</pre>
+OWU="Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenWithUnity"
+```
 
-&nbsp;
+### Reference
 
- [1]: http://www.etdofresh.com/wp-content/uploads/2017/02/UnityContextWindow.png
- [2]: https://forum.unity3d.com/members/rakkarage.543898/
+https://forum.unity3d.com/members/rakkarage.543898/
+
  [3]: http://www.etdofresh.com/wp-content/uploads/2017/02/OpenWithUnity.zip

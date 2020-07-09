@@ -4,10 +4,12 @@ author: ETdoFresh
 type: post
 date: 2017-05-06T18:03:51+00:00
 url: /creating-a-managed-3d-physics-engine-in-c-part-i-introduction/
-categories:
-  - Programming
+featured_image: /wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-1-1024.jpg
+hide_featured_image: true
 tags:
   - Physics
+  - Programming
+  - CSharp
 
 ---
 Before I knew the existence of [Jitter Physics][1] (which is what I'll end up using), I decided to try to make my own Physics Engine following [Game Physics Engine Developmnet by Ian Millington][2], and basically got stuck somewhere when making Contact Resolvers for Rigidbodies. However, I wanted to share my experience making Physics Engine, hopefully as briefly as I can while still making sense.
@@ -18,53 +20,12 @@ Before we get started in creating the very best physics engine (right?), we firs
 
 ### Single Precision (float) or Double Precision (double) Numbers
 
-<table>
-  <tr>
-    <td>
-      <strong>Single</strong>
-    </td>
-    
-    <td>
-      <strong>Double</strong>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <ul>
-        <li>
-          Size: 4 bytes
-        </li>
-        <li>
-          Precision: ~ 7 digits
-        </li>
-        <li>
-          Range: -3.4 × 10<sup>38 </sup>to +3.4 × 10<sup>38</sup>
-        </li>
-        <li>
-          Pro: Faster
-        </li>
-      </ul>
-    </td>
-    
-    <td>
-      <ul>
-        <li>
-          Size: 8 bytes
-        </li>
-        <li>
-          Precision: ~ 15 digits
-        </li>
-        <li>
-          Range: ±5.0 × 10<sup>−324</sup> to ±1.7 × 10<sup>308</sup>
-        </li>
-        <li>
-          Pro: Accuracy
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+| Single | Double |
+|--------|--------|
+| • Size: 4 bytes | • Size: 8 bytes |
+| • Precision: ~ 7 digits | • Precision: ~ 15 digits |
+| • Range: -3.4 × 1{{< sup 38 >}} to +3.4 × 10{{< sup 38 >}} | • Range: ±5.0 × 10{{< sup -324 >}} to ±1.7 × 10{{< sup 308 >}} |
+| • Pro: Faster | • Pro: Accuracy |
 
 I am going to choose Single because it's faster, smaller, and basically it is almost exclusively used by Unity. That's where I'll be doing all my testing. Another goal of mine is to structure our code so that we can change between single and double pretty painlessly.
 
@@ -80,31 +41,17 @@ Because of issues with [Gimbal Lock][3] we want to steer away from using Vector3
 
 Matrices are used because they are quite powerful. You can do various things with a matrix. You can store Position, Rotation, Scale. And the great thing is any combination of translates (moving position), rotations, and scale modifications can be combined into one matrix. For example, converting from local coordinates to world coordinates can be used by multiplying one matrix. However, the Math gets a little more complex. I found these cheatsheets online on the implementation of Vector3 and Matrix operations.
 
-<table>
-  <tr>
-    <td>
-      <a href="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-1-1024.jpg"><img class="wp-image-876 size-thumbnail" src="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-1-1024-150x150.jpg" alt="" width="150" height="150" /></a>
-    </td>
-    
-    <td>
-      <a href="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-2-1024.jpg"><img class="wp-image-877 size-thumbnail" src="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-2-1024-150x150.jpg" alt="" width="150" height="150" /></a>
-    </td>
-    
-    <td>
-      <a href="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-3-1024.jpg"><img class="wp-image-878 size-thumbnail" src="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-3-1024-150x150.jpg" alt="" width="150" height="150" /></a>
-    </td>
-    
-    <td>
-      <a href="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-4-1024.jpg"><img class="wp-image-879 size-thumbnail" src="https://www.etdofresh.com/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-4-1024-150x150.jpg" alt="" width="150" height="150" /></a>
-    </td>
-  </tr>
-</table>
+{{< image src="/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-1-1024.jpg" width="24%" >}}
+{{< image src="/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-2-1024.jpg" width="24%" >}}
+{{< image src="/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-3-1024.jpg" width="24%" >}}
+{{< image src="/wp-content/uploads/2017/05/eng1091-past-paper-summary-monash-university-4-1024.jpg" width="24%" >}}
 
 ### Timing
 
 We want our Physics Engine to run the same given the same input. Hence we will use a constant/fixed time step. This can be whatever you want, but I think for the purposes of this tutorial, we'll make it 1/60 seconds. Some psuedo code on how we can handle timing is
 
-<pre class="lang:default decode:true " title="Time PsuedoCode">float time = 0f;
+```c#
+float time = 0f;
 float fixedDeltaTime = 1 / 60f;
 float deltaTimeLimit = 0.25f;
 float timeAccumulator = 0f;
@@ -129,11 +76,13 @@ while(programIsRunning())
 	float deltaState = timeAccumulator / fixedDeltaTime;
 	State intermediate = LinearInterpolate(prevviousState, currentState, deltaState);
 	Render(intermediate);
-}</pre>
+}
+```
 
 But if we are handling this via Unity, it'll probably more in line with the following:
 
-<pre class="lang:default decode:true" title="Unity Time Psuedocode">private PhysicsManager physics;
+```c#
+private PhysicsManager physics;
 private State previousState;
 
 void Update()
@@ -145,7 +94,8 @@ void FixedUpdate()
 {
 	previousState = physics.CurrentState;
 	physics.Update(Time.fixedDeltaTime);
-}</pre>
+}
+```
 
 ### Next Time...
 
