@@ -13,12 +13,11 @@
         <article class="post-full post {{ if not $show_featured_image }} no-image {{ end }}">
 
             <header class="post-full-header">
-                {{ with .Params.tags }}
-                    {{ $primaryTag := (index . 0) }}
-                    <section class="post-full-tags">
-                        <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">{{ $primaryTag }}</a>
-                    </section>
-                {{ end }}
+                <section class="post-full-tags">
+                    {{ range .Params.tags }}
+                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;&nbsp;&nbsp;
+                    {{ end }}
+                </section>
 
                 <h1 class="post-full-title">{{ .Title }}</h1>
 
