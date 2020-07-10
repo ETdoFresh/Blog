@@ -19,5 +19,21 @@ params:
 permalinks:
     post: /:filename/
 
+taxonomies:
+    author: author
+    tag: tags
+
 googleAnalytics: UA-170496873-1
 
+menu:
+    main:
+      - identifier: projects
+        name: Projects
+        url: /tags/project/
+        weight: 1
+        
+      - identifier: tags
+        name: Tags
+        url: /tags/
+        weight: 2
+    
