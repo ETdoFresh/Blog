@@ -11,7 +11,7 @@ tags:
   - PCG
   - Research
   - UNO
-  - Game
+  - Demo
   - Unity
 ---
 
