@@ -26,6 +26,8 @@ Nothing here right now
 - [ ] Upgrade 2010 posts to md [26qty]
 - [ ] Upgrade 2009 posts to md [53qty]
 - [ ] Add Google AdSense code onto site
+- [ ] Create a Github Versioning Action on commit [I want to save my previous builds]
+- [ ] Add Analytics to game. Google Analytics? Airtable? Unsure!
 
 ## Completed
 - [X] Alot already :)
