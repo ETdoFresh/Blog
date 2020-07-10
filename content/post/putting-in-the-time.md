@@ -2,7 +2,7 @@
 title: Putting in the Time
 author: ETdoFresh
 type: post
-date: 2020-07-08T11:59:41-06:00
+date: 2020-07-08T11:59:41Z
 url: /putting-in-the-time/
 featured_image: /uploads/2020/07/image-20200709115006445.png
 tags:
