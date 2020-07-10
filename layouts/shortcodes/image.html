@@ -1,5 +1,5 @@
 {{ $src := .Params.src }}
-{{ $width := .Params.width }}
+{{ $width := or (.Params.width) ("100%") }}
 {{ $link := .Params.link }}
 
-<a href="{{ if $link }}{{ $link }}{{ else }}{{ $src}}{{ end }}" style="box-shadow: unset; text-align: center;"><img src="{{ $src }}" {{ if $width }} width="{{ $width }}" {{ end }} style="display: inline;"/></a>
+<a href="{{ if $link }}{{ $link }}{{ else }}{{ $src}}{{ end }}" style="box-shadow: unset; text-align: center;"><img src="{{ $src }}" width="{{ $width }}" style="display: inline;"/></a>

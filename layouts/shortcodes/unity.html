@@ -1,0 +1,22 @@
+{{ $overlay := "/uploads/2020/03/play-button-overlay.png" }}
+
+<div id="unityContainer" style="width: 100%; height: 480px" onclick="unity_play();">
+    <img src="{{ $overlay }}" style="width: 100%; height: 480px;" />
+</div>
+<div id="unityBar" style="visibility: hidden;"><div style="float: right; color: black;"><input type="button" value="Fullscreen" onclick="unityInstance.SetFullscreen(1);" /></div></div>
+<div>&nbsp;</div>
+<script src="{{ index .Params 0 }}/TemplateData/UnityProgress.js"></script>
+<script src="{{ index .Params 0 }}/Build/UnityLoader.js"></script>
+<script>
+    var unityInstance;
+    function unity_play() {
+        if (!unityInstance) {
+            document.getElementById("unityBar").style.visibility = "visible"
+            unityInstance = UnityLoader.instantiate("unityContainer", "{{ index .Params 0 }}/Build/Build.json", {onProgress: UnityProgress});
+        }
+    }
+</script>
+<style>
+    #unityContainer img { opacity: 0.5; cursor: pointer; }
+    #unityContainer img:hover { opacity: 1.0; }
+</style>
