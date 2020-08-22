@@ -1,16 +1,13 @@
 +++
 author = "ETdoFresh"
 date = 2020-08-22T21:34:36Z
-draft = true
 excerpt = "In this article, we describe how to get your game server running at wss://your-dns-name.ext:port. We install and download a Let's Encrypt certificate on a server and put it in our Godot Project."
-featured_image = ""
+featured_image = "/uploads/2020/08/img_3705.jpg"
 tags = ["Godot", "Multiplayer", "Websocket", "Linode", "DDNS", "PlatformBuddies"]
 title = "How to Install a Godot Websocket SSL Game Server using Let's Encrypt Certificate"
 url = ""
 
 +++
-# How to Install a Godot Websocket SSL Game Server using Let's Encrypt Certificate
-
 In this article, we describe how to get your game server running at wss://your-dns-name.ext:port. We install and download a Let's Encrypt certificate on a server and put it in our Godot Project.
 
 For this example we setup a barebones Linode Server with **Docker** and **git** \[Debian 9, Nanode 1GB: 1 CPU, 25GB Storage, 1GB RAM\].
