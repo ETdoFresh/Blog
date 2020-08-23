@@ -1,21 +1,22 @@
 ---
 title: Mecha Mechanic
 author: ETdoFresh
-type: post
-date: 2020-02-15T00:00:00Z
-excerpt: A giant monster is approaching from the sea. Our city is in danger! We stand no chance against the mighty beast! We all are relying on you, Mecha Mechanic!
-url: /mecha-mechanic/
-featured_image: /uploads/2020/02/vlcsnap-2020-02-02-19h53m58s119.png
+date: 2020-02-15T00:00:00.000+00:00
+excerpt: A giant monster is approaching from the sea. Our city is in danger! We stand
+  no chance against the mighty beast! We all are relying on you, Mecha Mechanic!
+url: "/mecha-mechanic/"
+featured_image: "/uploads/2020/02/vlcsnap-2020-02-02-19h53m58s119.png"
 hide_featured_image: true
 tags:
-  - 48 Hour
-  - Mecha Mechanic
-  - Game
-  - Game Maker
-  - Game Jam
-  - Global Game Jam
----
+- 48 Hour
+- Mecha Mechanic
+- Game
+- Game Maker
+- Game Jam
+- Global Game Jam
+- Project
 
+---
 This is a game we made at the Global Game Jam 2020 in New Orleans in Game Maker in 48 hours. 
 
 https://github.com/ETdoFresh/MechaMechanic {{< sub Source Code >}}
