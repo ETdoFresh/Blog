@@ -41,3 +41,4 @@ fields:
   label: Tags
 pages:
 - content/post/how-to-install-a-godot-websocket-ssl-game-server-using-let-s-encrypt-certificate.md
+- content/post/platform-buddies-demo.md
