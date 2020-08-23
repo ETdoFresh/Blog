@@ -4,7 +4,7 @@ date = 2020-08-23T21:57:04Z
 excerpt = "This project was created for the sole purpose of debugging a web-socket problem in Godot v3.2.2. There's really nothing to this demo except to see little scribble guys jump around together."
 featured_image = "/uploads/2020/08/platformbuddiesscreenshot01.jpg"
 tags = ["godot", "multiplayer", "demo", "project", "platformbuddies"]
-title = "Platform Buddies Demo"
+title = "Platform Buddies! Demo"
 url = ""
 
 +++
