@@ -40,6 +40,7 @@ fields:
   default: []
   label: Tags
 pages:
+- content/post/chrome-os-first-impressions.md
 - content/post/comparing-sizes-of-godot-engine-3.2.3-html5-builds.md
 - content/post/how-to-install-a-godot-websocket-ssl-game-server-using-let-s-encrypt-certificate.md
 - content/post/platform-buddies-demo.md
