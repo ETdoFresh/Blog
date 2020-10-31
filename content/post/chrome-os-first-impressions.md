@@ -1,19 +1,18 @@
 +++
 author = "ETdoFresh"
 date = 2020-10-31T16:31:27Z
-draft = true
-excerpt = ""
+excerpt = "Chrome OS. Is it a web platform? Is it an android machine? Is it a linux laptop? Much like someone asking me about my identity... I really don't know!"
 featured_image = "/uploads/2020/10/img_4063.jpg"
-tags = []
+tags = ["ChromeOS", "Review"]
 title = "Chrome OS First Impressions"
 url = ""
 
 +++
-Chrome OS. Is it a web platform? Is it an android machine? Is it a linux laptop? Much like someone asking me about my identity... I really don't know!
+Chrome OS. Is it a web platform? Is it an android machine? Is it a Linux laptop? Much like someone asking me about my identity... I really don't know!
 
 I got a Samsung Chromebook and I relate to this machine. We are very much capable to do many things, but we don't know exactly how to deliver that experience to the user.
 
-I can install web apps, but the ecosystem is not quite there. I can make individual web site "shortcut" apps, which is great, but can lead to some unoptimized tablet/laptop experiences. I can install many existing android apps. But seems like I'm just getting the phone version of the app which does not feel good on a laptop/tablet. I can even install linux apps, but have to support arm64 (even though this is an intel m3?)
+I can install web apps, but the ecosystem is not quite there. I can make individual web site "shortcut" apps, which is great, but can lead to some unoptimized tablet/laptop experiences. I can install many existing android apps. But seems like I'm just getting the phone version of the app which does not feel good on a laptop/tablet. I can even install Linux apps, but have to support arm64 (even though this is an intel m3?)
 
 Anyway, all that said. As a media consumer. I'm set.
 
@@ -24,7 +23,7 @@ Anyway, all that said. As a media consumer. I'm set.
 * I can install android Netflix
 * I can install android Xbox GamePass (xCloud!)
 * I can install android SteamLink
-* I have a linux command prompt
+* I have a Linux command prompt
 
 I mean... I think I'm set on a sub $300 machine with a great display. Keyboard backspace is just a little weird on this particular model. But yeah, as long as I'm not seriously developing. I think this is a great little machine!
 
