@@ -3,6 +3,12 @@
 {{ define "main" }}
 
 <header class="site-header">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ if .Param "excerpt" }}{{ .Param "excerpt" }}{{ else }}{{ .Summary }}{{ end }}">
+    <meta property="og:image" content="{{ .Param "featured_image" }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary_large_image">
     {{- partial "site-header.html" $ -}}
 </header>
 
