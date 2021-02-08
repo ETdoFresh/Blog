@@ -19,6 +19,7 @@ tags:
 ---
 This is a game we made at the Global Game Jam 2020 in New Orleans in Game Maker in 48 hours. 
 
+https://globalgamejam.org/2020/games/mecha-mechanic-6 {{< sub Global Game Jam >}}
 https://github.com/ETdoFresh/MechaMechanic {{< sub Source Code >}}
 https://github.com/ETdoFresh/MechaMechanic/releases/download/v1.0/Mecha.Mechanic.Windows.zip {{< sub Download for Windows >}}
 

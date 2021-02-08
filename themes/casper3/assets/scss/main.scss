@@ -2,5 +2,5 @@ a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,cap
 
 @import "custom.scss";
 
-.post-full-image { background-color:#CCCCCC }
-.post-card-image { background-color:#CCCCCC }
+.post-full-image { object-fit: fill }
+.post-card-image { object-fit: fill }
