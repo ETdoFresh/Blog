@@ -2,5 +2,5 @@ a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,cap
 
 @import "custom.scss";
 
-.post-full-image { object-fit: fill }
-.post-card-image { object-fit: fill }
+.post-full-image { object-fit: cover }
+.post-card-image { object-fit: cover }
