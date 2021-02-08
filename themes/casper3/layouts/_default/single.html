@@ -4,10 +4,10 @@
 
 <header class="site-header">
     <!--  Essential META Tags -->
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ if .Param "excerpt" }}{{ .Param "excerpt" }}{{ else }}{{ .Summary }}{{ end }}">
-    <meta property="og:image" content="https://www.etdofresh.com{{ .Param "featured_image" }}">
-    <meta property="og:url" content="https://www.etdofresh.com{{ .Permalink }}">
+    <meta name="title" property="og:title" content="{{ .Title }}">
+    <meta name="description" property="og:description" content="{{ if .Param "excerpt" }}{{ .Param "excerpt" }}{{ else }}{{ .Summary }}{{ end }}">
+    <meta name="image" property="og:image" content="https://www.etdofresh.com{{ .Param "featured_image" }}">
+    <meta name="url" property="og:url" content="https://www.etdofresh.com{{ .Permalink }}">
     <meta name="twitter:card" content="summary_large_image">
     {{- partial "site-header.html" $ -}}
 </header>
