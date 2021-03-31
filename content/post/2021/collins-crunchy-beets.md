@@ -2,7 +2,7 @@
 title: Collin's Crunchy Beets
 author: ETdoFresh
 date: 2021-03-28T00:00:00.000+00:00
-excerpt: NOLA Rhythm-based gameplay that evokes the nostalgia of games like PaRappa the Rapper and drops it into the cultural landscape of New Orleans.
+excerpt: NOLA Rhythm-based game where the characters are food created in XBox Game Studio Game Camp 2020.
 url: "/collins-crunchy-beets/"
 featured_image: "/uploads/2021/03/Screenshot2.png"
 hide_featured_image: true
