@@ -14,13 +14,15 @@ tags:
 - Project
 
 ---
-## Game Description
-
-NOLA Rhythm-based gameplay that evokes the nostalgia of games like PaRappa the Rapper and drops it into the cultural landscape of New Orleans.
-
 ## Play Now (HTML5)
 
 https://bigsuperhappyhappyfunfun.github.io/XBoxGameCamp2020/
+
+## Game Description
+
+{{< youtube 8Z7uW6IS_-8 >}}
+
+NOLA Rhythm-based game where the characters are food created in XBox Game Studio Game Camp 2020.
 
 ## Screenshots
 
