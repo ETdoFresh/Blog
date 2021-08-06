@@ -7,7 +7,7 @@ url: "/collins-crunchy-beets/"
 featured_image: "/uploads/2021/03/Screenshot2.png"
 hide_featured_image: true
 tags:
-- XBox Game Camp
+- XBox Game Camp 2021
 - Collin's Crunchy Beets
 - Game
 - Unity

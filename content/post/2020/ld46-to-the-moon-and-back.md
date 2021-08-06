@@ -8,11 +8,12 @@ url: /ld46-to-the-moon-and-back/
 featured_image: /uploads/2020/04/2c77c.png
 hide_featured_image: true
 tags:
+  - Ludum Dare 48
+  - Ludum Dare
   - 48 Hour
   - To the Moon and Back
   - Game
   - Game Jam
-  - Ludum Dare
   - Unity
   - Project
 

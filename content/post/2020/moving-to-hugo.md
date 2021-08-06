@@ -3,7 +3,7 @@ title = "Moving to Hugo"
 date = 2020-07-07T06:38:06Z
 author = "ETdoFresh"
 excerpt = "Oh man. I've been putting so many hours trying to figure out how to move my blog over to Hugo/GitHub."
-featured_image = "https://unsplash.com/photos/L7jHvobH6-g/download"
+featured_image = "https://unsplash.com/photos/BNBA1h-NgdY/download"
 tags = ["Hugo", "WordPress", "Ghost", "Blog Setup"]
 
 +++

@@ -8,6 +8,7 @@ url: "/mecha-mechanic/"
 featured_image: "/uploads/2020/02/vlcsnap-2020-02-02-19h53m58s119.png"
 hide_featured_image: true
 tags:
+- Global Game Jam 2020
 - 48 Hour
 - Mecha Mechanic
 - Game
@@ -17,7 +18,7 @@ tags:
 - Project
 
 ---
-This is a game we made at the Global Game Jam 2020 in New Orleans in Game Maker in 48 hours. 
+This is a game we made at the Global Game Jam 2020 in New Orleans in Game Maker in 48 hours.
 
 https://globalgamejam.org/2020/games/mecha-mechanic-6 {{< sub Global Game Jam >}}
 https://github.com/ETdoFresh/MechaMechanic {{< sub Source Code >}}

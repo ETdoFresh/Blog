@@ -11,6 +11,8 @@ ProjectStartDate:
 ProjectEndDate:
   - December 2 2018
 tags:
+  - Ludum Dare 43
+  - Ludum Dare
   - 48 Hour
   - Project
   - 3dsmax

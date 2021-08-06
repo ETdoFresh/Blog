@@ -11,6 +11,7 @@ ProjectStartDate:
 ProjectEndDate:
   - January 27, 2019
 tags:
+  - Global Game Jam 2019
   - 48 Hour
   - Programming
   - Project
