@@ -1,5 +1,5 @@
 ---
-title: Tower, Tower, Merge
+title: Tower, Tower, Merge!
 author: ETdoFresh
 date: 2021-08-02T00:00:00.000+00:00
 excerpt: A 48-hour game jam where you play a mage who must defend the crystal by strategically placing and merging towers.
