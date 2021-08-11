@@ -2,7 +2,7 @@
 title: Escapism Prequel
 author: ETdoFresh
 date: 2021-08-03T00:00:00.000+00:00
-excerpt: A post Xbox Game Project where you play in first person exploring a science facility and uncovering its secrets.
+excerpt: A post Xbox GameCamp Project where you play in first person exploring a science facility and uncovering its secrets.
 url: "/escapism/"
 featured_image: "/uploads/2021/08/Screenshot 2021-08-05 214531.png"
 hide_featured_image: false
