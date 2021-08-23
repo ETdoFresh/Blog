@@ -10,9 +10,6 @@ tags:
 - Network
 - Nakama
 - Unity
-- Game
-- Unreal Engine
-- Project
 ---
 
 I was curious to see how Nakama played with Unity. Here are the steps I have done to try it out!

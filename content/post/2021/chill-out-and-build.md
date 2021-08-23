@@ -17,12 +17,21 @@ tags:
 ---
 {{< youtube pRYbpLaWfho >}}
 
+## Play Now (HTML5)
+
+https://www.etdofresh.com/discord-jam-6/
+
 ## Game Description
 
 https://nauticalnoodle.itch.io/chill-out-and-build
 
 A 48-hour game jam where you build a city and chill. See how long you can keep
 your city from going under!
+
+## Controls
+
+🖱 Point and Click UI  
+👆 Tap UI
 
 ## Screenshots
 

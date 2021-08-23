@@ -23,6 +23,16 @@ https://nauticalnoodle.itch.io/scorejam14
 
 A 48-hour game jam where you play a mage who must defend the crystal by strategically placing and merging towers.
 
+## Controls
+
+⌨ WASD/Arrows to Move  
+⌨ Space to Jump  
+⌨ E to interact (grab/release tower)  
+🖱 Left Mouse Button to Attack  
+🎮 Left Stick to Move  
+🎮 Left Button to Attack  
+🎮 Bottom Button to Jump
+
 ## Screenshots
 
 {{< image src="/uploads/2021/08/CLwPQT.png" width="100%" >}}

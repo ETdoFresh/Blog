@@ -27,16 +27,23 @@ A post-Xbox GameCamp Project where you play in first person exploring a science 
 
 ## Credits
 
-- ETdoFresh (Lead Dev)
+{{< image src="/uploads/2021/07/image0.jpg" width="100%" >}}
+
+From Left to Right:
+
+- Zachary (Art)
+- Wade + Guest (Project Manager)
+- Sabrina (Creative Director)
+- Mandy (Marketing)
+- Evan (Narrative)
+- Josh (Narrative)
+- ETdoFresh [E.T. Garcia] (Lead Dev)
+- Travis Callahan (Art)
+
+Not Pictured:
+
 - Joe Bedsole (Dev/Design)
 - Jonathon Hinchley (Dev)
 - Hung/Charlie (Dev/Design)
 - Luke Gomez (Dev)
-- Sabrina (Creative Director)
-- Mandy (Marketing)
-- Wade (Project Manager)
-- Zachary (Art)
-- Travis Callahan (Art)
 - Gabe (Audio)
-- Evan (Narrative)
-- Josh (Narrative)
