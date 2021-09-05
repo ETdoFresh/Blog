@@ -70,7 +70,7 @@
 
             {{ if not (.Param "hide_comments") }}
             <div id="show_comments" style="color: black; text-align: center;">
-              <a class="btn btn-white" onclick="disqus();">Show Comments (<span class="disqus-comment-count" data-disqus-url="https:{{ .Site.Params.hostName }}{{ .Permalink | absURL }}">X Comments</span>)</a>
+              <a class="btn btn-white" onclick="disqus();">Show Comments (<span class="disqus-comment-count" data-disqus-url="https:{{ .Permalink | absURL }}">X Comments</span>)</a>
             </div>
             <div id="disqus_thread"></div>
             <script>
