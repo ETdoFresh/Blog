@@ -1,5 +1,5 @@
 {{ define "body_class" }} post-template {{ end }}
-{{ define "additional_metas" }} 
+{{ define "additional_metas" }}
     <!--  Non-Essential, But Recommended -->
     <meta property="og:site_name" content="etdofresh.com">
     <!--  Essential META Tags -->
@@ -68,22 +68,60 @@
                     {{ .Content }}
                 </div>
 
-                {{ if .Param "show_comments" }}
-                <div style="color: black; text-align: center;">
-                    <input id="show_comments" type="button" value="Show Comments" onclick="disqus();" />
-                </div>
-                <div id="disqus_thread"></div>
-                <script>
-                    function disqus() {
-                        document.getElementById("show_comments").style.visibility = "hidden";
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://www-etdofresh-com.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                    }
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
-                {{ end }}
+            {{ if not (.Param "hide_comments") }}
+            <div id="show_comments" style="color: black; text-align: center;">
+              <a class="btn btn-white" onclick="disqus();">Show Comments (<span class="disqus-comment-count" data-disqus-url="{{ .Permalink }}">X Comments</span>)</a>
+            </div>
+            <div id="disqus_thread"></div>
+            <script>
+                function disqus() {
+                    document.getElementById("show_comments").style.visibility = "hidden";
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://www-etdofresh-com.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', + new Date());
+                    (d.head || d.body).appendChild(s);
+                }
+            </script>
+            <script id="dsq-count-scr" src="//www-etdofresh-com.disqus.com/count.js" async></script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
+            <style media="screen" type="text/css">
+              .btn,
+              input[type="submit"]{
+                cursor: pointer;
+                border-radius: 0px;
+                text-decoration: none;
+                padding: 12px 18px;
+                font-size: 12px;
+                line-height: 19px;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif; font-weight:400;
+                letter-spacing: 3px;
+                -webkit-transition: all .4s ease-in-out;
+                -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+              }
+              .btn:hover,
+              input[type="submit"]:hover{
+                -webkit-transition: all .4s ease-in-out;
+                -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+              }
+              .btn-white{
+                border:solid 2px #fff;
+                background: transparent;
+                color: #fff !important;
+              }
+              .btn-white:hover{
+                border:solid 2px #fff;
+                background: #fff;
+                color: #1f1f1f !important;
+              }
+            </style>
+            {{ end }}
             </section>
         </article>
 

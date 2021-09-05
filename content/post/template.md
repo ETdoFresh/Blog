@@ -8,6 +8,7 @@ excerpt: A description shown on preview
 url: /template/
 featured_image: /path/to/an/image
 hide_featured_image: false
+show_comments: true
 tags:
   - Game
   - Network
