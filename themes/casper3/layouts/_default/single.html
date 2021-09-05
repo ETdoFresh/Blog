@@ -68,6 +68,11 @@
                     {{ .Content }}
                 </div>
 
+                {{ .Permalink | relURL }}
+                {{ .Permalink | relLangURL }}
+            {{ .Permalink | absURL }}
+            <span class="disqus-comment-count" data-disqus-url="https:{{ .Permalink | absURL }}"></span>
+            <a href="https:{{ .Permalink | absURL }}#disqus_thread">Second article</a>
             {{ if not (.Param "hide_comments") }}
             <div id="show_comments" style="color: black; text-align: center;" onload="DISQUSWIDGETS.getCount({reset: true});">
               <a class="btn btn-white" onclick="disqus();">Show Comments <span class="disqus-comment-count" data-disqus-url="https://www.etdofresh.com{{ .Permalink | relURL }}"></span></a>
