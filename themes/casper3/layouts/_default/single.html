@@ -1,15 +1,15 @@
 {{ define "body_class" }} post-template {{ end }}
 {{ define "additional_metas" }}
     <!--  Non-Essential, But Recommended -->
-    <meta property="og:site_name" content="etdofresh.com">
+    <meta property="og:site_name" content="etdofresh.com" />
     <!--  Essential META Tags -->
-    <meta name="title" property="og:title" content="{{ .Title }}">
-	<meta name="author" property="og:author" content="{{ .Param "author" }}">
-	<meta name="publish_date" property="og:publish_date" content="{{.Date.Format "2006-01-02T15:04:05Z0700"}}">
-    <meta name="description" property="og:description" content="{{ if .Param "excerpt" }}{{ .Param "excerpt" }}{{ else }}{{ .Summary }}{{ end }}">
-    <meta name="image" property="og:image" content="https://www.etdofresh.com{{ .Param "featured_image" }}">
-    <meta name="url" property="og:url" content="https://www.etdofresh.com{{ .Permalink }}">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="title" property="og:title" content="{{ .Title }}" />
+	  <meta name="author" property="og:author" content="{{ .Param "author" }}" />
+  	<meta name="publish_date" property="og:publish_date" content="{{.Date.Format "2006-01-02T15:04:05Z0700"}}" />
+    <meta name="description" property="og:description" content="{{ if .Param "excerpt" }}{{ .Param "excerpt" }}{{ else }}{{ .Summary }}{{ end }}" />
+    <meta name="image" property="og:image" content="https://www.etdofresh.com{{ .Param "featured_image" }}" />
+    <meta name="url" property="og:url" content="https://www.etdofresh.com{{ .Permalink }}" />
+    <meta name="twitter:card" content="summary_large_image" />
 {{ end }}
 
 {{ define "main" }}
